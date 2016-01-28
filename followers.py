@@ -10,4 +10,19 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
 api = twitter.Twitter(auth=auth)
 
+def get_followers(user, is_id = False):
+    """ Returns the ids of users who follow user
+    """
+    if is_id:
+        params = {'user_id': user}
+    else:
+        params = {'screen_name': user}
+    followers = []
+    followers += api.followers.ids(**params)['ids']
+    return followers
+
+def get_following(screen_name, user_id):
+    """ Returns the ids of users followed by USER
+    """
+    return None
 
