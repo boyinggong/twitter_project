@@ -1,5 +1,7 @@
 import json
 import twitter
+import numpy as np
+import csv
 
 CONSUMER_KEY       = "LMO6LXCAjzqF0DwO44YNX5PaY"
 CONSUMER_SECRET    = "TjmAEUqteMieEAIYVO9VtINBbiNYAHqJr6aEJoUnvIeG3fEKUm"
@@ -40,3 +42,34 @@ def get_following(user, is_id = False, max_num = None):
     return get_users(api.friends.ids, user = user,
                      is_id = is_id, max_num = max_num)
 
+def get_all_following(users):
+    """ Gets the ids of users followed by each user in USER
+    """
+    follows = []
+    i = 0
+    for i in range(len(users)):
+        try:
+            follows.append(get_following(users[i]))
+            i += 1
+        except TwitterHTTPError:
+            sleep(900)
+
+    return follows
+
+screen_names = []
+with open("data/nominees-spreadsheet-01-28.csv") as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        current = row['TWITTER_SCREEN_NAME']
+        if not current or current == 'None':
+            current = None
+        elif current.startswith('@'):
+            current = current[1:]
+            
+        screen_names.append(current)
+
+
+following = get_all_following(screen_names)
+
+with open('data/following.json') as f):
+    json.dump(following, f, indent = 4)
