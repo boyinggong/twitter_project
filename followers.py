@@ -1,7 +1,7 @@
 import json
 import twitter
-import numpy as np
 import csv
+from time import sleep
 
 CONSUMER_KEY       = "LMO6LXCAjzqF0DwO44YNX5PaY"
 CONSUMER_SECRET    = "TjmAEUqteMieEAIYVO9VtINBbiNYAHqJr6aEJoUnvIeG3fEKUm"
@@ -52,9 +52,11 @@ def get_all_following(users):
             follows.append(None)
             continue
         try:
+            print('Downloading', users[i])
             follows.append(get_following(users[i]))
             i += 1
-        except TwitterHTTPError:
+        except twitter.TwitterHTTPError:
+            print('Sleeping...')
             sleep(900)
 
     return follows
