@@ -48,6 +48,9 @@ def get_all_following(users):
     follows = []
     i = 0
     for i in range(len(users)):
+        if not users[i]:
+            follows.append(None)
+            continue
         try:
             follows.append(get_following(users[i]))
             i += 1
