@@ -50,10 +50,14 @@ def get_all_following(users):
     for i in range(len(users)):
         if not users[i]:
             follows.append(None)
+            with open('data/following/' + users[i] + '.json', 'w') as f:
+                json.dump(follows[i], f, indent = 4)
             continue
         try:
             print('Downloading', users[i])
             follows.append(get_following(users[i]))
+            with open('data/following/' + users[i] + '.json', 'w') as f:
+                json.dump(follows[i], f, indent = 4)
             i += 1
         except twitter.TwitterHTTPError:
             print('Sleeping...')
@@ -78,5 +82,5 @@ if __name__ == '__main__':
 
     following = get_all_following(screen_names)
 
-    with open('data/following.json') as f:
+    with open('data/following.json', 'w') as f:
         json.dump(following, f, indent = 4)
