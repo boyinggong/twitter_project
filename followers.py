@@ -59,20 +59,22 @@ def get_all_following(users):
 
     return follows
 
-screen_names = []
-with open("data/nominees-spreadsheet-01-28.csv") as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        current = row['TWITTER_SCREEN_NAME']
-        if not current or current == 'None':
-            current = None
-        elif current.startswith('@'):
-            current = current[1:]
-            
-        screen_names.append(current)
+
+if __name__ == '__main__':
+    screen_names = []
+    with open("data/nominees-spreadsheet-01-28.csv") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            current = row['TWITTER_SCREEN_NAME']
+            if not current or current == 'None':
+                current = None
+            elif current.startswith('@'):
+                current = current[1:]
+
+            screen_names.append(current)
 
 
-following = get_all_following(screen_names)
+    following = get_all_following(screen_names)
 
-with open('data/following.json') as f):
-    json.dump(following, f, indent = 4)
+    with open('data/following.json') as f:
+        json.dump(following, f, indent = 4)
