@@ -2,6 +2,7 @@ import json
 import twitter
 import csv
 from time import sleep
+import sys
 
 CONSUMER_KEY       = "LMO6LXCAjzqF0DwO44YNX5PaY"
 CONSUMER_SECRET    = "TjmAEUqteMieEAIYVO9VtINBbiNYAHqJr6aEJoUnvIeG3fEKUm"
@@ -84,7 +85,10 @@ if __name__ == '__main__':
 
             screen_names.append(current)
 
-
+    # cutoff = 0
+    # if len(sys.argv) > 1:
+    #     cutoff = screen_names.index(sys.argv[1])
+    # following = get_all_following(screen_names[cutoff:])
     following = get_all_following(screen_names)
 
     with open('data/following.json', 'w') as f:
