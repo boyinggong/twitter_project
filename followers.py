@@ -21,10 +21,14 @@ def get_users(api_call, user, is_id = False, max_num = None):
     current = api_call(**params)
     results = current['ids']
     next_cursor = current['next_cursor']
+    calls = 1
     while next_cursor != 0 and (not max_num or len(results) < max_num):
+        if calls >= 15:
+            break
         current = api_call(**params)
         results += current['ids']
         next_cursor = current['next_cursor']
+        calls += 1
         
     return results[0:max_num] if max_num else results
 
@@ -47,11 +51,12 @@ def get_all_following(users):
     """
     follows = []
     i = 0
-    for i in range(len(users)):
+    while i < len(users):
         if not users[i]:
-            follows.append(None)
-            with open('data/following/' + users[i] + '.json', 'w') as f:
-                json.dump(follows[i], f, indent = 4)
+            follows.append([])
+            with open('data/following/' + str(users[i]) + str(i) + '.json', 'w') as f:
+                json.dump([], f, indent = 4)
+            i += 1
             continue
         try:
             print('Downloading', users[i])
@@ -68,7 +73,7 @@ def get_all_following(users):
 
 if __name__ == '__main__':
     screen_names = []
-    with open("data/nominees-spreadsheet-01-28.csv") as f:
+    with open("data/nominees-spreadsheet-01-29.csv") as f:
         reader = csv.DictReader(f)
         for row in reader:
             current = row['TWITTER_SCREEN_NAME']
