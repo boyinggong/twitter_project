@@ -28,12 +28,28 @@ for i in range(len(following)):
 dot_products = np.dot(user_by_following,
                       user_by_following.transpose())
 
+np.savetxt("data/following_dot_products.csv",
+           dot_products, delimiter = ",")
+
 def normalize_row(a):
     norm = np.linalg.norm(a)
     return a / norm if norm > 0 else a
 
-dot_products = np.apply_along_axis(normalize_row, 1,
-                                   dot_products)
+user_by_following = np.apply_along_axis(normalize_row,
+                                        1, user_by_following)
 
-plt.hist(dot_products, bins = 20, normed = True)
-plt.show()
+# dot_products = np.apply_along_axis(normalize_row, 1,
+#                                    dot_products)
+
+dot_products = np.dot(user_by_following,
+                      user_by_following.transpose())
+np.savetxt("data/following_dot_products_normalized.csv",
+           dot_products, delimiter = ",")
+
+with open("data/names.json", "w") as f:
+    json.dump(names, f, indent = 4)
+
+
+
+# plt.hist(dot_products, bins = 20, normed = True)
+# plt.show()
