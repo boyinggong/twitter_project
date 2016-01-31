@@ -21,14 +21,14 @@ def get_users(api_call, user, is_id = False, max_num = None):
     params['count'] = 5000 # highest number of responses available
     current = api_call(**params)
     results = current['ids']
-    next_cursor = current['next_cursor']
+    params['cursor'] = current['next_cursor']
     calls = 1
     while next_cursor != 0 and (not max_num or len(results) < max_num):
         if calls >= 15:
             break
         current = api_call(**params)
         results += current['ids']
-        next_cursor = current['next_cursor']
+        params['cursor'] = current['next_cursor']
         calls += 1
 
     return results[0:max_num] if max_num else results
