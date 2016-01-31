@@ -1,4 +1,4 @@
-from data_follow import get_all_followers
+from data_follow import get_all_following
 import csv
 
 if __name__ == '__main__':
