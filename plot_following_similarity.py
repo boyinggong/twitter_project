@@ -2,10 +2,10 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 
-with open("data/names.json") as f:
+with open("data/output_data/names.json") as f:
     names = json.load(f)
 
-dot_products = np.genfromtxt("data/following_dot_products_normalized.csv", delimiter=",")
+dot_products = np.genfromtxt("data/output_data/following_dot_products_normalized.csv", delimiter=",")
 
 lower = 0.1
 upper = 0.9

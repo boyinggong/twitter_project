@@ -4,7 +4,7 @@ from functools import reduce
 import numpy as np
 import matplotlib.pyplot as plt
 
-data_folder = 'data/following/'
+data_folder = 'data/output_data/following/'
 following = []
 names = []
 for filename in os.listdir(data_folder):
@@ -28,7 +28,7 @@ for i in range(len(following)):
 dot_products = np.dot(user_by_following,
                       user_by_following.transpose())
 
-np.savetxt("data/following_dot_products.csv",
+np.savetxt("data/output_data/following_dot_products.csv",
            dot_products, delimiter = ",")
 
 def normalize_row(a):
@@ -43,10 +43,10 @@ user_by_following = np.apply_along_axis(normalize_row,
 
 dot_products = np.dot(user_by_following,
                       user_by_following.transpose())
-np.savetxt("data/following_dot_products_normalized.csv",
+np.savetxt("data/output_data/following_dot_products_normalized.csv",
            dot_products, delimiter = ",")
 
-with open("data/names.json", "w") as f:
+with open("data/output_data/names.json", "w") as f:
     json.dump(names, f, indent = 4)
 
 
