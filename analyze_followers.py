@@ -25,10 +25,19 @@ for i in range(len(following)):
         column = all_followed.index(user)
         user_by_following[i, column] = 1
 
+
+computed = "data/output_data/following_computed_data/"
+with open(computed + "all_followed.json") as f:
+    json.dump(all_followed, f, indent = 4)
+
+np.savetxt(computed + "user_by_following.csv",
+           user_by_following, delimiter = ",")
+
+
 dot_products = np.dot(user_by_following,
                       user_by_following.transpose())
 
-np.savetxt("data/output_data/following_dot_products.csv",
+np.savetxt(computed + "following_dot_products.csv",
            dot_products, delimiter = ",")
 
 def normalize_row(a):
@@ -43,10 +52,10 @@ user_by_following = np.apply_along_axis(normalize_row,
 
 dot_products = np.dot(user_by_following,
                       user_by_following.transpose())
-np.savetxt("data/output_data/following_dot_products_normalized.csv",
+np.savetxt(computed + "following_dot_products_normalized.csv",
            dot_products, delimiter = ",")
 
-with open("data/output_data/names.json", "w") as f:
+with open(computed + "names.json", "w") as f:
     json.dump(names, f, indent = 4)
 
 
