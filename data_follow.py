@@ -30,7 +30,7 @@ def get_users(api_call, user, is_id = False, max_num = None):
         results += current['ids']
         next_cursor = current['next_cursor']
         calls += 1
-        
+
     return results[0:max_num] if max_num else results
 
 
@@ -47,7 +47,7 @@ def get_following(user, is_id = False, max_num = None):
     return get_users(api.friends.ids, user = user,
                      is_id = is_id, max_num = max_num)
 
-def get_all_following(users):
+def get_all_following(users, max_num = None):
     """ Gets the ids of users followed by each user in USER
     """
     follows = []
@@ -55,14 +55,14 @@ def get_all_following(users):
     while i < len(users):
         if not users[i]:
             follows.append([])
-            with open('data/following/' + str(users[i]) + str(i) + '.json', 'w') as f:
+            with open('data/output_data/following/' + str(users[i]) + str(i) + '.json', 'w') as f:
                 json.dump([], f, indent = 4)
             i += 1
             continue
         try:
             print('Downloading', users[i])
-            follows.append(get_following(users[i]))
-            with open('data/following/' + users[i] + '.json', 'w') as f:
+            follows.append(get_following(users[i], max_num = max_num))
+            with open('data/output_data/following/' + users[i] + '.json', 'w') as f:
                 json.dump(follows[i], f, indent = 4)
             i += 1
         except twitter.TwitterHTTPError:
@@ -71,29 +71,26 @@ def get_all_following(users):
 
     return follows
 
+def get_all_followers(users, max_num = None):
+    """ Gets the ids of users who followed each user in USER
+    """
+    followers = []
+    i = 0
+    while i < len(users):
+        if not users[i]:
+            followers.append([])
+            with open('data/output_data/followers/' + str(users[i]) + str(i) + '.json', 'w') as f:
+                json.dump([], f, indent = 4)
+            i += 1
+            continue
+        try:
+            print('Downloading', users[i])
+            followers.append(get_followers(users[i], max_num = max_num))
+            with open('data/output_data/followers/' + users[i] + '.json', 'w') as f:
+                json.dump(followers[i], f, indent = 4)
+            i += 1
+        except twitter.TwitterHTTPError:
+            print('Sleeping...')
+            sleep(900)
 
-if __name__ == '__main__':
-    screen_names = []
-    with open("data/nominees-spreadsheet-01-29.csv") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            current = row['TWITTER_SCREEN_NAME']
-            if not current or current == 'None':
-                current = None
-            else:
-                if current.startswith('@'):
-                    current = current[1:]
-            screen_names.append(current)
-
-    # cutoff = 0
-    # if len(sys.argv) > 1:
-    #     cutoff = screen_names.index(sys.argv[1])
-    # following = get_all_following(screen_names[cutoff:])
-
-
-    #following = get_all_following(screen_names)
-    #with open('data/following.json', 'w') as f:
-    #    json.dump(following, f, indent = 4)
-
-    with open('data/screen_names.json', 'w') as f:
-        json.dump(screen_names, f, indent = 4)
+    return followers
