@@ -23,7 +23,7 @@ def get_users(api_call, user, is_id = False, max_num = None):
     results = current['ids']
     params['cursor'] = current['next_cursor']
     calls = 1
-    while next_cursor != 0 and (not max_num or len(results) < max_num):
+    while params['cursor'] != 0 and (not max_num or len(results) < max_num):
         if calls >= 15:
             break
         current = api_call(**params)
