@@ -19,15 +19,7 @@ import json
 #                    current = current[1:]
 #            screen_names.append(current)
 
-SS_TWITTER_CONSUMER_KEY       = "Fo3zBsDzYkgJswA5Enn9L2hcR"
-SS_TWITTER_CONSUMER_SECRET    = "JcN1kOm1uXC0u3U4BBN6Y6Kc452qCE17LTWps1vkfGd9ZvyFJk"
-SS_TWITTER_OAUTH_TOKEN        = "315778828-E9zzE6i87aUREHpkXZB6ldxsnOLRT8WOrtbadL5a"
-SS_TWITTER_OAUTH_TOKEN_SECRET = "VecnqjlDK2SI9FQd2DsK90inuifKkrgRZvUvaV24oZCmd"
-
-setup_twitter_OAuth(SS_TWITTER_OAUTH_TOKEN, SS_TWITTER_OAUTH_TOKEN_SECRET
-                    , SS_TWITTER_CONSUMER_KEY, SS_TWITTER_CONSUMER_SECRET)
-
-screen_names = ['MadMaxMovie']
+screen_names = []
 for screen_name in screen_names:
     # Create the API OAuth connection with SS account
     #setup_twitter_OAuth(SS_TWITTER_OAUTH_TOKEN, SS_TWITTER_OAUTH_TOKEN_SECRET
@@ -36,5 +28,6 @@ for screen_name in screen_names:
     with open('data/output_data/timelines/' + str(screen_name) + '.json', 'w') as f:
         json.dump(timelines, f, indent = 4)
 
-with open(computed + "screen_names.json") as f:
+computed = "data/output_data/timelines_computed_data/"
+with open(computed + "screen_names.json", "w") as f:
     json.dump(screen_names, f, indent = 4)
