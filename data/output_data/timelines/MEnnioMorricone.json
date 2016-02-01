@@ -1,0 +1,1937 @@
+[
+    {
+        "created_at": "Fri Oct 25 19:40:42 +0000 2013",
+        "possibly_sensitive": false,
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 393824458202288130,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "393824458202288130",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Ho pubblicato una nuova foto su Facebook http://t.co/bMgY5Tzf6c",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 39,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": [
+                {
+                    "display_url": "fb.me/1EYlRxqEt",
+                    "expanded_url": "http://fb.me/1EYlRxqEt",
+                    "indices": [
+                        41,
+                        63
+                    ],
+                    "url": "http://t.co/bMgY5Tzf6c"
+                }
+            ]
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 60,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Feb 15 15:22:21 +0000 2012",
+        "possibly_sensitive": false,
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 169803742529597440,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "169803742529597440",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Concerto Maestro Morricone a Verona\" sabato 15 settembre dalle 21.00 alle 0.00. Per info e biglietti:... http://t.co/ur0je5Mo",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 22,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": [
+                {
+                    "display_url": "fb.me/YkeUYz1u",
+                    "expanded_url": "http://fb.me/YkeUYz1u",
+                    "indices": [
+                        118,
+                        138
+                    ],
+                    "url": "http://t.co/ur0je5Mo"
+                }
+            ]
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 30,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Jan 11 13:35:57 +0000 2012",
+        "possibly_sensitive": false,
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 157093391258226688,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "157093391258226688",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Concert Maestro Morricone in Adelaide\" venerd\u00ec 2 marzo dalle 19.30 alle 22.30. http://t.co/LZUJAYeS",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": [
+                {
+                    "display_url": "fb.me/Adpz5xy0",
+                    "expanded_url": "http://fb.me/Adpz5xy0",
+                    "indices": [
+                        92,
+                        112
+                    ],
+                    "url": "http://t.co/LZUJAYeS"
+                }
+            ]
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 19,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Jan 11 13:34:26 +0000 2012",
+        "possibly_sensitive": false,
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 157093009568169985,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "157093009568169985",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Concert in Perth\" domenica 26 febbraio dalle 19.30 alle 22.30. http://t.co/vaGQajQc",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": [
+                {
+                    "display_url": "fb.me/1pr7AItqz",
+                    "expanded_url": "http://fb.me/1pr7AItqz",
+                    "indices": [
+                        76,
+                        96
+                    ],
+                    "url": "http://t.co/vaGQajQc"
+                }
+            ]
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 10,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Aug 24 11:09:16 +0000 2011",
+        "possibly_sensitive": false,
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 106322173186158592,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "106322173186158592",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Concert Maestro Morricone in St Petersburg\" gioved\u00ec 15 dicembre dalle 20.00 alle 23.00. http://t.co/LWb0vvR",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": [
+                {
+                    "display_url": "fb.me/18xUyCnKi",
+                    "expanded_url": "http://fb.me/18xUyCnKi",
+                    "indices": [
+                        101,
+                        120
+                    ],
+                    "url": "http://t.co/LWb0vvR"
+                }
+            ]
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 8,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Aug 24 11:07:49 +0000 2011",
+        "possibly_sensitive": false,
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 106321808634023936,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "106321808634023936",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Concert Maestro Morricone in Moscow\" domenica 11 dicembre dalle 20.00 alle 23.00. http://t.co/XbMdZc1",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": [
+                {
+                    "display_url": "fb.me/1hnv8wyr3",
+                    "expanded_url": "http://fb.me/1hnv8wyr3",
+                    "indices": [
+                        95,
+                        114
+                    ],
+                    "url": "http://t.co/XbMdZc1"
+                }
+            ]
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 8,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Apr 20 14:22:21 +0000 2011",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 60709896072605697,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "60709896072605697",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Concert M\u00b0 Morricone in Prague\" venerd\u00ec 15 luglio dalle 19.00 alle 22.00. http://fb.me/Z8sFLQxn",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 8,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Apr 20 14:21:12 +0000 2011",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 60709604039983104,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "60709604039983104",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Concert in Prague\" gioved\u00ec 14 luglio dalle 19.00 alle 22.00. http://fb.me/VL5KPQNk",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 8,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Tue Mar 29 10:12:32 +0000 2011",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 52674491498774528,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "52674491498774528",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"ENNIO MORRICONE IN CHILE\" sabato 18 giugno dalle 21.00 alle 0.00. Next June 18th, Maestro Ennio... http://fb.me/Tde7ywTl",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 6,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 8,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Tue Mar 29 10:02:03 +0000 2011",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 52671854007173121,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "52671854007173121",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"ENNIO MORRICONE IN KOREA\" mercoled\u00ec 18 maggio dalle 17.00 alle 20.00. http://fb.me/SqTZ2QtM",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 5,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Tue Mar 29 09:57:42 +0000 2011",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 52670760057180160,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "52670760057180160",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"ENNIO MORRICONE IN KOREA\" marted\u00ec 17 maggio dalle 0.00 alle 3.00. http://fb.me/UnYgC6Ud",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 5,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Tue Mar 29 09:49:52 +0000 2011",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 52668787018842112,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "52668787018842112",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"ENNIO MORRICONE IN KOREA\" luned\u00ec 16 maggio dalle 0.00 alle 3.00. After the successful concerts in... http://fb.me/SPr4mbJX",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 6,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Jan 12 14:07:11 +0000 2011",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 25192068519297024,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "25192068519297024",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Ennio Morricone Concert\" marted\u00ec 8 marzo dalle 20.00 alle 23.00. On March the 8th, Maestro Morricone... http://fb.me/QAqnJzJB",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 5,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Fri Aug 06 08:57:42 +0000 2010",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 20454004797,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "20454004797",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Ennio Morricone per il Cinema - Concerto a Milano\" venerd\u00ec 19 novembre dalle 21.00 alle 0.00 http://fb.me/EBLa0loU",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 7,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Thu Jun 10 09:37:57 +0000 2010",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 15839224418,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "15839224418",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"ENNIO MORRICONE DA SHANGHAI A PESARO\" sabato 4 dicembre dalle 21.00 alle 0.00 http://bit.ly/bCD7zk",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 6,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Thu May 20 12:08:22 +0000 2010",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 14356834997,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "14356834997",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Maestro Morricone in Concert at the EXPO SHANGHAI 2010\" mercoled\u00ec 2 giugno dalle 19.00 alle 21.00.... http://bit.ly/9BBVMC",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 5,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Fri Apr 23 08:33:38 +0000 2010",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 12691079752,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "12691079752",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Ho pubblicato 15 foto su Facebook nell'album \"Concert in London - Royal Albert Hall - April the 10th, 2010\" http://bit.ly/aAUr8G",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 7,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Wed Apr 21 09:33:29 +0000 2010",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 12567435986,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "12567435986",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Ho pubblicato 4 foto su Facebook nell'album \"Concert in London - Royal Albert Hall - April the 10th, 2010\" http://bit.ly/aAUr8G",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 5,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Mon Apr 12 10:23:06 +0000 2010",
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "id": 12038993888,
+        "lang": "it",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "12038993888",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Partecipa a \"Incontri d'autore: Giuseppe Tornatore & Ennio Morricone.\" marted\u00ec 27 aprile dalle 21.00 alle 0.00 http://bit.ly/dyJrS8",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 5,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Tue Mar 16 09:09:16 +0000 2010",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "id": 10562035606,
+        "lang": "en",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "10562035606",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "ENNIO MORRICONE\nIN\nENNIO MORRICONE FOR THE CINEMA\nSATURDAY 11 SEPTEMBER 2010 21.00 HRS\nAMPHITHEATRE ARENA OF VERONA",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 8,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    },
+    {
+        "created_at": "Thu Feb 18 12:33:52 +0000 2010",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "id": 9281444649,
+        "lang": "en",
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id": null,
+        "id_str": "9281444649",
+        "geo": null,
+        "user": {
+            "created_at": "Thu Feb 18 12:18:31 +0000 2010",
+            "follow_request_sent": false,
+            "geo_enabled": false,
+            "location": "Rome",
+            "statuses_count": 21,
+            "following": false,
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "url": "http://t.co/QCsr0PA1mu",
+            "profile_use_background_image": true,
+            "profile_sidebar_fill_color": "EFEFEF",
+            "followers_count": 14892,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "default_profile": false,
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694046493/b980cdca0a54e771a4b768f880d62eee.jpeg",
+            "default_profile_image": false,
+            "listed_count": 221,
+            "id_str": "115362375",
+            "protected": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg",
+            "lang": "en",
+            "description": "",
+            "id": 115362375,
+            "verified": true,
+            "profile_text_color": "333333",
+            "profile_background_color": "131516",
+            "screen_name": "MEnnioMorricone",
+            "profile_sidebar_border_color": "FFFFFF",
+            "notifications": false,
+            "name": "Ennio Morricone",
+            "utc_offset": 3600,
+            "contributors_enabled": false,
+            "favourites_count": 0,
+            "friends_count": 246,
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "enniomorricone.it",
+                            "expanded_url": "http://www.enniomorricone.it",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/QCsr0PA1mu"
+                        }
+                    ]
+                }
+            },
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/115362375/1351248866",
+            "time_zone": "Rome",
+            "has_extended_profile": false,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/703392156/Ennio_Morricone_15_normal.jpg"
+        },
+        "favorited": false,
+        "text": "Ennio Morricone in concert at the Royal Albert Hall\nhttp://www.enniomorricone.it/uk/news.php",
+        "contributors": null,
+        "in_reply_to_user_id": null,
+        "is_quote_status": false,
+        "retweet_count": 6,
+        "in_reply_to_screen_name": null,
+        "entities": {
+            "symbols": [],
+            "user_mentions": [],
+            "hashtags": [],
+            "urls": []
+        },
+        "retweeted": false,
+        "truncated": false,
+        "favorite_count": 11,
+        "in_reply_to_status_id_str": null,
+        "coordinates": null,
+        "place": null
+    }
+]

@@ -59,11 +59,14 @@ docs/_build/
 # PyBuilder
 target/
 
-# Ipython Notebook
+#Ipython Notebook
 .ipynb_checkpoints
 ipynb_notebooks/.ipynb_checkpoints/
 
-# data
+#DS_Store
+.DS_Store
+data/.DS_Store
+data/output_data/.DS_Store
 
 
 # pyenv
