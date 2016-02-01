@@ -1,17 +1,6 @@
-from __future__ import division, print_function
-
-import json
-from time import sleep
+import csv
 import twitter
-
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-OAUTH_TOKEN = ''
-OAUTH_TOKEN_SECRET = ''
-
-auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
-                           CONSUMER_KEY, CONSUMER_SECRET)
-api = twitter.Twitter(auth=auth)
+import json
 
 def retrieve_timeline(screen_name):
     """ Gets the twitter timeline of the user as specified by their twitter
@@ -31,7 +20,7 @@ def retrieve_timeline(screen_name):
     ntweets = len(timeline)
     if ntweets < 200:
         return timeline
-    while ntweets == 200:
+    while ntweets == 200 and len(timeline) < 3200:
         min_id = min([tweet["id"] for tweet in timeline])
         try:
             next_timeline = api.statuses.user_timeline(screen_name=screen_name,
