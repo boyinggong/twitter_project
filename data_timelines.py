@@ -1,6 +1,7 @@
 import csv
 import twitter
 import json
+from time import sleep
 
 def retrieve_timeline(screen_name):
     """ Gets the twitter timeline of the user as specified by their twitter

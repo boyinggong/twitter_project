@@ -9,6 +9,8 @@ def setup_twitter_OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_
         This function should be called within another function that
         runs the actual twitter api queries
     """
+    global auth
+    global api
     auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                                CONSUMER_KEY, CONSUMER_SECRET)
     api = twitter.Twitter(auth=auth)

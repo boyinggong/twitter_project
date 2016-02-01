@@ -10,7 +10,7 @@ LIST_TWITTER_OAUTH_INITIALS   = ["PS", "SS", "BG", "JH", "TO"]
 # We will delete these later
 def all_twitter_OAuth_tokens():
     """ This is a list of all of our team twitter OAuth tokens which can be
-        imported into our global namespace
+        imported into our namespace
     """
     # Peter Sujan - Twitter
 
@@ -20,7 +20,10 @@ def all_twitter_OAuth_tokens():
     PS_TWITTER_OAUTH_TOKEN_SECRET = "Z5gC9jXyHw2LBTIC762jTtUfvT3DEjcHZCDUZfISfOA2N"
 
     # Shamindra Shrotriya - Twitter
-
+    global SS_TWITTER_CONSUMER_KEY
+    global SS_TWITTER_CONSUMER_SECRET
+    global SS_TWITTER_OAUTH_TOKEN
+    global SS_TWITTER_OAUTH_TOKEN_SECRET
     SS_TWITTER_CONSUMER_KEY       = "Fo3zBsDzYkgJswA5Enn9L2hcR"
     SS_TWITTER_CONSUMER_SECRET    = "JcN1kOm1uXC0u3U4BBN6Y6Kc452qCE17LTWps1vkfGd9ZvyFJk"
     SS_TWITTER_OAUTH_TOKEN        = "315778828-E9zzE6i87aUREHpkXZB6ldxsnOLRT8WOrtbadL5a"
