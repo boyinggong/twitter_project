@@ -9,10 +9,11 @@ COMPUTED_DIR = global_vars.COMPUTED_FOLLOWING + "/"
 def heatmap(data, names = None):
     plt.pcolor(data)
     plt.colorbar()
-    plt.xticks(np.arange(data.shape[0]) + 0.5,
-               names, rotation = "vertical")
-    plt.yticks(np.arange(data.shape[0]) + 0.5,
-               names, rotation = "horizontal")
+    if names is not None:
+        plt.xticks(np.arange(data.shape[0]) + 0.5,
+                   names, rotation = "vertical")
+        plt.yticks(np.arange(data.shape[0]) + 0.5,
+                   names, rotation = "horizontal")
     plt.show()
 
 
@@ -54,13 +55,13 @@ def subset_indices(condition, nominees, names):
     
     return screen_names, indices
 
-cond = nominees.CATEGORY.str.contains("Best Actor")
+cond = nominees.CATEGORY.str.contains("Best Actress")
 subset_names, indices = subset_indices(cond, nominees, names)
 subset_dp = dot_products[indices][:, indices]
 
-user_by_following = np.genfromtxt(COMPUTED_DIR + "user_by_following.csv", delimiter = ",")
+#user_by_following = np.genfromtxt(COMPUTED_DIR + "user_by_following.csv", delimiter = ",")
 
-rowsums = np.sum(user_by_following, axis = 1)
+#rowsums = np.sum(user_by_following, axis = 1)
 #plt.bar(np.arange(rowsums.size), np.sort(rowsums)[::-1])
 #plt.show()
 
