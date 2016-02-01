@@ -18,3 +18,5 @@ INPUT_GG_DATA_CSV = INPUT_GG_DATA_DIR + "/nominees-spreadsheet-01-30.csv"
 # Output data
 OUTPUT_DATA_DIR = DATA_DIR + "/output_data"
 OUTPUT_DATA_DIR = DATA_DIR + "/output_data"
+
+COMPUTED_FOLLOWING = OUTPUT_DATA_DIR + "/following_computed_data"

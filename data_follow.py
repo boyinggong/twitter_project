@@ -3,6 +3,10 @@ import twitter
 import csv
 from time import sleep
 import sys
+import global_vars
+
+FOLLOWING_DIR = global_vars.OUTPUT_DATA_DIR + "/following/"
+FOLLOWER_DIR = global_vars.OUTPUT_DATA_DIR + "/followers/"
 
 CONSUMER_KEY       = "LMO6LXCAjzqF0DwO44YNX5PaY"
 CONSUMER_SECRET    = "TjmAEUqteMieEAIYVO9VtINBbiNYAHqJr6aEJoUnvIeG3fEKUm"
@@ -55,14 +59,14 @@ def get_all_following(users, max_num = None):
     while i < len(users):
         if not users[i]:
             follows.append([])
-            with open('data/output_data/following/' + str(users[i]) + str(i) + '.json', 'w') as f:
+            with open(FOLLOWING_DIR + str(users[i]) + str(i) + '.json', 'w') as f:
                 json.dump([], f, indent = 4)
             i += 1
             continue
         try:
             print('Downloading', users[i])
             follows.append(get_following(users[i], max_num = max_num))
-            with open('data/output_data/following/' + users[i] + '.json', 'w') as f:
+            with open(FOLLOWING_DIR + users[i] + '.json', 'w') as f:
                 json.dump(follows[i], f, indent = 4)
             i += 1
         except twitter.TwitterHTTPError:
@@ -79,14 +83,14 @@ def get_all_followers(users, max_num = None):
     while i < len(users):
         if not users[i]:
             followers.append([])
-            with open('data/output_data/followers/' + str(users[i]) + str(i) + '.json', 'w') as f:
+            with open(FOLLOWER_DIR + str(users[i]) + str(i) + '.json', 'w') as f:
                 json.dump([], f, indent = 4)
             i += 1
             continue
         try:
             print('Downloading', users[i])
             followers.append(get_followers(users[i], max_num = max_num))
-            with open('data/output_data/followers/' + users[i] + '.json', 'w') as f:
+            with open(FOLLOWER_DIR + users[i] + '.json', 'w') as f:
                 json.dump(followers[i], f, indent = 4)
             i += 1
         except twitter.TwitterHTTPError:

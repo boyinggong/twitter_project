@@ -2,8 +2,9 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import global_vars
 
-computed = "data/output_data/following_computed_data/"
+COMPUTED_DIR = global_vars.COMPUTED_FOLLOWING + "/"
 
 def heatmap(data, names = None):
     plt.pcolor(data)
@@ -15,11 +16,11 @@ def heatmap(data, names = None):
     plt.show()
 
 
-with open(computed + "names.json") as f:
+with open(COMPUTED_DIR + "names.json") as f:
     names = json.load(f)
     names = [n.split(".")[0] for n in names]
 
-dot_products = np.genfromtxt(computed + "following_dot_products_normalized.csv", delimiter=",")
+dot_products = np.genfromtxt(COMPUTED_DIR + "following_dot_products_normalized.csv", delimiter=",")
 
 lower = 0.1
 upper = 0.9
@@ -41,25 +42,26 @@ for pair in pairs[0::2]:
 
 nominees = pd.read_csv("data/input_data/golden_globes_metadata/nominees-spreadsheet-01-29.csv")
 
-def subset_dot_products(condition, nominees,
-                        dot_products, names):
-    """Subset the dot_products matrix by applying condition to
-    nominees, finding the relevant screen names, and subsetting
-    the dot_products matrix to include only those screen names. """
+def subset_indices(condition, nominees, names):
+    """Find the indices of users based on condition.
+    """
 
     screen_names = nominees[condition].TWITTER_SCREEN_NAME
     screen_names = screen_names[screen_names.isin(names)]
     indices = []
     for s in screen_names:
         indices.append(names.index(s))
-    return screen_names, dot_products[indices][:, indices]
+    
+    return screen_names, indices
 
 cond = nominees.CATEGORY.str.contains("Best Actor")
-subset_names, subset_dp = subset_dot_products(cond, nominees,
-                                              dot_products, names)
+subset_names, indices = subset_indices(cond, nominees, names)
+subset_dp = dot_products[indices][:, indices]
 
-user_by_following = np.genfromtxt(computed + "user_by_following.csv", delimiter = ",")
+user_by_following = np.genfromtxt(COMPUTED_DIR + "user_by_following.csv", delimiter = ",")
 
 rowsums = np.sum(user_by_following, axis = 1)
-plt.bar(np.arange(rowsums.size), np.sort(rowsums)[::-1])
-plt.show()
+#plt.bar(np.arange(rowsums.size), np.sort(rowsums)[::-1])
+#plt.show()
+
+## TODO: add coloring by winner to above plot
