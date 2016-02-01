@@ -27,7 +27,7 @@ for i in range(len(following)):
 
 
 computed = "data/output_data/following_computed_data/"
-with open(computed + "all_followed.json") as f:
+with open(computed + "all_followed.json", "w") as f:
     json.dump(all_followed, f, indent = 4)
 
 np.savetxt(computed + "user_by_following.csv",

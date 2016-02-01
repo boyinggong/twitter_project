@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+computed = "data/output_data/following_computed_data/"
+
 def heatmap(data, names = None):
     plt.pcolor(data)
     plt.colorbar()
@@ -13,11 +15,11 @@ def heatmap(data, names = None):
     plt.show()
 
 
-with open("data/output_data/names.json") as f:
+with open(computed + "names.json") as f:
     names = json.load(f)
     names = [n.split(".")[0] for n in names]
 
-dot_products = np.genfromtxt("data/output_data/following_dot_products_normalized.csv", delimiter=",")
+dot_products = np.genfromtxt(computed + "following_dot_products_normalized.csv", delimiter=",")
 
 lower = 0.1
 upper = 0.9
@@ -56,7 +58,7 @@ cond = nominees.CATEGORY.str.contains("Best Actor")
 subset_names, subset_dp = subset_dot_products(cond, nominees,
                                               dot_products, names)
 
-user_by_following = np.genfromtxt("data/output_data/user_by_following.csv", delimiter = ",")
+user_by_following = np.genfromtxt(computed + "user_by_following.csv", delimiter = ",")
 
 rowsums = np.sum(user_by_following, axis = 1)
 plt.bar(np.arange(rowsums.size), np.sort(rowsums)[::-1])
