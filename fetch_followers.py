@@ -3,7 +3,7 @@ import csv
 
 if __name__ == '__main__':
     screen_names = []
-    with open("data/input_data/golden_globes_metadata/nominees-spreadsheet-01-29.csv") as f:
+    with open("data/input_data/golden_globes_metadata/nominees-spreadsheet-01-30.csv") as f:
         reader = csv.DictReader(f)
         for row in reader:
             current = row['TWITTER_SCREEN_NAME']
