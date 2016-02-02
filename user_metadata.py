@@ -28,7 +28,9 @@ def get_metadata_batch(users, is_id = False):
 
     try:
         return api.users.lookup(**params)
-    except twitter.TwitterHTTPError:
+    except twitter.TwitterHTTPError as e:
+        print(params)
+        #print(e)
         print('Sleeping...')
         sleep(900)
         return api.users.lookup(**params)
@@ -57,7 +59,7 @@ def get_following_metadata():
                 current_ids = json.load(f)
             except json.JSONDecodeError:
                 current_ids = []
-        metadata = get_metadata(current_ids)
+        metadata = get_metadata(current_ids, is_id = True)
         with open(META_FOLLOWING + filename, "w") as f:
             json.dump(metadata, f, indent = 4)
 
@@ -69,7 +71,7 @@ def get_followers_metadata():
                 current_ids = json.load(f)
             except json.JSONDecodeError:
                 current_ids = []
-        metadata = get_metadata(current_ids)
+        metadata = get_metadata(current_ids, is_id = True)
         with open(META_FOLLOWERS + filename, "w") as f:
             json.dump(metadata, f, indent = 4)
 
