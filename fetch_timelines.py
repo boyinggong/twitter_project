@@ -19,7 +19,7 @@ import json
 #                    current = current[1:]
 #            screen_names.append(current)
 
-screen_names = ['rickygervais']
+screen_names = ['MadMaxMovieUK']
 for screen_name in screen_names:
     # Create the API OAuth connection with SS account
     #setup_twitter_OAuth(SS_TWITTER_OAUTH_TOKEN, SS_TWITTER_OAUTH_TOKEN_SECRET
