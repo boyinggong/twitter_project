@@ -3,13 +3,16 @@ import os
 from functools import reduce
 import numpy as np
 import matplotlib.pyplot as plt
+import global_vars
 
-data_folder = 'data/output_data/following/'
+DATA_FOLDER = global_vars.OUTPUT_DATA_DIR + "/following/"
+COMPUTED_DIR = global_vars.COMPUTED_FOLLOWING + "/"
+
 following = []
 names = []
-for filename in os.listdir(data_folder):
+for filename in os.listdir(DATA_FOLDER):
     names.append(filename)
-    with open(data_folder + filename) as f:
+    with open(DATA_FOLDER + filename) as f:
         try:
             following.append(json.load(f))
         except json.JSONDecodeError:
@@ -26,18 +29,17 @@ for i in range(len(following)):
         user_by_following[i, column] = 1
 
 
-computed = "data/output_data/following_computed_data/"
-with open(computed + "all_followed.json") as f:
+with open(COMPUTED_DIR + "all_followed.json", "w") as f:
     json.dump(all_followed, f, indent = 4)
 
-np.savetxt(computed + "user_by_following.csv",
+np.savetxt(COMPUTED_DIR + "user_by_following.csv",
            user_by_following, delimiter = ",")
 
 
 dot_products = np.dot(user_by_following,
                       user_by_following.transpose())
 
-np.savetxt(computed + "following_dot_products.csv",
+np.savetxt(COMPUTED_DIR + "following_dot_products.csv",
            dot_products, delimiter = ",")
 
 def normalize_row(a):
@@ -52,10 +54,10 @@ user_by_following = np.apply_along_axis(normalize_row,
 
 dot_products = np.dot(user_by_following,
                       user_by_following.transpose())
-np.savetxt(computed + "following_dot_products_normalized.csv",
+np.savetxt(COMPUTED_DIR + "following_dot_products_normalized.csv",
            dot_products, delimiter = ",")
 
-with open(computed + "names.json", "w") as f:
+with open(COMPUTED_DIR + "names.json", "w") as f:
     json.dump(names, f, indent = 4)
 
 
