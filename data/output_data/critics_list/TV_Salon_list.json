@@ -1,0 +1,1954 @@
+{
+    "next_cursor": 0,
+    "next_cursor_str": "0",
+    "previous_cursor": 0,
+    "previous_cursor_str": "0",
+    "users": [
+        {
+            "contributors_enabled": false,
+            "created_at": "Thu Oct 07 18:01:46 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Past Salon TV critic, Boston Phoenix music critic. Lighting up your life at https://t.co/MwAXLN0BCO, killing you softly at McSweeney's.",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "joycemillman.wordpress.com",
+                            "expanded_url": "http://joycemillman.wordpress.com",
+                            "indices": [
+                                76,
+                                99
+                            ],
+                            "url": "https://t.co/MwAXLN0BCO"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "joycemillman.pressfolios.com",
+                            "expanded_url": "http://joycemillman.pressfolios.com",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/pQajgdUE3h"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1944,
+            "follow_request_sent": false,
+            "followers_count": 352,
+            "following": false,
+            "friends_count": 282,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 199772445,
+            "id_str": "199772445",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 19,
+            "location": "San Francisco",
+            "name": "Joyce Millman",
+            "notifications": false,
+            "profile_background_color": "B2DFDA",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000100107529/d6e72b33532846be4078b4c9c3befa2e.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000100107529/d6e72b33532846be4078b4c9c3befa2e.png",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/199772445/1403242554",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/654158984719396864/-wUok_pT_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/654158984719396864/-wUok_pT_normal.jpg",
+            "profile_link_color": "333333",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "93A644",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "joycemillman",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Feb 03 19:23:50 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "youtu.be/Qvrh73BVraE",
+                            "expanded_url": "https://youtu.be/Qvrh73BVraE",
+                            "indices": [
+                                25,
+                                48
+                            ],
+                            "url": "https://t.co/4i6OuDTaoc"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 10228272,
+                            "id_str": "10228272",
+                            "indices": [
+                                53,
+                                61
+                            ],
+                            "name": "YouTube",
+                            "screen_name": "YouTube"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 694964528631558145,
+                "id_str": "694964528631558145",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "Bob and Ray Slow Talkers https://t.co/4i6OuDTaoc via @YouTube",
+                "truncated": false
+            },
+            "statuses_count": 2401,
+            "time_zone": "Pacific Time (US & Canada)",
+            "url": "https://t.co/pQajgdUE3h",
+            "utc_offset": -28800,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Thu Jun 18 17:49:08 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Columnist @TheCut & @Bookforum. My book How To Be A Person In The World comes out in July, preorder it here: https://t.co/SibnxSJphM",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "tinyurl.com/jfl5uwr",
+                            "expanded_url": "http://tinyurl.com/jfl5uwr",
+                            "indices": [
+                                109,
+                                132
+                            ],
+                            "url": "https://t.co/SibnxSJphM"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "rabbitblog.com",
+                            "expanded_url": "http://www.rabbitblog.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/uWMUoEn4Yg"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 3582,
+            "follow_request_sent": false,
+            "followers_count": 17517,
+            "following": false,
+            "friends_count": 1084,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 48428463,
+            "id_str": "48428463",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 514,
+            "location": "The balcony of Southern CA",
+            "name": "Heather Havrilesky",
+            "notifications": false,
+            "profile_background_color": "C6E2EE",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/18724552/stevepollybar.gif",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/18724552/stevepollybar.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/48428463/1436891331",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/620993749083029504/yIWP6p53_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/620993749083029504/yIWP6p53_normal.jpg",
+            "profile_link_color": "696969",
+            "profile_sidebar_border_color": "C6E2EE",
+            "profile_sidebar_fill_color": "DAECF4",
+            "profile_text_color": "663B12",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "hhavrilesky",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 07:02:28 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 71335251,
+                            "id_str": "71335251",
+                            "indices": [
+                                0,
+                                10
+                            ],
+                            "name": "Chang Koo",
+                            "screen_name": "chang_koo"
+                        }
+                    ]
+                },
+                "favorite_count": 1,
+                "favorited": false,
+                "geo": null,
+                "id": 695140347232407552,
+                "id_str": "695140347232407552",
+                "in_reply_to_screen_name": "hhavrilesky",
+                "in_reply_to_status_id": 695139237864148994,
+                "in_reply_to_status_id_str": "695139237864148994",
+                "in_reply_to_user_id": 48428463,
+                "in_reply_to_user_id_str": "48428463",
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "@chang_koo And I now see that your original tweet was crystal clear. Honestly I probably haven't changed as much as I like to believe.",
+                "truncated": false
+            },
+            "statuses_count": 10607,
+            "time_zone": "Pacific Time (US & Canada)",
+            "url": "http://t.co/uWMUoEn4Yg",
+            "utc_offset": -28800,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Fri Jun 05 16:20:03 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "TV Guide Magazine Senior Critic. Reviews TV for @tvinsider. Theater junkie when not in front of TV.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "tvinsider.com/author/13/matt\u2026",
+                            "expanded_url": "http://www.tvinsider.com/author/13/matt-roush/",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/2s1L79DhC3"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 13,
+            "follow_request_sent": false,
+            "followers_count": 26564,
+            "following": false,
+            "friends_count": 380,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 44928343,
+            "id_str": "44928343",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1289,
+            "location": "New York City",
+            "name": "Matt Roush",
+            "notifications": false,
+            "profile_background_color": "C01F02",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/672156954672807936/w7hhpqb3.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/672156954672807936/w7hhpqb3.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/304124439/matt4_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/304124439/matt4_normal.jpg",
+            "profile_link_color": "9D582E",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "EADEAA",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "TVGMMattRoush",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Tue Feb 02 20:54:08 +0000 2016",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                4,
+                                12
+                            ],
+                            "text": "AskMatt"
+                        },
+                        {
+                            "indices": [
+                                22,
+                                33
+                            ],
+                            "text": "GreaseLive"
+                        },
+                        {
+                            "indices": [
+                                54,
+                                63
+                            ],
+                            "text": "Galavant"
+                        },
+                        {
+                            "indices": [
+                                65,
+                                75
+                            ],
+                            "text": "Supergirl"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "tinyurl.com/gu8bsk4",
+                            "expanded_url": "http://tinyurl.com/gu8bsk4",
+                            "indices": [
+                                117,
+                                140
+                            ],
+                            "url": "https://t.co/itzYHB2nwZ"
+                        }
+                    ],
+                    "user_mentions": []
+                },
+                "favorite_count": 13,
+                "favorited": false,
+                "geo": null,
+                "id": 694624867300347904,
+                "id_str": "694624867300347904",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 2,
+                "retweeted": false,
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "New #AskMatt: talking #GreaseLive, singing praises of #Galavant, #Supergirl boss lady, a fallen \"Legend\" &amp; more: https://t.co/itzYHB2nwZ",
+                "truncated": false
+            },
+            "statuses_count": 5368,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/2s1L79DhC3",
+            "utc_offset": -18000,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Mar 23 23:56:20 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Culture Editor for @voxdotcom. Formerly of @TheAVClub. Once contributor to LA Times, Grantland. Married to the Internet.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "vox.com",
+                            "expanded_url": "http://www.vox.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/wBTAiFwCCu"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 288,
+            "follow_request_sent": false,
+            "followers_count": 34225,
+            "following": false,
+            "friends_count": 2006,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 26125943,
+            "id_str": "26125943",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1440,
+            "location": "Long Beach, California",
+            "name": "Todd VanDerWerff",
+            "notifications": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000004149384/aabe4de488dc062a59929453fd7debc8.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000004149384/aabe4de488dc062a59929453fd7debc8.jpeg",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/26125943/1388640464",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/694663353138982912/500ujKVa_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/694663353138982912/500ujKVa_normal.jpg",
+            "profile_link_color": "454082",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "B1B7B9",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "tvoti",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 05:51:21 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "media": [
+                        {
+                            "display_url": "pic.twitter.com/QIT8FjIfed",
+                            "expanded_url": "http://twitter.com/tvoti/status/695122450250477569/photo/1",
+                            "id": 695122440716857344,
+                            "id_str": "695122440716857344",
+                            "indices": [
+                                106,
+                                129
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/CaWSLUpUsAAcRLA.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/CaWSLUpUsAAcRLA.jpg",
+                            "sizes": {
+                                "large": {
+                                    "h": 1820,
+                                    "resize": "fit",
+                                    "w": 1024
+                                },
+                                "medium": {
+                                    "h": 1066,
+                                    "resize": "fit",
+                                    "w": 600
+                                },
+                                "small": {
+                                    "h": 604,
+                                    "resize": "fit",
+                                    "w": 340
+                                },
+                                "thumb": {
+                                    "h": 150,
+                                    "resize": "crop",
+                                    "w": 150
+                                }
+                            },
+                            "type": "photo",
+                            "url": "https://t.co/QIT8FjIfed"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": []
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "display_url": "pic.twitter.com/QIT8FjIfed",
+                            "expanded_url": "http://twitter.com/tvoti/status/695122450250477569/photo/1",
+                            "id": 695122440716857344,
+                            "id_str": "695122440716857344",
+                            "indices": [
+                                106,
+                                129
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/CaWSLUpUsAAcRLA.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/CaWSLUpUsAAcRLA.jpg",
+                            "sizes": {
+                                "large": {
+                                    "h": 1820,
+                                    "resize": "fit",
+                                    "w": 1024
+                                },
+                                "medium": {
+                                    "h": 1066,
+                                    "resize": "fit",
+                                    "w": 600
+                                },
+                                "small": {
+                                    "h": 604,
+                                    "resize": "fit",
+                                    "w": 340
+                                },
+                                "thumb": {
+                                    "h": 150,
+                                    "resize": "crop",
+                                    "w": 150
+                                }
+                            },
+                            "type": "photo",
+                            "url": "https://t.co/QIT8FjIfed"
+                        }
+                    ]
+                },
+                "favorite_count": 12,
+                "favorited": false,
+                "geo": null,
+                "id": 695122450250477569,
+                "id_str": "695122450250477569",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 1,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                "text": "Islands in the Stream\nThat is what we are\nNo one in between\nHow can we be wrong?\nA++++++++++++++++++++++- https://t.co/QIT8FjIfed",
+                "truncated": false
+            },
+            "statuses_count": 77325,
+            "time_zone": "Pacific Time (US & Canada)",
+            "url": "http://t.co/wBTAiFwCCu",
+            "utc_offset": -28800,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Mar 09 18:53:28 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "New York Times TV critic. RTs not endorsements, except those that praise me. Subtweets are about you.",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 5121,
+            "follow_request_sent": false,
+            "followers_count": 53810,
+            "following": false,
+            "friends_count": 596,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 23480093,
+            "id_str": "23480093",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 2485,
+            "location": "Brooklyn",
+            "name": "James Poniewozik",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23480093/1417437754",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/485879263044718594/unBfyx86_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/485879263044718594/unBfyx86_normal.jpeg",
+            "profile_link_color": "FA743E",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "poniewozik",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 03:37:56 +0000 2016",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                9,
+                                21
+                            ],
+                            "text": "DemTownHall"
+                        },
+                        {
+                            "indices": [
+                                80,
+                                107
+                            ],
+                            "text": "whathasitgotinitspocketses"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": []
+                },
+                "favorite_count": 49,
+                "favorited": false,
+                "geo": null,
+                "id": 695088873748176896,
+                "id_str": "695088873748176896",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 22,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "text": "The next #DemTownHall should just be a series of riddles, a la Bilbo and Gollum #whathasitgotinitspocketses",
+                "truncated": false
+            },
+            "statuses_count": 35666,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": null,
+            "utc_offset": -18000,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Sat Feb 28 02:52:39 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Writer (Then: @Grantland33; Now: HOW TO WATCH TV for @eccobooks). Podcaster (@channel33, part of the @BillSimmons Podcast Network).\n\nReally, I'm the plug.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "soundcloud.com/channel33",
+                            "expanded_url": "https://soundcloud.com/channel33",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/30JNHOPPyK"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2394,
+            "follow_request_sent": false,
+            "followers_count": 72408,
+            "following": false,
+            "friends_count": 316,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 22221551,
+            "id_str": "22221551",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1354,
+            "location": "Brooklyn, NY",
+            "name": "Andy Greenwald",
+            "notifications": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/639065127279558656/bUw6POc-.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/639065127279558656/bUw6POc-.jpg",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/22221551/1353336823",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/661249943240183808/oMmj8lWO_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/661249943240183808/oMmj8lWO_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "DDFFCC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "andygreenwald",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Feb 03 22:02:34 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/NB_Footwear/st\u2026",
+                            "expanded_url": "https://twitter.com/NB_Footwear/status/695003968464936964",
+                            "indices": [
+                                37,
+                                60
+                            ],
+                            "url": "https://t.co/UHEvlwcqeb"
+                        }
+                    ],
+                    "user_mentions": []
+                },
+                "favorite_count": 26,
+                "favorited": false,
+                "geo": null,
+                "id": 695004476873252866,
+                "id_str": "695004476873252866",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": true,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "quoted_status_id": 695003968464936964,
+                "quoted_status_id_str": "695003968464936964",
+                "retweet_count": 2,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "As a 70s baby, you are all babies. \ud83d\udc76 https://t.co/UHEvlwcqeb",
+                "truncated": false
+            },
+            "statuses_count": 20055,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "https://t.co/30JNHOPPyK",
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Feb 23 04:15:45 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Chief Los Angeles Correspondent, BuzzFeed News",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "buzzfeed.com",
+                            "expanded_url": "http://www.buzzfeed.com/",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/yJbXve2nvG"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 12357,
+            "follow_request_sent": false,
+            "followers_count": 23124,
+            "following": false,
+            "friends_count": 999,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 21630311,
+            "id_str": "21630311",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 800,
+            "location": "Los Angeles",
+            "name": "Kate Aurthur",
+            "notifications": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/21630311/1401380835",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2857454155/7b2655f53883bc4f8b258fd2c57be749_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2857454155/7b2655f53883bc4f8b258fd2c57be749_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "KateAurthur",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 04:56:56 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 18243807,
+                            "id_str": "18243807",
+                            "indices": [
+                                0,
+                                8
+                            ],
+                            "name": "Joe Reid",
+                            "screen_name": "joereid"
+                        },
+                        {
+                            "id": 17468528,
+                            "id_str": "17468528",
+                            "indices": [
+                                9,
+                                20
+                            ],
+                            "name": "Jarett Wieselman",
+                            "screen_name": "JarettSays"
+                        },
+                        {
+                            "id": 42662397,
+                            "id_str": "42662397",
+                            "indices": [
+                                21,
+                                31
+                            ],
+                            "name": "Adam B. Vary",
+                            "screen_name": "adambvary"
+                        },
+                        {
+                            "id": 10306012,
+                            "id_str": "10306012",
+                            "indices": [
+                                32,
+                                46
+                            ],
+                            "name": "Katie Hasty",
+                            "screen_name": "TheKatieHasty"
+                        },
+                        {
+                            "id": 61031027,
+                            "id_str": "61031027",
+                            "indices": [
+                                47,
+                                59
+                            ],
+                            "name": "Leslie Grossman",
+                            "screen_name": "MissLeslieG"
+                        }
+                    ]
+                },
+                "favorite_count": 1,
+                "favorited": false,
+                "geo": null,
+                "id": 695108755428478976,
+                "id_str": "695108755428478976",
+                "in_reply_to_screen_name": "joereid",
+                "in_reply_to_status_id": 695105809466859520,
+                "in_reply_to_status_id_str": "695105809466859520",
+                "in_reply_to_user_id": 18243807,
+                "in_reply_to_user_id_str": "18243807",
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                "text": "@joereid @JarettSays @adambvary @TheKatieHasty @MissLeslieG Pretty good first night for you, Joe.",
+                "truncated": false
+            },
+            "statuses_count": 48602,
+            "time_zone": "Pacific Time (US & Canada)",
+            "url": "http://t.co/yJbXve2nvG",
+            "utc_offset": -28800,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Fri Feb 20 01:13:02 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Tim Goodman is the Chief TV Critic for The Hollywood Reporter. Beyond reviews, he covers the industry + writes trend and analysis pieces, mostly about failure.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "thr.com",
+                            "expanded_url": "http://www.thr.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/X32NMQqCWS"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2363,
+            "follow_request_sent": false,
+            "followers_count": 38145,
+            "following": false,
+            "friends_count": 98,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 21360626,
+            "id_str": "21360626",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1776,
+            "location": "San Francisco, CA",
+            "name": "Tim Goodman",
+            "notifications": false,
+            "profile_background_color": "07090B",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/131249183/Wilco_ATL.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/131249183/Wilco_ATL.jpg",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/254833544/tbm_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/254833544/tbm_normal.jpg",
+            "profile_link_color": "C34242",
+            "profile_sidebar_border_color": "BDBDBD",
+            "profile_sidebar_fill_color": "C7C7C7",
+            "profile_text_color": "1C1F23",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "BastardMachine",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 07:37:55 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 121676170,
+                            "id_str": "121676170",
+                            "indices": [
+                                0,
+                                11
+                            ],
+                            "name": "Sarah S",
+                            "screen_name": "quitasarah"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 695149269100068864,
+                "id_str": "695149269100068864",
+                "in_reply_to_screen_name": "quitasarah",
+                "in_reply_to_status_id": 695144153533931520,
+                "in_reply_to_status_id_str": "695144153533931520",
+                "in_reply_to_user_id": 121676170,
+                "in_reply_to_user_id_str": "121676170",
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "@quitasarah Not necessarily.",
+                "truncated": false
+            },
+            "statuses_count": 42273,
+            "time_zone": "Alaska",
+            "url": "http://t.co/X32NMQqCWS",
+            "utc_offset": -32400,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Sat Jan 10 17:41:21 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "TV critic for https://t.co/Wwy4Iar02F Updated edition of The Revolution Was Televised on sale Dec. 1. More at https://t.co/Hkpv0msqMx sepinwall@hitfix.com",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "HitFix.com",
+                            "expanded_url": "http://HitFix.com",
+                            "indices": [
+                                14,
+                                37
+                            ],
+                            "url": "https://t.co/Wwy4Iar02F"
+                        },
+                        {
+                            "display_url": "alansepinwall.com",
+                            "expanded_url": "http://alansepinwall.com",
+                            "indices": [
+                                110,
+                                133
+                            ],
+                            "url": "https://t.co/Hkpv0msqMx"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "hitfix.com/whatsalanwatch\u2026",
+                            "expanded_url": "http://hitfix.com/whatsalanwatching",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/Ke6Il9NURc"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 667,
+            "follow_request_sent": false,
+            "followers_count": 102452,
+            "following": false,
+            "friends_count": 604,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 18840445,
+            "id_str": "18840445",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 3582,
+            "location": "NJ",
+            "name": "Alan Sepinwall",
+            "notifications": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/684511976907759616/h3wfWNMb.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/684511976907759616/h3wfWNMb.jpg",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/18840445/1432223668",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/642041232663773184/x9V0TrD0_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/642041232663773184/x9V0TrD0_normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDFFCC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "sepinwall",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 04:19:20 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 372483103,
+                            "id_str": "372483103",
+                            "indices": [
+                                0,
+                                14
+                            ],
+                            "name": "Mark Harris",
+                            "screen_name": "MarkHarrisNYC"
+                        }
+                    ]
+                },
+                "favorite_count": 5,
+                "favorited": false,
+                "geo": null,
+                "id": 695099293271719936,
+                "id_str": "695099293271719936",
+                "in_reply_to_screen_name": "MarkHarrisNYC",
+                "in_reply_to_status_id": 695098447804944384,
+                "in_reply_to_status_id_str": "695098447804944384",
+                "in_reply_to_user_id": 372483103,
+                "in_reply_to_user_id_str": "372483103",
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 1,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "@MarkHarrisNYC Janet Jackson rolled back all the progress NYPD Blue made in changing broadcast standards.",
+                "truncated": false
+            },
+            "statuses_count": 55417,
+            "time_zone": "Central Time (US & Canada)",
+            "url": "http://t.co/Ke6Il9NURc",
+            "utc_offset": -21600,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Wed Nov 05 00:17:11 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "I write Act Four at the @washingtonpost's @PostOpinions. I'm married to @MattGertz, and I am Diaphena. Contact: alyssa.rosenberg@washpost.com",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "washingtonpost.com/news/act-four/",
+                            "expanded_url": "http://washingtonpost.com/news/act-four/",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/LgwQ1CRQZ3"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 847,
+            "follow_request_sent": false,
+            "followers_count": 26163,
+            "following": false,
+            "friends_count": 529,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 17174089,
+            "id_str": "17174089",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1218,
+            "location": "Washington, DC",
+            "name": "Alyssa Rosenberg",
+            "notifications": false,
+            "profile_background_color": "ACDED6",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17174089/1450814365",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/494183552796217344/MXHBq-O1_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/494183552796217344/MXHBq-O1_normal.jpeg",
+            "profile_link_color": "038543",
+            "profile_sidebar_border_color": "EEEEEE",
+            "profile_sidebar_fill_color": "F6F6F6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "AlyssaRosenberg",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 01:11:21 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 2281047289,
+                            "id_str": "2281047289",
+                            "indices": [
+                                0,
+                                10
+                            ],
+                            "name": "Alex",
+                            "screen_name": "proguerra"
+                        },
+                        {
+                            "id": 2600122544,
+                            "id_str": "2600122544",
+                            "indices": [
+                                11,
+                                24
+                            ],
+                            "name": "Alyssa",
+                            "screen_name": "urwatchingme"
+                        },
+                        {
+                            "id": 517671567,
+                            "id_str": "517671567",
+                            "indices": [
+                                25,
+                                40
+                            ],
+                            "name": "New Albert",
+                            "screen_name": "albertfloresjr"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 695051984236363776,
+                "id_str": "695051984236363776",
+                "in_reply_to_screen_name": "proguerra",
+                "in_reply_to_status_id": 695050483740778496,
+                "in_reply_to_status_id_str": "695050483740778496",
+                "in_reply_to_user_id": 2281047289,
+                "in_reply_to_user_id_str": "2281047289",
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "@proguerra @urwatchingme @albertfloresjr That's not how it works!",
+                "truncated": false
+            },
+            "statuses_count": 61398,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "https://t.co/LgwQ1CRQZ3",
+            "utc_offset": -18000,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Thu Sep 04 21:12:28 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Entertainment reporter for the Los Angeles Times. I cover TV, mostly.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "latimes.com/la-bio-meredit\u2026",
+                            "expanded_url": "http://www.latimes.com/la-bio-meredith-blake-staff.html",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/c0dmXfHsEt"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 467,
+            "follow_request_sent": false,
+            "followers_count": 5956,
+            "following": false,
+            "friends_count": 1206,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 16135407,
+            "id_str": "16135407",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 287,
+            "location": "NYC, NY",
+            "name": "Meredith Blake",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/16135407/1386087098",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/604677047898783744/vh2V-WI4_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/604677047898783744/vh2V-WI4_normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "MeredithBlake",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Feb 03 17:33:16 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "gofugyourself.com/fug-or-fab-the\u2026",
+                            "expanded_url": "http://www.gofugyourself.com/fug-or-fab-the-cover-vanity-fairs-2016-hollywood-issue-02-2016",
+                            "indices": [
+                                117,
+                                140
+                            ],
+                            "url": "https://t.co/3yJ4nXlfP8"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 21279256,
+                            "id_str": "21279256",
+                            "indices": [
+                                4,
+                                13
+                            ],
+                            "name": "Heather & Jessica",
+                            "screen_name": "fuggirls"
+                        }
+                    ]
+                },
+                "favorite_count": 3,
+                "favorited": false,
+                "geo": null,
+                "id": 694936706903105536,
+                "id_str": "694936706903105536",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "The @fuggirls are so right re: VF Hollywood Issue's myopic, snobby-bordering-on-irrelevant focus on movies over TV . https://t.co/3yJ4nXlfP8",
+                "truncated": false
+            },
+            "statuses_count": 11946,
+            "time_zone": "Quito",
+            "url": "http://t.co/c0dmXfHsEt",
+            "utc_offset": -18000,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Wed Apr 09 15:07:18 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "TV critic for http://t.co/5CmmEn7mF5; NPR Fresh Air music critic; book critic in many places.",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "Yahoo.com",
+                            "expanded_url": "http://Yahoo.com",
+                            "indices": [
+                                14,
+                                36
+                            ],
+                            "url": "http://t.co/5CmmEn7mF5"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1738,
+            "follow_request_sent": false,
+            "followers_count": 20145,
+            "following": false,
+            "friends_count": 1352,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 14342384,
+            "id_str": "14342384",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1097,
+            "location": "",
+            "name": "kentucker",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/571302368/t907ktr2mwb0v079qvai.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/571302368/t907ktr2mwb0v079qvai.jpeg",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3387176768/6577675e4e1dbb0c5f2ce10c761a5483_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3387176768/6577675e4e1dbb0c5f2ce10c761a5483_normal.jpeg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "kentucker",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Feb 03 20:25:46 +0000 2016",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                35,
+                                46
+                            ],
+                            "text": "BobElliott"
+                        }
+                    ],
+                    "media": [
+                        {
+                            "display_url": "pic.twitter.com/ckGp7Gle6r",
+                            "expanded_url": "http://twitter.com/YahooTV/status/694970377416613888/photo/1",
+                            "id": 694970263369342976,
+                            "id_str": "694970263369342976",
+                            "indices": [
+                                143,
+                                144
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                            "sizes": {
+                                "large": {
+                                    "h": 380,
+                                    "resize": "fit",
+                                    "w": 675
+                                },
+                                "medium": {
+                                    "h": 337,
+                                    "resize": "fit",
+                                    "w": 600
+                                },
+                                "small": {
+                                    "h": 191,
+                                    "resize": "fit",
+                                    "w": 340
+                                },
+                                "thumb": {
+                                    "h": 150,
+                                    "resize": "crop",
+                                    "w": 150
+                                }
+                            },
+                            "source_status_id": 694970377416613888,
+                            "source_status_id_str": "694970377416613888",
+                            "source_user_id": 57170795,
+                            "source_user_id_str": "57170795",
+                            "type": "photo",
+                            "url": "https://t.co/ckGp7Gle6r"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "yhoo.it/1Qdctrb",
+                            "expanded_url": "http://yhoo.it/1Qdctrb",
+                            "indices": [
+                                109,
+                                132
+                            ],
+                            "url": "https://t.co/RgPgDLAbKF"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 57170795,
+                            "id_str": "57170795",
+                            "indices": [
+                                3,
+                                11
+                            ],
+                            "name": "Yahoo TV",
+                            "screen_name": "YahooTV"
+                        },
+                        {
+                            "id": 14342384,
+                            "id_str": "14342384",
+                            "indices": [
+                                14,
+                                24
+                            ],
+                            "name": "kentucker",
+                            "screen_name": "kentucker"
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "display_url": "pic.twitter.com/ckGp7Gle6r",
+                            "expanded_url": "http://twitter.com/YahooTV/status/694970377416613888/photo/1",
+                            "id": 694970263369342976,
+                            "id_str": "694970263369342976",
+                            "indices": [
+                                143,
+                                144
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                            "sizes": {
+                                "large": {
+                                    "h": 380,
+                                    "resize": "fit",
+                                    "w": 675
+                                },
+                                "medium": {
+                                    "h": 337,
+                                    "resize": "fit",
+                                    "w": 600
+                                },
+                                "small": {
+                                    "h": 191,
+                                    "resize": "fit",
+                                    "w": 340
+                                },
+                                "thumb": {
+                                    "h": 150,
+                                    "resize": "crop",
+                                    "w": 150
+                                }
+                            },
+                            "source_status_id": 694970377416613888,
+                            "source_status_id_str": "694970377416613888",
+                            "source_user_id": 57170795,
+                            "source_user_id_str": "57170795",
+                            "type": "photo",
+                            "url": "https://t.co/ckGp7Gle6r"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 694980117928411136,
+                "id_str": "694980117928411136",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 28,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Wed Feb 03 19:47:04 +0000 2016",
+                    "entities": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    22,
+                                    33
+                                ],
+                                "text": "BobElliott"
+                            }
+                        ],
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/ckGp7Gle6r",
+                                "expanded_url": "http://twitter.com/YahooTV/status/694970377416613888/photo/1",
+                                "id": 694970263369342976,
+                                "id_str": "694970263369342976",
+                                "indices": [
+                                    120,
+                                    143
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 380,
+                                        "resize": "fit",
+                                        "w": 675
+                                    },
+                                    "medium": {
+                                        "h": 337,
+                                        "resize": "fit",
+                                        "w": 600
+                                    },
+                                    "small": {
+                                        "h": 191,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "https://t.co/ckGp7Gle6r"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "yhoo.it/1Qdctrb",
+                                "expanded_url": "http://yhoo.it/1Qdctrb",
+                                "indices": [
+                                    96,
+                                    119
+                                ],
+                                "url": "https://t.co/RgPgDLAbKF"
+                            }
+                        ],
+                        "user_mentions": [
+                            {
+                                "id": 14342384,
+                                "id_str": "14342384",
+                                "indices": [
+                                    1,
+                                    11
+                                ],
+                                "name": "kentucker",
+                                "screen_name": "kentucker"
+                            }
+                        ]
+                    },
+                    "extended_entities": {
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/ckGp7Gle6r",
+                                "expanded_url": "http://twitter.com/YahooTV/status/694970377416613888/photo/1",
+                                "id": 694970263369342976,
+                                "id_str": "694970263369342976",
+                                "indices": [
+                                    120,
+                                    143
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CaUHxb2W4AAxKp1.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 380,
+                                        "resize": "fit",
+                                        "w": 675
+                                    },
+                                    "medium": {
+                                        "h": 337,
+                                        "resize": "fit",
+                                        "w": 600
+                                    },
+                                    "small": {
+                                        "h": 191,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "https://t.co/ckGp7Gle6r"
+                            }
+                        ]
+                    },
+                    "favorite_count": 48,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 694970377416613888,
+                    "id_str": "694970377416613888",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "is_quote_status": false,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "retweet_count": 28,
+                    "retweeted": false,
+                    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                    "text": ".@KenTucker remembers #BobElliott, of the classic comedy duo Bob &amp; Ray, who has died at 92: https://t.co/RgPgDLAbKF https://t.co/ckGp7Gle6r",
+                    "truncated": false
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "RT @YahooTV: .@KenTucker remembers #BobElliott, of the classic comedy duo Bob &amp; Ray, who has died at 92: https://t.co/RgPgDLAbKF https://t.\u2026",
+                "truncated": false
+            },
+            "statuses_count": 7346,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": null,
+            "utc_offset": -18000,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Mar 17 15:27:35 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "TV critic @Slate",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 1239,
+            "follow_request_sent": false,
+            "followers_count": 10064,
+            "following": false,
+            "friends_count": 1066,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 14163738,
+            "id_str": "14163738",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 389,
+            "location": "NYC",
+            "name": "Willa Paskin",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/92772992/5JdAkuP37ivovv1u5TFJ4aCno1_500.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/92772992/5JdAkuP37ivovv1u5TFJ4aCno1_500.jpg",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/14163738/1361227166",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/831171541/nameimage_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/831171541/nameimage_normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "willapaskin",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Feb 03 21:03:15 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 64205763,
+                            "id_str": "64205763",
+                            "indices": [
+                                0,
+                                13
+                            ],
+                            "name": "Brian Moylan",
+                            "screen_name": "BrianJMoylan"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 694989548292591617,
+                "id_str": "694989548292591617",
+                "in_reply_to_screen_name": "BrianJMoylan",
+                "in_reply_to_status_id": 694989339776917504,
+                "in_reply_to_status_id_str": "694989339776917504",
+                "in_reply_to_user_id": 64205763,
+                "in_reply_to_user_id_str": "64205763",
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "text": "@BrianJMoylan Nashville and empire",
+                "truncated": false
+            },
+            "statuses_count": 5649,
+            "time_zone": "Quito",
+            "url": null,
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Sun Mar 02 02:13:15 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "TV Critic, NPR. Board member/judge Peabody Awards. Author: Race-Baiter: How Media Wield Dangerous Words to Divide a Nation. Father. Drummer. Lover of fine irony",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "ericdeggans.com",
+                            "expanded_url": "http://www.ericdeggans.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/yAasgrMsua"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1038,
+            "follow_request_sent": false,
+            "followers_count": 17335,
+            "following": false,
+            "friends_count": 4866,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 14067246,
+            "id_str": "14067246",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1001,
+            "location": "St. Petersburg, Fla.",
+            "name": "Eric Deggans at NPR",
+            "notifications": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000085621787/22f40ae9833f6f488bcc0efa6a52bbc2.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000085621787/22f40ae9833f6f488bcc0efa6a52bbc2.jpeg",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/14067246/1380577435",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/458935535407341568/SdeWucds_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/458935535407341568/SdeWucds_normal.jpeg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Deggans",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 02:42:40 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/standupkid/sta\u2026",
+                            "expanded_url": "https://twitter.com/standupkid/status/695074776998637568",
+                            "indices": [
+                                42,
+                                65
+                            ],
+                            "url": "https://t.co/pwdpNQbTd5"
+                        }
+                    ],
+                    "user_mentions": []
+                },
+                "favorite_count": 1,
+                "favorited": false,
+                "geo": null,
+                "id": 695074966782525440,
+                "id_str": "695074966782525440",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": true,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "quoted_status_id": 695074776998637568,
+                "quoted_status_id_str": "695074776998637568",
+                "retweet_count": 1,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+                "text": "Yeah. He was fighting cancer for a while. https://t.co/pwdpNQbTd5",
+                "truncated": false
+            },
+            "statuses_count": 27826,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/yAasgrMsua",
+            "utc_offset": -18000,
+            "verified": true
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Fri Nov 09 21:55:22 +0000 2007",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "I'm a television critic for @Variety, a juror for the @PeabodyAwards and on the board of @OfficialTCA.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "moryan.tumblr.com/post/130864082\u2026",
+                            "expanded_url": "http://moryan.tumblr.com/post/130864082379/where-to-find-my-tv-writing",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/y5XOaCWRIU"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 34676,
+            "follow_request_sent": false,
+            "followers_count": 38098,
+            "following": false,
+            "friends_count": 401,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 10111462,
+            "id_str": "10111462",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 2148,
+            "location": "",
+            "name": "Mo Ryan",
+            "notifications": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/20072513/adamaros.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/20072513/adamaros.jpg",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/10111462/1453396589",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/378800000056986670/eb9457225329616364aaa221b20a9bca_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000056986670/eb9457225329616364aaa221b20a9bca_normal.jpeg",
+            "profile_link_color": "3B94D9",
+            "profile_sidebar_border_color": "87BC44",
+            "profile_sidebar_fill_color": "E0FF92",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "moryan",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Feb 04 04:23:46 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 85442820,
+                            "id_str": "85442820",
+                            "indices": [
+                                0,
+                                13
+                            ],
+                            "name": "TAYLOR STAUFT",
+                            "screen_name": "TaylorStauft"
+                        }
+                    ]
+                },
+                "favorite_count": 1,
+                "favorited": false,
+                "geo": null,
+                "id": 695100409245904896,
+                "id_str": "695100409245904896",
+                "in_reply_to_screen_name": "TaylorStauft",
+                "in_reply_to_status_id": 695099894046941184,
+                "in_reply_to_status_id_str": "695099894046941184",
+                "in_reply_to_user_id": 85442820,
+                "in_reply_to_user_id_str": "85442820",
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "@TaylorStauft still appreciate the nudge! :)",
+                "truncated": false
+            },
+            "statuses_count": 70376,
+            "time_zone": "Central Time (US & Canada)",
+            "url": "http://t.co/y5XOaCWRIU",
+            "utc_offset": -21600,
+            "verified": true
+        }
+    ]
+}
