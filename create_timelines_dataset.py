@@ -87,8 +87,8 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
     tweet_user_lang                                 = [tweet["user"]["lang"] for tweet in timelines]
 
     # Define custom datetime variables
-    #tweet_created_at_datetime                       = [datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y') for time in tweet_created_at]
-    #tweet_user_created_at_datetime                  = [datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y') for time in tweet_user_created_at]
+    tweet_created_at_datetime                       = [datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y').timetuple() for time in tweet_created_at]
+    tweet_user_created_at_datetime                  = [datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y').timetuple() for time in tweet_user_created_at]
 
     twitter_tl_df =   pd.DataFrame({'tweet_retweeted'  : tweet_retweeted,
                                     'tweet_in_reply_to_user_id_str' : tweet_in_reply_to_user_id_str,
@@ -153,8 +153,8 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
                                     'tweet_user_url' : tweet_user_url,
                                     'tweet_user_contributors_enabled' : tweet_user_contributors_enabled,
                                     'tweet_user_lang' : tweet_user_lang,
-                                    #'tweet_created_at_datetime' : tweet_created_at_datetime,
-                                    #'tweet_user_created_at_datetime' : tweet_user_created_at_datetime
+                                    'tweet_created_at_datetime' : tweet_created_at_datetime,
+                                    'tweet_user_created_at_datetime' : tweet_user_created_at_datetime
                                    })
     return twitter_tl_df
 
