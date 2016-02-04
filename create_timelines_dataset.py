@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import datetime
 
 # Define the base timeline data directory
-TIMELINE_DATA_DIR = "../data/output_data/timelines/"
-COMPUTED = "../data/output_data/following_computed_data/"
+TIMELINE_DATA_DIR = "./data/output_data/timelines/"
+COMPUTED = "./data/output_data/following_computed_data/"
 
 def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/output_data/timelines/"):
     """ Create a data frame of all twitter information for a single user
@@ -25,7 +25,7 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
     tweet_in_reply_to_status_id      = [tweet["in_reply_to_status_id"] for tweet in timelines]
     tweet_text                       = [tweet["text"] for tweet in timelines]
     tweet_contributors               = [tweet["contributors"] for tweet in timelines]
-    tweet_user                       = [tweet["user"] for tweet in timelines]
+    #tweet_user                       = [tweet["user"] for tweet in timelines]
     tweet_id                         = [tweet["id"] for tweet in timelines]
     tweet_coordinates                = [tweet["coordinates"] for tweet in timelines]
     tweet_in_reply_to_screen_name    = [tweet["in_reply_to_screen_name"] for tweet in timelines]
@@ -97,7 +97,7 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
                                     'tweet_in_reply_to_status_id' : tweet_in_reply_to_status_id,
                                     'tweet_text' : tweet_text,
                                     'tweet_contributors' : tweet_contributors,
-                                    'tweet_user' : tweet_user,
+                                    #'tweet_user' : tweet_user,
                                     'tweet_id' : tweet_id,
                                     'tweet_coordinates' : tweet_coordinates,
                                     'tweet_in_reply_to_screen_name' : tweet_in_reply_to_screen_name,
