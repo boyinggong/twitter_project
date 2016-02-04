@@ -67,7 +67,7 @@ ipynb_notebooks/.ipynb_checkpoints/
 .DS_Store
 data/.DS_Store
 data/output_data/.DS_Store
-data/output_data/timelines/CSV/*
+data/output_data/timelines/CSV/*.csv
 
 # pyenv
 .python-version
