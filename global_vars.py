@@ -13,7 +13,7 @@ INPUT_GG_DATA_DIR  = INPUT_DATA_DIR + "/golden_globes_metadata"
 INPUT_SA_DATA_DIR  = INPUT_DATA_DIR + "/golden_globes_metadata"
 
 # UPDATE THIS - Latest Nomiee metadata csv
-INPUT_GG_DATA_CSV = INPUT_GG_DATA_DIR + "/nominees-spreadsheet-01-30.csv"
+INPUT_GG_DATA_CSV = INPUT_GG_DATA_DIR + "/nominees-spreadsheet-02-04.csv"
 
 # Output data
 OUTPUT_DATA_DIR = DATA_DIR + "/output_data"
