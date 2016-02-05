@@ -1,12 +1,8 @@
-library(readr)
 library(dplyr)
 library(ggplot2)
 
-timelines <- read.csv("../../data/output_data/timelines/CSV/all_concat_timelines_20160203.csv",
-                      header = TRUE, stringsAsFactors = FALSE)
-metadata <- read_csv("../../data/input_data/golden_globes_metadata/nominees-spreadsheet-01-30.csv")
-
-combined <- left_join(timelines, metadata, by = c("tweet_user_screen_name" = "TWITTER_SCREEN_NAME"))
+## Pull in the data
+source("../read_data.R")
 
 follow_columns <- c("tweet_user_screen_name",
                     #"WINNER_FLAG",
