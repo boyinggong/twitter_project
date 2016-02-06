@@ -2,7 +2,7 @@ from ttp import ttp
 import re
 
 def unshorten_links(shortlinks):
-    r"""Follow a list of shortlinks 
+    r"""Follow a list of shortlinks
 
     Parameters
     ----------
@@ -26,16 +26,16 @@ def unshorten_links(shortlinks):
             pass
     return urls
 
-def get_url(text):
+def get_url(tweet):
     r"""Extract the urls in a tweet
 
     Parameters
     ----------
-    text: string
+    tweet: string
 
     Returns
     -------
-    List of string: 
+    List of string:
         each string is a url
 
     Examples
@@ -43,43 +43,38 @@ def get_url(text):
 
     """
     p = ttp.Parser()
-    result = p.parse(text)
+    result = p.parse(tweet)
     return result.urls
 
 
-def get_users_mentioned(text):
+def get_users_mentioned(tweet):
     r"""Extract the urls in a tweet
 
     Parameters
     ----------
-    text: string
+    tweet: string
 
     Returns
     -------
-    List of string: 
-        each string is a screen name of users mentioned by the text
+    List of string:
+        each string is a screen name of users mentioned by the tweet
 
     Examples
     --------
 
     """
     p = ttp.Parser()
-    result = p.parse(text)
+    result = p.parse(tweet)
     return result.users
 
 
-def get_tags(text):
+def get_tags(tweet):
     p = ttp.Parser()
-    result = p.parse(text)
+    result = p.parse(tweet)
     return result.tags
 
-
-def sortFreqDict(freqdict):
-    aux = [(freqdict[key], key) for key in freqdict]
-    aux.sort()
-    aux.reverse()
-    return aux
-
+def remove_stopwords(tweet, stopwords):
+    return " ".join([word for word in tweet.split(" ") if word not in stopwords])
 
 def processTweet(tweet):
     #Convert to lower case
@@ -97,25 +92,19 @@ def processTweet(tweet):
     return tweet
 
 
-def replaceTwoOrMore(s):
+def replaceTwoOrMore(processedTweet):
     #look for 2 or more repetitions of character and replace with the character itself
     pattern = re.compile(r"(.)\1{1,}", re.DOTALL)
-    return pattern.sub(r"\1\1", s)
+    return pattern.sub(r"\1\1", processedTweet)
 
 
-def remove_punct(word):
+def remove_punct(replaceTwoOrMoreTweet):
     punc = set(string.punctuation)
     punc.remove('-')
-    return "".join([a for a in word if a not in punc])
+    return "".join([a for a in replaceTwoOrMoreTweet if a not in punc])
 
-
-with open("data/input_data/sentiment_analysis/stopwords.txt") as f:
-    stopwords = f.read().split('\n')
-stopwords.append('ATUSER')
-stopwords.append('URL')
-
-
-def remove_stopwords(tweet, stopwords):
-    return " ".join([word for word in tweet.split(" ") if word not in stopwords])
-
-
+def sortFreqDict(freqdict):
+    aux = [(freqdict[key], key) for key in freqdict]
+    aux.sort()
+    aux.reverse()
+    return aux

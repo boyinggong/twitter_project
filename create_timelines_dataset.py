@@ -2,17 +2,24 @@ import json
 import pandas as pd
 import time
 import datetime
+from functions_NLP import get_users_mentioned, get_tags, processTweet, \
+                          remove_stopwords, processTweet, replaceTwoOrMore, remove_punct
 
 # Define the base timeline data directory
-TIMELINE_DATA_DIR = "./data/output_data/timelines/"
-COMPUTED = "./data/output_data/following_computed_data/"
+INPUT_SENTIMENT_DATA_DIR    = "./data/input_data/sentiment_analysis/"
+TIMELINE_DATA_DIR           = "./data/output_data/timelines/"
+COMPUTED                    = "./data/output_data/following_computed_data/"
 
+# Function to Convert String to Interger for datetime processing
 def xstr(s):
     if s is None:
         s = 0
     return int(s)
 
-def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/output_data/timelines/"):
+with open(INPUT_SENTIMENT_DATA_DIR + "stopwords.txt") as f:
+    STOPWORDS = f.read().split('\n')
+
+def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "./data/output_data/timelines/"):
     """ Create a data frame of all twitter information for a single user
         (as defined by their screen name) based on the json download of their
         twitter timeline
@@ -87,7 +94,7 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
     tweet_user_profile_sidebar_fill_color           = [tweet["user"]["profile_sidebar_fill_color"] for tweet in timelines]
     tweet_user_utc_offset                           = [tweet["user"]["utc_offset"] for tweet in timelines]
     tweet_user_id_str                               = [tweet["user"]["id_str"] for tweet in timelines]
-    tweet_user_url                                  = [tweet["user"]["url"] for tweet in timelines]
+    #tweet_user_url                                  = [tweet["user"]["url"] for tweet in timelines]
     #tweet_user_profile_banner_url                   = [tweet["user"]["profile_banner_url"] for tweet in timelines]
     tweet_user_contributors_enabled                 = [tweet["user"]["contributors_enabled"] for tweet in timelines]
     tweet_user_lang                                 = [tweet["user"]["lang"] for tweet in timelines]
@@ -102,6 +109,17 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
                                                         + datetime.timedelta(0, xstr(tweet_user_utc_offset[0]))).strftime('%a %b %d %H:%M:%S %z %Y')
                                                         for time in tweet_user_created_at]
 
+   # NLP Tweet Processing
+    tweet_NLP_get_users_mentioned                   = [get_users_mentioned(tweet) for tweet in tweet_text]
+    tweet_NLP_get_tags                              = [get_tags(tweet) for tweet in tweet_text]
+    tweet_NLP_processTweet                          = [processTweet(tweet) for tweet in tweet_text]
+    tweet_NLP_remove_stopwords                      = [remove_stopwords(tweet, STOPWORDS) for tweet in tweet_text]
+    tweet_NLP_processTweet                          = [processTweet(tweet) for tweet in tweet_text]
+
+    #tweet_NLP_replaceTwoOrMore                      = [replaceTwoOrMore(processedTweet) for processedTweet in tweet_NLP_processTweet]
+    #tweet_NLP_remove_punct                          = [remove_punct(replaceTwoOrMore) for replaceTwoOrMore in tweet_NLP_replaceTwoOrMore]
+
+    # Load all of the required fields into a Pandas DataFrame
     twitter_tl_df =   pd.DataFrame({'tweet_retweeted'  : tweet_retweeted,
                                     'tweet_in_reply_to_user_id_str' : tweet_in_reply_to_user_id_str,
                                     'tweet_entities' : tweet_entities,
@@ -162,11 +180,18 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
                                     'tweet_user_profile_sidebar_fill_color' : tweet_user_profile_sidebar_fill_color,
                                     'tweet_user_utc_offset' : tweet_user_utc_offset,
                                     'tweet_user_id_str' : tweet_user_id_str,
-                                    'tweet_user_url' : tweet_user_url,
+                                    #'tweet_user_url' : tweet_user_url,
                                     'tweet_user_contributors_enabled' : tweet_user_contributors_enabled,
                                     'tweet_user_lang' : tweet_user_lang,
                                     'tweet_created_at_datetime_offset' : tweet_created_at_datetime_offset,
-                                    'tweet_user_created_at_datetime_offset' : tweet_user_created_at_datetime_offset
+                                    'tweet_user_created_at_datetime_offset' : tweet_user_created_at_datetime_offset,
+                                    'tweet_NLP_get_users_mentioned' : tweet_NLP_get_users_mentioned,
+                                    'tweet_NLP_get_tags' : tweet_NLP_get_tags,
+                                    'tweet_NLP_processTweet' : tweet_NLP_processTweet,
+                                    'tweet_NLP_remove_stopwords' : tweet_NLP_remove_stopwords,
+                                    'tweet_NLP_processTweet' : tweet_NLP_processTweet
+                                    #'tweet_NLP_replaceTwoOrMore' : tweet_NLP_replaceTwoOrMore,
+                                    #'tweet_NLP_remove_punct' : tweet_NLP_remove_punct
                                    })
     return twitter_tl_df
 
