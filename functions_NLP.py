@@ -109,7 +109,7 @@ def remove_punct(word):
     return "".join([a for a in word if a not in punc])
 
 
-with open("stopwords.txt") as f:
+with open("data/input_data/sentiment_analysis/stopwords.txt") as f:
     stopwords = f.read().split('\n')
 stopwords.append('ATUSER')
 stopwords.append('URL')
