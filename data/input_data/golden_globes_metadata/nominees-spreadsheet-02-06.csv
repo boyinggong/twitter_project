@@ -1,0 +1,130 @@
+FILM_FLAG,CATEGORY,NOMINEE,PERSON_FLAG,RELATED_FILM_SHOW,TWITTER_SCREEN_NAME,MOVIE_RELEASE_DATE,OFFICIAL_MOVIE_HASTAG,ACTOR_BIRTHDATE,ACTOR_AGE,WINNER_FLAG,GENDER_FLAG,NOMINEE_FLAG
+0,Best Actor in a Limited-Series or TV Movie,Idris Elba,1,Luther,idriselba,,,,,L,M,1
+0,Best Actor in a Limited-Series or TV Movie,Patrick Wilson,1,Fargo,patrickwilson73,,,,,L,M,1
+0,Best Actor in a Limited-Series or TV Movie,Oscar Isaac,1,Show Me a Hero,,,,,,W,M,1
+0,Best Actor in a Limited-Series or TV Movie,David Oyelowo,1,Nightingale,,,,,,L,M,1
+0,Best Actor in a Limited-Series or TV Movie,Mark Rylance,1,Wolf Hall,,,,,,L,M,1
+1,Best Actor in a Motion Picture – Comedy or Musical,Christian Bale,1,The Big Short,,12/11/2015,TheBigShort,1/30/1974,41,L,M,1
+1,Best Actor in a Motion Picture – Comedy or Musical,Matt Damon,1,The Martian,,10/2/2015,TheMartian,10/8/1970,45,W,M,1
+1,Best Actor in a Motion Picture – Comedy or Musical,Al Pacino,1,Danny Collins,,3/18/2015,,4/25/1940,75,L,M,1
+1,Best Actor in a Motion Picture – Comedy or Musical,Steve Carell,1,The Big Short,SteveCarell,12/11/2015,TheBigShort,8/16/1962,53,L,M,1
+1,Best Actor in a Motion Picture – Comedy or Musical,Mark Ruffalo,1,Infinitely Polar Bear,MarkRuffalo,5/22/2015,,11/22/1967,48,L,M,1
+1,Best Actor in a Motion Picture – Drama,Michael Fassbender,1,Steve Jobs,,10/9/2015,SteveJobsMovie,4/2/1977,38,L,M,1
+1,Best Actor in a Motion Picture – Drama,Eddie Redmayne,1,The Danish Girl,,11/27/2015,TheDanishGirl,1/6/1982,34,L,M,1
+1,Best Actor in a Motion Picture – Drama,Will Smith,1,Concussion,,12/25/2015,ConcussionMovie,9/25/1968,47,L,M,1
+1,Best Actor in a Motion Picture – Drama,Bryan Cranston,1,Trumbo,BryanCranston,11/6/2015,Trumbo,3/7/1956,59,L,M,1
+1,Best Actor in a Motion Picture – Drama,Leonardo DiCaprio,1,The Revenant,LeoDiCaprio,12/25/2015,TheRevenant,11/11/1974,41,W,M,1
+0,Best Actor in a TV Series – Comedy,Aziz Ansari,1,Master of None,azizansari,,,,,L,M,1
+0,Best Actor in a TV Series – Comedy,Rob Lowe,1,The Grinder,RobLowe,,,,,L,M,1
+0,Best Actor in a TV Series – Comedy,Patrick Stewart,1,Blunt Talk,SirPatStew,,,,,L,M,1
+0,Best Actor in a TV Series – Comedy,Jeffrey Tambor,1,Transparent,jeffreytambor,,,,,L,M,1
+0,Best Actor in a TV Series – Comedy,Gael Garcia Bernal,1,Mozart in the Jungle,,,,,,W,M,1
+0,Best Actor in a TV Series – Drama,Rami Malek,1,Mr. Robot,ItsRamiMalek,,,,,L,M,1
+0,Best Actor in a TV Series – Drama,Bob Odenkirk,1,Better Call Saul,mrbobodenkirk,,,,,L,M,1
+0,Best Actor in a TV Series – Drama,Liev Schreiber,1,Ray Donovan,LievSchreiber,,,,,L,M,1
+0,Best Actor in a TV Series – Drama,Jon Hamm,1,Mad Men,,,,,,W,M,1
+0,Best Actor in a TV Series – Drama,Wagner Moura,1,Narcos,,,,,,L,M,1
+0,Best Actress in a Limited-Series or TV Movie,Kirsten Dunst,1,Fargo,kirstendunst,,,,,L,F,1
+0,Best Actress in a Limited-Series or TV Movie,Lady Gaga,1,American Horror Story: Hotel,ladygaga,,,,,W,F,1
+0,Best Actress in a Limited-Series or TV Movie,Sarah Hay,1,Flesh & Bone,SarahEllenHay,,,,,L,F,1
+0,Best Actress in a Limited-Series or TV Movie,Felicity Huffman,1,American Crime,FelicityHuffman,,,,,L,F,1
+0,Best Actress in a Limited-Series or TV Movie,Queen Latifah,1,Bessie,IAMQUEENLATIFAH,,,,,L,F,1
+1,Best Actress in a Motion Picture – Comedy,Jennifer Lawrence,1,Joy,,12/25/2015,JoyMovie,8/15/1990,25,W,F,1
+1,Best Actress in a Motion Picture – Comedy,Maggie Smith,1,The Lady in the Van,,12/4/2015,TheLadyInTheVan,12/28/1934,81,L,F,1
+1,Best Actress in a Motion Picture – Comedy,Melissa McCarthy,1,Spy,melissamccarthy,6/5/2015,SpyMovie,8/26/1970,45,L,F,1
+1,Best Actress in a Motion Picture – Comedy,Amy Schumer,1,Trainwreck,amyschumer,7/17/2015,Trainwreck,6/1/1981,34,L,F,1
+1,Best Actress in a Motion Picture – Comedy,Lily Tomlin,1,Grandma,LilyTomlin,8/21/2015,Grandma,9/1/1939,76,L,F,1
+1,Best Actress in a Motion Picture – Drama,Cate Blanchett,1,Carol,,11/20/2015,CarolMovie,5/14/1969,46,L,F,1
+1,Best Actress in a Motion Picture – Drama,Rooney Mara,1,Carol,,11/20/2015,CarolMovie,4/17/1985,30,L,F,1
+1,Best Actress in a Motion Picture – Drama,Saoirse Ronan,1,Brooklyn,,11/4/2015,,4/12/1994,21,L,F,1
+1,Best Actress in a Motion Picture – Drama,Alicia Vikander,1,The Danish Girl,,11/27/2015,TheDanishGirl,10/3/1988,27,L,F,1
+1,Best Actress in a Motion Picture – Drama,Brie Larson,1,Room,brielarson,9/4/2015,RoomMovie,10/1/1989,26,W,F,1
+0,Best Actress in a TV Series – Comedy,Rachel Bloom,1,Crazy Ex Girlfriend,Racheldoesstuff,,,,,W,F,1
+0,Best Actress in a TV Series – Comedy,Jamie Lee Curtis,1,Scream Queens,jamieleecurtis,,,,,L,F,1
+0,Best Actress in a TV Series – Comedy,Julia Louis-Dreyfus,1,Veep,OfficialJLD,,,,,L,F,1
+0,Best Actress in a TV Series – Comedy,Gina Rodriguez,1,Jane the Virgin,HereIsGina,,,,,L,F,1
+0,Best Actress in a TV Series – Comedy,Lily Tomlin,1,Grace & Frankie,LilyTomlin,,,,,L,F,1
+0,Best Actress in a TV Series – Drama,Caitriona Balfe,1,Outlander,caitrionambalfe,,,,,L,F,1
+0,Best Actress in a TV Series – Drama,Viola Davis,1,How to Get Away With Murder,violadavis,,,,,L,F,1
+0,Best Actress in a TV Series – Drama,Taraji P. Henson,1,Empire,TherealTaraji,,,,,W,F,1
+0,Best Actress in a TV Series – Drama,Robin Wright,1,House of Cards,realrobinwright,,,,,L,F,1
+0,Best Actress in a TV Series – Drama,Eva Green,1,Penny Dreadful,,,,,,L,F,1
+1,Best Animated Feature Film,Inside Out,0,Inside Out,PixarInsideOut,6/19/2015,InsideOut,,,W,,1
+1,Best Animated Feature Film,Shaun the Sheep Movie,0,Shaun the Sheep Movie,shaunthesheep,8/5/2015,ShauntheSheepMovie,,,L,,1
+1,Best Animated Feature Film,The Peanuts Movie,0,The Peanuts Movie,PeanutsMovie,11/6/2015,PeanutsMovie,,,L,,1
+1,Best Animated Feature Film,The Good Dinosaur,0,The Good Dinosaur,TheGoodDinosaur,11/25/2015,GoodDino,,,L,,1
+1,Best Animated Feature Film,Anomalisa,0,Anomalisa,Anomalisamovie,12/30/2015,Anomalisa,,,L,,1
+1,Best Director – Motion Picture,Todd Haynes,1,Carol,,11/20/2015,CarolMovie,1/2/1961,55,L,M,1
+1,Best Director – Motion Picture,Alejandro G. Iñárritu,1,The Revenant,,12/25/2015,TheRevenant,8/15/1963,52,W,M,1
+1,Best Director – Motion Picture,Tom McCarthy,1,Spotlight,,11/6/2015,SpotlightMovie,7/5/1968,47,L,M,1
+1,Best Director – Motion Picture,George Miller,1,Mad Max: Fury Road,,5/15/2015,MadMax,3/3/1945,70,L,M,1
+1,Best Director – Motion Picture,Ridley Scott,1,The Martian,,10/2/2015,TheMartian,11/30/1937,78,L,M,1
+1,Best Motion Picture – Comedy or Musical,Spy,0,Spy,SpyTheMovieUK,5/23/2015,SpyMovie,,,L,,1
+1,Best Motion Picture – Comedy or Musical,Spy,0,Spy,SpyTheMovie,6/5/2015,SpyMovie,,,L,,1
+1,Best Motion Picture – Comedy or Musical,Trainwreck,0,Trainwreck,TrainwreckMovie,7/17/2015,Trainwreck,,,L,,1
+1,Best Motion Picture – Comedy or Musical,The Martian,0,The Martian,MartianMovie,10/2/2015,TheMartian,,,W,,1
+1,Best Motion Picture – Comedy or Musical,The Big Short,0,The Big Short,thebigshort,12/11/2015,TheBigShort,,,L,,1
+1,Best Motion Picture – Comedy or Musical,Joy,0,Joy,JoyTheMovie,12/25/2015,JoyMovie,,,L,,1
+1,Best Motion Picture – Drama,Mad Max: Fury Road,0,Mad Max: Fury Road,MadMaxMovieUK,5/15/2015,MadMax,,,L,,1
+1,Best Motion Picture – Drama,Room,0,Room,RoomTheMovie,9/4/2015,RoomMovie,,,L,,1
+1,Best Motion Picture – Drama,Spotlight,0,Spotlight,SpotlightMovie,11/6/2015,SpotlightMovie,,,L,,1
+1,Best Motion Picture – Drama,Carol,0,Carol,CarolMovie,11/20/2015,CarolMovie,,,L,,1
+1,Best Motion Picture – Drama,The Revenant,0,The Revenant,RevenantMovie,12/25/2015,TheRevenant,,,W,,1
+1,Best Motion Picture – Foreign Language,The Brand New Testament,0,The Brand New Testament,,5/17/2015,,,,L,,1
+1,Best Motion Picture – Foreign Language,Mustang,0,Mustang,,11/20/2015,MustangFilm,,,L,,1
+1,Best Motion Picture – Foreign Language,The Club,0,The Club,,2/5/2016,,,,L,,1
+1,Best Motion Picture – Foreign Language,The Fencer,0,The Fencer,TheFencerMovie,3/13/2015,TheFencer,,,L,,1
+1,Best Motion Picture – Foreign Language,Son of Saul,0,Son of Saul,sonofsaulfilm,12/18/2015,SonOfSaul,,,W,,1
+1,Best Original Score,Alexandre Desplat,1,The Danish Girl,,11/27/2015,TheDanishGirl,,,L,M,1
+1,Best Original Score,Carter Burwell,1,Carol,carterburwell,11/20/2015,CarolMovie,,,L,M,1
+1,Best Original Score,Ennio Morricone,1,The Hateful Eight,MEnnioMorricone,12/25/2015,TheHatefulEight,,,W,M,1
+1,Best Original Score,Daniel Pemberton,1,Steve Jobs,DANIELPEMBERTON,10/9/2015,SteveJobsMovie,,,L,M,1
+1,Best Original Score,Ryuichi Sakamoto Alva Noto,1,The Revenant,ryuichisakamoto,12/25/2015,TheRevenant,,,L,M,1
+1,Best Original Song,One Kind of Love ,0,Love & Mercy,,12/26/2014,LoveandMercy,,,L,,1
+1,Best Original Song,Love Me Like You Do,0,Fifty Shades of Grey,,2/13/2015,FiftyShades,,,L,,1
+1,Best Original Song,See You Again ,0,Furious 7,,4/3/2015,Furious7,,,L,,1
+1,Best Original Song,Writing’s on the Wall,0,Spectre,,11/6/2015,SPECTRE,,,W,,1
+1,Best Original Song,Simple Song No. 3,0,Youth,,12/4/2015,theYouth,,,L,,1
+1,Best Screenplay – Motion Picture,Tom McCarthy,1,Spotlight,,11/6/2015,SpotlightMovie,,,L,M,1
+1,Best Screenplay – Motion Picture,Josh Singer,1,Spotlight,,11/6/2015,SpotlightMovie,,,L,M,1
+1,Best Screenplay – Motion Picture,Charles Randolph,1,The Big Short,,12/11/2015,TheBigShort,,,L,M,1
+1,Best Screenplay – Motion Picture,Aaron Sorkin,1,Steve Jobs,,10/9/2015,SteveJobsMovie,6/9/1961,54,W,M,1
+1,Best Screenplay – Motion Picture,Quentin Tarantino,1,The Hateful Eight,,12/25/2015,TheHatefulEight,3/27/1963,52,L,M,1
+1,Best Screenplay – Motion Picture,Emma Donoghue,1,Room,EDonoghueWriter,9/4/2015,RoomMovie,10/24/1969,46,L,F,1
+1,Best Screenplay – Motion Picture,Adam McKay,1,The Big Short,GhostPanther,12/11/2015,TheBigShort,,,L,M,1
+1,Best Supporting Actor in a Motion Picture,Paul Dano,1,Love & Mercy,,12/26/2014,LoveandMercy,6/19/1984,31,L,M,1
+1,Best Supporting Actor in a Motion Picture,Mark Rylance,1,Bridge of Spies,,10/4/2015,BridgeOfSpies,1/18/1960,56,L,M,1
+1,Best Supporting Actor in a Motion Picture,Michael Shannon,1,99 Homes,,9/25/2015,99Homes,8/7/1974,41,L,M,1
+1,Best Supporting Actor in a Motion Picture,Idris Elba,1,Beasts of No Nation,idriselba,10/16/2015,beastOfNoNation,9/6/1972,43,L,M,1
+1,Best Supporting Actor in a Motion Picture,Sylvester Stallone,1,Creed,TheSlyStallone,11/25/2015,CREED,7/6/1946,69,W,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Alan Cumming,1,The Good Wife,Alancumming,,,,,L,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Tobias Menzies,1,Outlander,TobiasMenzies,,,,,L,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Damian Lewis,1,Wolf Hall,,,,,,L,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Ben Mendelsohn,1,Bloodline,,,,,,L,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Christian Slater,1,Mr. Robot,ChristianSlater,,,,,W,M,1
+1,Best Supporting Actress in a Motion Picture,Jennifer Jason Leigh,1,The Hateful Eight,,12/25/2015,TheHatefulEight,2/5/1962,53,L,F,1
+1,Best Supporting Actress in a Motion Picture,Helen Mirren,1,Trumbo,,11/6/2015,Trumbo,7/26/1945,70,L,F,1
+1,Best Supporting Actress in a Motion Picture,Alicia Vikander,1,Ex Machina,,4/10/2015,ExMachina,10/3/1988,27,L,F,1
+1,Best Supporting Actress in a Motion Picture,Kate Winslet,1,Steve Jobs,,10/9/2015,SteveJobsMovie,10/5/1975,40,W,F,1
+1,Best Supporting Actress in a Motion Picture,Jane Fonda,1,Youth,Janefonda,12/4/2015,theYouth,12/21/1937,78,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Uzo Aduba,1,Orange is the New Black,UzoAduba,,,,,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Joanne Froggatt,1,Downton Abbey,JoFroggatt,,,,,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Regina King,1,American Crime,ReginaKing,,,,,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Judith Light,1,Transparent,JudithLight,,,,,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Maura Tierney,1,The Affair,,,,,,W,F,1
+0,Best TV Movie or Limited-Series,American Crime,0,American Crime,AmericanCrimeTV,,,,,L,,1
+0,Best TV Movie or Limited-Series,American Horror Story: Hotel,0,American Horror Story: Hotel,AHSFX,,,,,L,,1
+0,Best TV Movie or Limited-Series,Fargo,0,Fargo,FargoFX,,,,,L,,1
+0,Best TV Movie or Limited-Series,Flesh and Bone,0,Flesh and Bone,FleshAndBoneSTZ,,,,,L,,1
+0,Best TV Movie or Limited-Series,Wolf Hall,0,Wolf Hall,wolfhalldrama,,,,,W,,1
+0,Best TV Series – Comedy,Casual,0,Casual,CasualOnHulu,,,,,L,,1
+0,Best TV Series – Comedy,Mozart in the Jungle,0,Mozart in the Jungle,MITJAmazon,,,,,W,,1
+0,Best TV Series – Comedy,Orange Is the New Black,0,Orange Is the New Black,OINTB,,,,,L,,1
+0,Best TV Series – Comedy,Silicon Valley,0,Silicon Valley,SiliconHBO,,,,,L,,1
+0,Best TV Series – Comedy,Transparent,0,Transparent,transparent_tv,,,,,L,,1
+0,Best TV Series – Comedy,Veep,0,Veep,VeepHBO,,,,,L,,1
+0,Best TV Series – Drama,Empire,0,Empire,EmpireFOX,,,,,L,,1
+0,Best TV Series – Drama,Game of Thrones,0,Game of Thrones,GameofThrones,,,,,L,,1
+0,Best TV Series – Drama,Mr. Robot,0,Mr. Robot,whoismrrobot,,,,,W,,1
+0,Best TV Series – Drama,Narcos,0,Narcos,NarcosNetflix,,,,,L,,1
+0,Best TV Series – Drama,Outlander,0,Outlander,Outlander_Starz,,,,,L,,1
