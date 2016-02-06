@@ -1,10 +1,16 @@
 import json
 import pandas as pd
-from datetime import datetime
+import time
+import datetime
 
 # Define the base timeline data directory
 TIMELINE_DATA_DIR = "./data/output_data/timelines/"
 COMPUTED = "./data/output_data/following_computed_data/"
+
+def xstr(s):
+    if s is None:
+        s = 0
+    return int(s)
 
 def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/output_data/timelines/"):
     """ Create a data frame of all twitter information for a single user
@@ -87,8 +93,14 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
     tweet_user_lang                                 = [tweet["user"]["lang"] for tweet in timelines]
 
     # Define custom datetime variables
-    tweet_created_at_datetime                       = [datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y').timetuple() for time in tweet_created_at]
-    tweet_user_created_at_datetime                  = [datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y').timetuple() for time in tweet_user_created_at]
+    #tweet_created_at_datetime                       = [datetime.datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y').timetuple() for time in tweet_created_at]
+    tweet_created_at_datetime_offset                = [(datetime.datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y')
+                                                        + datetime.timedelta(0, xstr(tweet_user_utc_offset[0]))).strftime('%a %b %d %H:%M:%S %z %Y')
+                                                        for time in tweet_created_at]
+    #tweet_user_created_at_datetime                  = [datetime.datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y').timetuple() for time in tweet_user_created_at]
+    tweet_user_created_at_datetime_offset           = [(datetime.datetime.strptime(time,'%a %b %d %H:%M:%S %z %Y')
+                                                        + datetime.timedelta(0, xstr(tweet_user_utc_offset[0]))).strftime('%a %b %d %H:%M:%S %z %Y')
+                                                        for time in tweet_user_created_at]
 
     twitter_tl_df =   pd.DataFrame({'tweet_retweeted'  : tweet_retweeted,
                                     'tweet_in_reply_to_user_id_str' : tweet_in_reply_to_user_id_str,
@@ -153,8 +165,8 @@ def create_twitter_timeline_DataFrame(screen_name, timeline_data_dir = "../data/
                                     'tweet_user_url' : tweet_user_url,
                                     'tweet_user_contributors_enabled' : tweet_user_contributors_enabled,
                                     'tweet_user_lang' : tweet_user_lang,
-                                    'tweet_created_at_datetime' : tweet_created_at_datetime,
-                                    'tweet_user_created_at_datetime' : tweet_user_created_at_datetime
+                                    'tweet_created_at_datetime_offset' : tweet_created_at_datetime_offset,
+                                    'tweet_user_created_at_datetime_offset' : tweet_user_created_at_datetime_offset
                                    })
     return twitter_tl_df
 
