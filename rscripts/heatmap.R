@@ -34,7 +34,7 @@ library(ggplot2)
 #heatmap full version
 full_heat_map=ggplot(agg.heat, aes(Hour, DoW)) +
   geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = "blue",high = "red1")
-
+full_heat_map
 #weekend heatmap
 heatmap.df.weekend=heatmap.df[combined_timelines$is.weekend,]
 colnames(heatmap.df.weekend)=c('DoW','Hour')
