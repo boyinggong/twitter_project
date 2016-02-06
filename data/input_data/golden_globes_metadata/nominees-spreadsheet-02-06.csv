@@ -1,6 +1,6 @@
 FILM_FLAG,CATEGORY,NOMINEE,PERSON_FLAG,RELATED_FILM_SHOW,TWITTER_SCREEN_NAME,MOVIE_RELEASE_DATE,OFFICIAL_MOVIE_HASTAG,ACTOR_BIRTHDATE,ACTOR_AGE,WINNER_FLAG,GENDER_FLAG,NOMINEE_FLAG
-0,Best Actor in a Limited-Series or TV Movie,Idris Elba,1,Luther,idriselba,,,,,L,M,1
-0,Best Actor in a Limited-Series or TV Movie,Patrick Wilson,1,Fargo,patrickwilson73,,,,,L,M,1
+0,Best Actor in a Limited-Series or TV Movie,Idris Elba,1,Luther,idriselba,,,9/6/1972,43,L,M,1
+0,Best Actor in a Limited-Series or TV Movie,Patrick Wilson,1,Fargo,patrickwilson73,,,7/3/1973,42,L,M,1
 0,Best Actor in a Limited-Series or TV Movie,Oscar Isaac,1,Show Me a Hero,,,,,,W,M,1
 0,Best Actor in a Limited-Series or TV Movie,David Oyelowo,1,Nightingale,,,,,,L,M,1
 0,Best Actor in a Limited-Series or TV Movie,Mark Rylance,1,Wolf Hall,,,,,,L,M,1
@@ -14,21 +14,21 @@ FILM_FLAG,CATEGORY,NOMINEE,PERSON_FLAG,RELATED_FILM_SHOW,TWITTER_SCREEN_NAME,MOV
 1,Best Actor in a Motion Picture – Drama,Will Smith,1,Concussion,,12/25/2015,ConcussionMovie,9/25/1968,47,L,M,1
 1,Best Actor in a Motion Picture – Drama,Bryan Cranston,1,Trumbo,BryanCranston,11/6/2015,Trumbo,3/7/1956,59,L,M,1
 1,Best Actor in a Motion Picture – Drama,Leonardo DiCaprio,1,The Revenant,LeoDiCaprio,12/25/2015,TheRevenant,11/11/1974,41,W,M,1
-0,Best Actor in a TV Series – Comedy,Aziz Ansari,1,Master of None,azizansari,,,,,L,M,1
-0,Best Actor in a TV Series – Comedy,Rob Lowe,1,The Grinder,RobLowe,,,,,L,M,1
-0,Best Actor in a TV Series – Comedy,Patrick Stewart,1,Blunt Talk,SirPatStew,,,,,L,M,1
-0,Best Actor in a TV Series – Comedy,Jeffrey Tambor,1,Transparent,jeffreytambor,,,,,L,M,1
+0,Best Actor in a TV Series – Comedy,Aziz Ansari,1,Master of None,azizansari,,,2/23/1983,32,L,M,1
+0,Best Actor in a TV Series – Comedy,Rob Lowe,1,The Grinder,RobLowe,,,3/17/1964,51,L,M,1
+0,Best Actor in a TV Series – Comedy,Patrick Stewart,1,Blunt Talk,SirPatStew,,,7/13/1940,75,L,M,1
+0,Best Actor in a TV Series – Comedy,Jeffrey Tambor,1,Transparent,jeffreytambor,,,7/8/1944,71,L,M,1
 0,Best Actor in a TV Series – Comedy,Gael Garcia Bernal,1,Mozart in the Jungle,,,,,,W,M,1
-0,Best Actor in a TV Series – Drama,Rami Malek,1,Mr. Robot,ItsRamiMalek,,,,,L,M,1
-0,Best Actor in a TV Series – Drama,Bob Odenkirk,1,Better Call Saul,mrbobodenkirk,,,,,L,M,1
-0,Best Actor in a TV Series – Drama,Liev Schreiber,1,Ray Donovan,LievSchreiber,,,,,L,M,1
+0,Best Actor in a TV Series – Drama,Rami Malek,1,Mr. Robot,ItsRamiMalek,,,5/12/1981,34,L,M,1
+0,Best Actor in a TV Series – Drama,Bob Odenkirk,1,Better Call Saul,mrbobodenkirk,,,10/22/1962,53,L,M,1
+0,Best Actor in a TV Series – Drama,Liev Schreiber,1,Ray Donovan,LievSchreiber,,,10/4/1967,48,L,M,1
 0,Best Actor in a TV Series – Drama,Jon Hamm,1,Mad Men,,,,,,W,M,1
 0,Best Actor in a TV Series – Drama,Wagner Moura,1,Narcos,,,,,,L,M,1
-0,Best Actress in a Limited-Series or TV Movie,Kirsten Dunst,1,Fargo,kirstendunst,,,,,L,F,1
-0,Best Actress in a Limited-Series or TV Movie,Lady Gaga,1,American Horror Story: Hotel,ladygaga,,,,,W,F,1
-0,Best Actress in a Limited-Series or TV Movie,Sarah Hay,1,Flesh & Bone,SarahEllenHay,,,,,L,F,1
-0,Best Actress in a Limited-Series or TV Movie,Felicity Huffman,1,American Crime,FelicityHuffman,,,,,L,F,1
-0,Best Actress in a Limited-Series or TV Movie,Queen Latifah,1,Bessie,IAMQUEENLATIFAH,,,,,L,F,1
+0,Best Actress in a Limited-Series or TV Movie,Kirsten Dunst,1,Fargo,kirstendunst,,,4/30/1982,33,L,F,1
+0,Best Actress in a Limited-Series or TV Movie,Lady Gaga,1,American Horror Story: Hotel,ladygaga,,,3/28/1986,29,W,F,1
+0,Best Actress in a Limited-Series or TV Movie,Sarah Hay,1,Flesh & Bone,SarahEllenHay,,,10/5/1987,28,L,F,1
+0,Best Actress in a Limited-Series or TV Movie,Felicity Huffman,1,American Crime,FelicityHuffman,,,12/9/1962,53,L,F,1
+0,Best Actress in a Limited-Series or TV Movie,Queen Latifah,1,Bessie,IAMQUEENLATIFAH,,,3/18/1970,45,L,F,1
 1,Best Actress in a Motion Picture – Comedy,Jennifer Lawrence,1,Joy,,12/25/2015,JoyMovie,8/15/1990,25,W,F,1
 1,Best Actress in a Motion Picture – Comedy,Maggie Smith,1,The Lady in the Van,,12/4/2015,TheLadyInTheVan,12/28/1934,81,L,F,1
 1,Best Actress in a Motion Picture – Comedy,Melissa McCarthy,1,Spy,melissamccarthy,6/5/2015,SpyMovie,8/26/1970,45,L,F,1
@@ -39,15 +39,15 @@ FILM_FLAG,CATEGORY,NOMINEE,PERSON_FLAG,RELATED_FILM_SHOW,TWITTER_SCREEN_NAME,MOV
 1,Best Actress in a Motion Picture – Drama,Saoirse Ronan,1,Brooklyn,,11/4/2015,,4/12/1994,21,L,F,1
 1,Best Actress in a Motion Picture – Drama,Alicia Vikander,1,The Danish Girl,,11/27/2015,TheDanishGirl,10/3/1988,27,L,F,1
 1,Best Actress in a Motion Picture – Drama,Brie Larson,1,Room,brielarson,9/4/2015,RoomMovie,10/1/1989,26,W,F,1
-0,Best Actress in a TV Series – Comedy,Rachel Bloom,1,Crazy Ex Girlfriend,Racheldoesstuff,,,,,W,F,1
-0,Best Actress in a TV Series – Comedy,Jamie Lee Curtis,1,Scream Queens,jamieleecurtis,,,,,L,F,1
-0,Best Actress in a TV Series – Comedy,Julia Louis-Dreyfus,1,Veep,OfficialJLD,,,,,L,F,1
-0,Best Actress in a TV Series – Comedy,Gina Rodriguez,1,Jane the Virgin,HereIsGina,,,,,L,F,1
-0,Best Actress in a TV Series – Comedy,Lily Tomlin,1,Grace & Frankie,LilyTomlin,,,,,L,F,1
-0,Best Actress in a TV Series – Drama,Caitriona Balfe,1,Outlander,caitrionambalfe,,,,,L,F,1
-0,Best Actress in a TV Series – Drama,Viola Davis,1,How to Get Away With Murder,violadavis,,,,,L,F,1
-0,Best Actress in a TV Series – Drama,Taraji P. Henson,1,Empire,TherealTaraji,,,,,W,F,1
-0,Best Actress in a TV Series – Drama,Robin Wright,1,House of Cards,realrobinwright,,,,,L,F,1
+0,Best Actress in a TV Series – Comedy,Rachel Bloom,1,Crazy Ex Girlfriend,Racheldoesstuff,,,4/3/1987,28,W,F,1
+0,Best Actress in a TV Series – Comedy,Jamie Lee Curtis,1,Scream Queens,jamieleecurtis,,,11/22/1958,57,L,F,1
+0,Best Actress in a TV Series – Comedy,Julia Louis-Dreyfus,1,Veep,OfficialJLD,,,1/13/1961,55,L,F,1
+0,Best Actress in a TV Series – Comedy,Gina Rodriguez,1,Jane the Virgin,HereIsGina,,,7/30/1984,31,L,F,1
+0,Best Actress in a TV Series – Comedy,Lily Tomlin,1,Grace & Frankie,LilyTomlin,,,9/1/1939,76,L,F,1
+0,Best Actress in a TV Series – Drama,Caitriona Balfe,1,Outlander,caitrionambalfe,,,10/4/1979,36,L,F,1
+0,Best Actress in a TV Series – Drama,Viola Davis,1,How to Get Away With Murder,violadavis,,,8/11/1965,50,L,F,1
+0,Best Actress in a TV Series – Drama,Taraji P. Henson,1,Empire,TherealTaraji,,,9/11/1970,45,W,F,1
+0,Best Actress in a TV Series – Drama,Robin Wright,1,House of Cards,realrobinwright,,,4/8/1966,49,L,F,1
 0,Best Actress in a TV Series – Drama,Eva Green,1,Penny Dreadful,,,,,,L,F,1
 1,Best Animated Feature Film,Inside Out,0,Inside Out,PixarInsideOut,6/19/2015,InsideOut,,,W,,1
 1,Best Animated Feature Film,Shaun the Sheep Movie,0,Shaun the Sheep Movie,shaunthesheep,8/5/2015,ShauntheSheepMovie,,,L,,1
@@ -76,10 +76,10 @@ FILM_FLAG,CATEGORY,NOMINEE,PERSON_FLAG,RELATED_FILM_SHOW,TWITTER_SCREEN_NAME,MOV
 1,Best Motion Picture – Foreign Language,The Fencer,0,The Fencer,TheFencerMovie,3/13/2015,TheFencer,,,L,,1
 1,Best Motion Picture – Foreign Language,Son of Saul,0,Son of Saul,sonofsaulfilm,12/18/2015,SonOfSaul,,,W,,1
 1,Best Original Score,Alexandre Desplat,1,The Danish Girl,,11/27/2015,TheDanishGirl,,,L,M,1
-1,Best Original Score,Carter Burwell,1,Carol,carterburwell,11/20/2015,CarolMovie,,,L,M,1
-1,Best Original Score,Ennio Morricone,1,The Hateful Eight,MEnnioMorricone,12/25/2015,TheHatefulEight,,,W,M,1
-1,Best Original Score,Daniel Pemberton,1,Steve Jobs,DANIELPEMBERTON,10/9/2015,SteveJobsMovie,,,L,M,1
-1,Best Original Score,Ryuichi Sakamoto Alva Noto,1,The Revenant,ryuichisakamoto,12/25/2015,TheRevenant,,,L,M,1
+1,Best Original Score,Carter Burwell,1,Carol,carterburwell,11/20/2015,CarolMovie,11/18/1954,61,L,M,1
+1,Best Original Score,Ennio Morricone,1,The Hateful Eight,MEnnioMorricone,12/25/2015,TheHatefulEight,11/10/1928,87,W,M,1
+1,Best Original Score,Daniel Pemberton,1,Steve Jobs,DANIELPEMBERTON,10/9/2015,SteveJobsMovie,11/3/1977,38,L,M,1
+1,Best Original Score,Ryuichi Sakamoto Alva Noto,1,The Revenant,ryuichisakamoto,12/25/2015,TheRevenant,1/17/1952,64,L,M,1
 1,Best Original Song,One Kind of Love ,0,Love & Mercy,,12/26/2014,LoveandMercy,,,L,,1
 1,Best Original Song,Love Me Like You Do,0,Fifty Shades of Grey,,2/13/2015,FiftyShades,,,L,,1
 1,Best Original Song,See You Again ,0,Furious 7,,4/3/2015,Furious7,,,L,,1
@@ -91,26 +91,26 @@ FILM_FLAG,CATEGORY,NOMINEE,PERSON_FLAG,RELATED_FILM_SHOW,TWITTER_SCREEN_NAME,MOV
 1,Best Screenplay – Motion Picture,Aaron Sorkin,1,Steve Jobs,,10/9/2015,SteveJobsMovie,6/9/1961,54,W,M,1
 1,Best Screenplay – Motion Picture,Quentin Tarantino,1,The Hateful Eight,,12/25/2015,TheHatefulEight,3/27/1963,52,L,M,1
 1,Best Screenplay – Motion Picture,Emma Donoghue,1,Room,EDonoghueWriter,9/4/2015,RoomMovie,10/24/1969,46,L,F,1
-1,Best Screenplay – Motion Picture,Adam McKay,1,The Big Short,GhostPanther,12/11/2015,TheBigShort,,,L,M,1
+1,Best Screenplay – Motion Picture,Adam McKay,1,The Big Short,GhostPanther,12/11/2015,TheBigShort,4/17/1968,47,L,M,1
 1,Best Supporting Actor in a Motion Picture,Paul Dano,1,Love & Mercy,,12/26/2014,LoveandMercy,6/19/1984,31,L,M,1
 1,Best Supporting Actor in a Motion Picture,Mark Rylance,1,Bridge of Spies,,10/4/2015,BridgeOfSpies,1/18/1960,56,L,M,1
 1,Best Supporting Actor in a Motion Picture,Michael Shannon,1,99 Homes,,9/25/2015,99Homes,8/7/1974,41,L,M,1
 1,Best Supporting Actor in a Motion Picture,Idris Elba,1,Beasts of No Nation,idriselba,10/16/2015,beastOfNoNation,9/6/1972,43,L,M,1
 1,Best Supporting Actor in a Motion Picture,Sylvester Stallone,1,Creed,TheSlyStallone,11/25/2015,CREED,7/6/1946,69,W,M,1
-0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Alan Cumming,1,The Good Wife,Alancumming,,,,,L,M,1
-0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Tobias Menzies,1,Outlander,TobiasMenzies,,,,,L,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Alan Cumming,1,The Good Wife,Alancumming,,,1/27/1965,51,L,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Tobias Menzies,1,Outlander,TobiasMenzies,,,3/7/1974,41,L,M,1
 0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Damian Lewis,1,Wolf Hall,,,,,,L,M,1
 0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Ben Mendelsohn,1,Bloodline,,,,,,L,M,1
-0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Christian Slater,1,Mr. Robot,ChristianSlater,,,,,W,M,1
+0,"Best Supporting Actor in a Series, Limited-Series or TV Movie",Christian Slater,1,Mr. Robot,ChristianSlater,,,8/18/1969,46,W,M,1
 1,Best Supporting Actress in a Motion Picture,Jennifer Jason Leigh,1,The Hateful Eight,,12/25/2015,TheHatefulEight,2/5/1962,53,L,F,1
 1,Best Supporting Actress in a Motion Picture,Helen Mirren,1,Trumbo,,11/6/2015,Trumbo,7/26/1945,70,L,F,1
 1,Best Supporting Actress in a Motion Picture,Alicia Vikander,1,Ex Machina,,4/10/2015,ExMachina,10/3/1988,27,L,F,1
 1,Best Supporting Actress in a Motion Picture,Kate Winslet,1,Steve Jobs,,10/9/2015,SteveJobsMovie,10/5/1975,40,W,F,1
 1,Best Supporting Actress in a Motion Picture,Jane Fonda,1,Youth,Janefonda,12/4/2015,theYouth,12/21/1937,78,L,F,1
-0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Uzo Aduba,1,Orange is the New Black,UzoAduba,,,,,L,F,1
-0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Joanne Froggatt,1,Downton Abbey,JoFroggatt,,,,,L,F,1
-0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Regina King,1,American Crime,ReginaKing,,,,,L,F,1
-0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Judith Light,1,Transparent,JudithLight,,,,,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Uzo Aduba,1,Orange is the New Black,UzoAduba,,,2/10/1981,34,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Joanne Froggatt,1,Downton Abbey,JoFroggatt,,,8/24/1980,35,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Regina King,1,American Crime,ReginaKing,,,1/15/1971,45,L,F,1
+0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Judith Light,1,Transparent,JudithLight,,,2/9/1949,66,L,F,1
 0,"Best Supporting Actress in a Series, Limited-Series, or TV Movie",Maura Tierney,1,The Affair,,,,,,W,F,1
 0,Best TV Movie or Limited-Series,American Crime,0,American Crime,AmericanCrimeTV,,,,,L,,1
 0,Best TV Movie or Limited-Series,American Horror Story: Hotel,0,American Horror Story: Hotel,AHSFX,,,,,L,,1
