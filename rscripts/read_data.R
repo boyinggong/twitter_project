@@ -13,12 +13,17 @@ packages <- c("ggplot2", "dplyr", "readr", "stringr")
 ipak(packages)
 
 # The date of the CSV files
-timeline_CSV_date = "20160204" # UPDATE
+timeline_CSV_date = "20160205" # UPDATE
 metadata_CSV_date = "02-04"    # UPDATE
 
 # Read in the timelines dataset
 timelines           <- read.csv(file.path("../data/output_data/timelines/CSV"
                                           , str_c("all_concat_timelines_", timeline_CSV_date, ".csv"))
+                                , header = TRUE
+                                , stringsAsFactors = FALSE)
+
+nominees_metadata   <- read.csv(file.path("../data/input_data/golden_globes_metadata"
+                                          , str_c("nominees-spreadsheet-", metadata_CSV_date, ".csv"))
                                 , header = TRUE
                                 , stringsAsFactors = FALSE)
 
