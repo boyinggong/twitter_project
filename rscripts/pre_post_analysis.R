@@ -45,7 +45,8 @@ pre_post_plot <- function(VALUE, median_flag = TRUE){
     }
     return(out)
   }
-
+  
+  
   my_plot <- function(data, title, median_flag){
     if(median_flag){
       title2 <- " (median)"
@@ -53,6 +54,7 @@ pre_post_plot <- function(VALUE, median_flag = TRUE){
       title2 <- " (mean)"
     }
     
+
     p1 <- ggplot(data = data, aes(x = tweet_time_lag_days, y = tweet_retweet_count),
                  environment = environment())
     p2 <- p1 + geom_line(aes_string(color = "WINNER_FLAG")) +
@@ -76,6 +78,22 @@ pre_post_plot <- function(VALUE, median_flag = TRUE){
   }
   
   data.grouped <- aggregate_by(median_flag)
+  data.grouped <- data.grouped %>% mutate(pre_post_flag = ifelse(tweet_time_lag_days>0, 1, 0))
+  data.grouped <- data.grouped %>% mutate(pre_post_flag = ifelse(tweet_time_lag_days>0, 1, 0))
+  means <- data.grouped %>% group_by(WINNER_FLAG, pre_post_flag) %>%
+    summarise(mean(tweet_retweet_count),mean(tweet_favorite_count),
+              mean(tweet_count_each_day), mean(tweet_length))
+  means <- as.data.frame(means)
+  data.grouped <- data.grouped %>% rowwise() %>% 
+    mutate(retweet_mean = means[which(means$WINNER_FLAG == WINNER_FLAG &
+                                        means$pre_post_flag == pre_post_flag),3],
+           favorite_mean = means[which(means$WINNER_FLAG == WINNER_FLAG &
+                                         means$pre_post_flag == pre_post_flag),4],
+           count_mean = means[which(means$WINNER_FLAG == WINNER_FLAG &
+                                      means$pre_post_flag == pre_post_flag),5],
+           length_mean = means[which(means$WINNER_FLAG == WINNER_FLAG &
+                                       means$pre_post_flag == pre_post_flag),6])
+  
   if(VALUE == "M"){
     title <- "Male Winners vs Male Losers"
   }else{
