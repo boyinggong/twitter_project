@@ -158,7 +158,7 @@ JH_tweet_power_profile_plot=function(people){
   profileplot=ggplot(profile,aes(x=as.factor(type),y=value,fill=as.factor(group)))+
     geom_bar(position = position_dodge(),stat = 'identity')+
     coord_flip()+
-    scale_fill_manual(values=c("royalblue1", "red1")) + 
+    scale_fill_manual(values=c("#599ad3", "#f9a65a")) + 
     ggtitle("Profile Plot") +
     ylab("Proportion in Each Group") + 
     xlab("Categories of Interest") + 
