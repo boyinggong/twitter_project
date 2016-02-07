@@ -4,7 +4,12 @@
 #Load In Packages
 ###########################################
 #source('./read_data.R')
+#install.packages('ggplot2')
+#install.packages('grid')
+#install.packages('gridExtra')
 library(ggplot2)
+library(grid)
+library(gridExtra)
 
 ###########################################
 #Function 1: manipulate dataframe
@@ -18,6 +23,8 @@ JH_dataframe_addcolumn=function(combined_timelines){
   combined_timelines$is.morning=as.logical((combined_timelines$hour<12)-(combined_timelines$hour<6))
   combined_timelines$is.afternoon=as.logical((combined_timelines$hour<18)-(combined_timelines$hour<12))
   combined_timelines$is.evening=as.logical((combined_timelines$hour<24)-(combined_timelines$hour<18))
+  combined_timelines$is.female=(combined_timelines$GENDER_FLAG=='F')
+  combined_timelines$is.male=(combined_timelines$GENDER_FLAG=='M')
   return(combined_timelines)
 }
 
@@ -25,7 +32,7 @@ JH_dataframe_addcolumn=function(combined_timelines){
 #Function 2: heatmap dataframe generation
 ###########################################
 JH_heatmap_df_generation=function(combined_timelines){
-  heatmap.df=data_frame(combined_timelines$weekday,combined_timelines$hour)
+  heatmap.df=data.frame(combined_timelines$weekday,combined_timelines$hour)
   colnames(heatmap.df)=c('DoW','Hour')
   heatmap.df['count']=rep(1,length((heatmap.df$DoW)))
   agg.heat <-aggregate(count~DoW+Hour,heatmap.df,sum)
