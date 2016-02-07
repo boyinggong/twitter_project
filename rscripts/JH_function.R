@@ -38,7 +38,15 @@ JH_heatmap_df_generation=function(combined_timelines){
 JH_heatmap_plot=function(agg.heat){
   #heatmap full version
   heat_map=ggplot(agg.heat, aes(Hour, DoW)) +
-    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = "blue",high = "red1")
+    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = "blue",high = "red1") + 
+    ylab("Day of the week") + 
+    xlab("Hour of the day") + 
+    theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
+    theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
+    theme(axis.title.x = element_text(size = rel(1.8), angle = 00))
+  
   return(heat_map)
 }
 
@@ -110,7 +118,16 @@ JH_tweet_power_scatter_plot=function(people){
   dotplotspower=ggplot(people, aes(ttenure, power)) + 
     geom_point(aes(colour = factor(factor)), size = 4) + 
     geom_vline(xintercept = tenure.splitup,color='red') + 
-    geom_hline(yintercept = 4.9,color='red')
+    geom_hline(yintercept = 4.9,color='red') + 
+    ggtitle("Scatter Plot for Tweet Power VS Tweet Tenure") +
+    ylab("Tweet Power") + 
+    xlab("Tweet Tenure") + 
+    theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
+    theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
+    theme(axis.title.x = element_text(size = rel(1.8), angle = 00))
+  
   return(dotplotspower)
 }
 
@@ -134,6 +151,16 @@ JH_tweet_power_profile_plot=function(people){
   profileplot=ggplot(profile,aes(x=as.factor(type),y=value,fill=as.factor(group)))+
     geom_bar(position = position_dodge(),stat = 'identity')+
     coord_flip()+
-    scale_fill_manual(values=c("royalblue1", "red1"))
+    scale_fill_manual(values=c("royalblue1", "red1")) + 
+    ggtitle("Profile Plot") +
+    ylab("Proportion in Each Group") + 
+    xlab("Categories of Interest") + 
+    theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
+    theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
+    theme(axis.title.x = element_text(size = rel(1.8), angle = 00))
+  
+  
   return(profileplot)
 }
