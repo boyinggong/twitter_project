@@ -1,9 +1,12 @@
+## ---- followPlot ----
 library(dplyr)
 library(ggplot2)
 
 ## Pull in the data
-source("read_data.R")
+##source("read_data.R")
 
+
+combined <- combined_timelines
 combined$tweet_user_followers_count <- as.numeric(combined$tweet_user_followers_count)
 combined$tweet_user_friends_count <- as.numeric(combined$tweet_user_friends_count)
 follow_columns <- c("tweet_user_screen_name",
@@ -43,11 +46,11 @@ p
 
 
 ## not sure if this plot is very interesting
-p <- ggplot(data = filter(follow, tweet_user_friends_count < 40000 &
-                            grepl("Best Actress", CATEGORY)),
-            aes(x = tweet_user_followers_count,
-                y = tweet_user_friends_count,
-                color = WINNER_FLAG))
-p <- p + geom_point()
-#p <- p + facet_wrap(~CATEGORY) + scale_y_log10()
-p
+# p <- ggplot(data = filter(follow, tweet_user_friends_count < 40000 &
+#                             grepl("Best Actress", CATEGORY)),
+#             aes(x = tweet_user_followers_count,
+#                 y = tweet_user_friends_count,
+#                 color = WINNER_FLAG))
+# p <- p + geom_point()
+# #p <- p + facet_wrap(~CATEGORY) + scale_y_log10()
+# p

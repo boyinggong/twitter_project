@@ -57,3 +57,21 @@ JH_tweet_power_scatter_plot(people)
 JH_tweet_power_profile_plot(people)
 ```
 
+## Peter Slide 1
+```{r, echo = FALSE, message = FALSE}
+knitr::read_chunk("similarity_plots.R")
+```
+
+```{r setupSimilarity, echo = FALSE, cache = TRUE}
+```
+
+```{r similarityHist, echo = FALSE, cache = TRUE}
+```
+
+## Peter Slide 2
+```{r similarityBar, echo = FALSE, cache = TRUE}
+```
+
+## Peter Slide 3
+```{r followPlot, echo = FALSE, cache = TRUE}
+```
