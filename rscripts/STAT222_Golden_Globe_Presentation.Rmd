@@ -92,9 +92,9 @@ JH_tweet_power_profile_plot(people)
 ```
 
 ## Peter Slide 1
-```{r, echo = FALSE, message = FALSE}
-#knitr::read_chunk("similarity_plots.R")
-#knitr::read_chunk("follow_plots.R")
+```{r, echo = FALSE, message = FALSE, warning=FALSE}
+knitr::read_chunk("similarity_plots.R")
+knitr::read_chunk("follow_plots.R")
 
 ```
 
@@ -113,19 +113,21 @@ JH_tweet_power_profile_plot(people)
 ```
 
 ## Peter Slide 4
+```{r followProfiling, echo = FALSE, cache = TRUE}
+```
 
 ## Tomofumi Slide 1
 
 ```{r,echo=FALSE,message=FALSE,warning=F}
-source('./pre_post_analysis.R')
-source("./pre_post_function.R")
-combined_timelines <- pre_post_modify(combined_timelines)
-pre_post_plot("M", median_flag = FALSE)
+# source('./pre_post_analysis.R')
+# source("./pre_post_function.R")
+# combined_timelines <- pre_post_modify(combined_timelines)
+# pre_post_plot("M", median_flag = FALSE)
 ```
 
 ## Tomofumi Slide 2
 
 ```{r,echo=FALSE,message=FALSE,warning=F}
-pre_post_plot("F", median_flag = FALSE)
+# pre_post_plot("F", median_flag = FALSE)
 ```
 
