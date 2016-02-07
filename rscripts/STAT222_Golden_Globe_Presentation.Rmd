@@ -45,10 +45,10 @@ agg.heatma=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.mal
 p1=JH_heatmap_plot(agg.heatfe)
 p2=JH_heatmap_plot(agg.heatma)
 grid.arrange(p1 + ggtitle("Female Tweets Heatmap"),
-             p2 + ggtitle("Male Tweets Heatmap"),
-             nrow=2,
-             top = textGrob("Heatmap For Tweet Density",
-             gp = gpar(fontsize=29)) 
+             p2 + ggtitle("Male Tweets Heatmap"),
+             nrow=2,
+             top = textGrob("Heatmap For Tweet Density",
+             gp = gpar(fontsize=29)) 
 )
 
 
@@ -70,6 +70,7 @@ JH_tweet_power_profile_plot(people)
 ## Peter Slide 1
 ```{r, echo = FALSE, message = FALSE}
 knitr::read_chunk("similarity_plots.R")
+knitr::read_chunk("follow_plots.R")
 ```
 
 ```{r setupSimilarity, echo = FALSE, cache = TRUE}
@@ -85,3 +86,5 @@ knitr::read_chunk("similarity_plots.R")
 ## Peter Slide 3
 ```{r followPlot, echo = FALSE, cache = TRUE}
 ```
+
+## Peter Slide 4
