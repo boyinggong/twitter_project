@@ -116,6 +116,34 @@ knitr::read_chunk("follow_plots.R")
 ```{r followProfiling, echo = FALSE, cache = TRUE}
 ```
 
+## Boying Slide 1
+
+```{r,echo=FALSE, message=FALSE, cache = TRUE}
+source("./BG_plotting_functions.R")
+ordered_retweet_count <- mentioned_dataframe(combined_timelines)
+mentioned_retweet(ordered_retweet_count)
+```
+
+## Boying Slide 2
+
+```{r,echo=FALSE,message=FALSE, cache = TRUE}
+mention_plot(ordered_retweet_count, IS_PERSON = TRUE)
+```
+
+## Boying Slide 3
+
+![My Figure](../plots/domain_plot.png)
+
+```{r,echo=FALSE,message=FALSE, cache = TRUE}
+
+```
+
+## Boying Slide 4
+
+```{r,echo=FALSE,message=FALSE, cache = TRUE}
+
+```
+
 ## Tomofumi Slide 1
 
 ```{r,echo=FALSE,message=FALSE,warning=F}
