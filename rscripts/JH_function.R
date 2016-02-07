@@ -3,13 +3,19 @@
 ###########################################
 #Load In Packages
 ###########################################
+#source('./read_data.R')
+#install.packages('ggplot2')
+#install.packages('grid')
+#install.packages('gridExtra')
 library(ggplot2)
+library(grid)
+library(gridExtra)
 
 ###########################################
 #Function 1: manipulate dataframe
 ###########################################
 JH_dataframe_addcolumn=function(combined_timelines){
-  x=strptime(combined_timelines$tweet_created_at_datetime_offset,'%a %b %d %H:%M:%S %z %Y')
+  x=strptime(combined_timelines$tweet_created_at,'%a %b %d %H:%M:%S %z %Y')
   combined_timelines$weekday=format(x,'%u%a')
   combined_timelines$hour=as.integer(format(x,'%H'))
   combined_timelines$is.weekend=as.logical((combined_timelines$weekday=='7Sun')+(combined_timelines$weekday=='6Sat'))
@@ -17,21 +23,43 @@ JH_dataframe_addcolumn=function(combined_timelines){
   combined_timelines$is.morning=as.logical((combined_timelines$hour<12)-(combined_timelines$hour<6))
   combined_timelines$is.afternoon=as.logical((combined_timelines$hour<18)-(combined_timelines$hour<12))
   combined_timelines$is.evening=as.logical((combined_timelines$hour<24)-(combined_timelines$hour<18))
+  combined_timelines$is.female=(combined_timelines$GENDER_FLAG=='F')
+  combined_timelines$is.male=(combined_timelines$GENDER_FLAG=='M')
   return(combined_timelines)
 }
+
+###########################################
+#Function 2: heatmap dataframe generation
+###########################################
 JH_heatmap_df_generation=function(combined_timelines){
-  heatmap.df=data_frame(combined_timelines$weekday,combined_timelines$hour)
+  heatmap.df=data.frame(combined_timelines$weekday,combined_timelines$hour)
   colnames(heatmap.df)=c('DoW','Hour')
   heatmap.df['count']=rep(1,length((heatmap.df$DoW)))
   agg.heat <-aggregate(count~DoW+Hour,heatmap.df,sum)
   return(agg.heat)
 }
+
+###########################################
+#Function 3: heatmap plot
+###########################################
 JH_heatmap_plot=function(agg.heat){
   #heatmap full version
   heat_map=ggplot(agg.heat, aes(Hour, DoW)) +
-    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = "blue",high = "red1")
+    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = "blue",high = "red1") + 
+    ylab("Day of the week") + 
+    xlab("Hour of the day") + 
+    theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
+    theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
+    theme(axis.title.x = element_text(size = rel(1.8), angle = 00))
+  
   return(heat_map)
 }
+
+###########################################
+#Function 4: people dataframe generation
+###########################################
 JH_tweet_power_df_generation=function(combined_timelines,nominees_metadata){
   people.list=nominees_metadata$TWITTER_SCREEN_NAME[as.logical(nominees_metadata$PERSON_FLAG)]
   people.createdat=rep('',length(people.list))
@@ -87,28 +115,59 @@ JH_tweet_power_df_generation=function(combined_timelines,nominees_metadata){
   people$age=combined_timelines[people$index,]$ACTOR_AGE
   return(people)
 }
+
+###########################################
+#Function 5: scatter plot
+###########################################
 JH_tweet_power_scatter_plot=function(people){
-  dotplotspower=ggplot(people, aes(ttenure, power))+geom_point(aes(colour = factor(factor)), size = 4)
+  tenure.splitup=mean(c(max(people$ttenure),min(people$ttenure)))
+  power.splitup=4.9
+  dotplotspower=ggplot(people, aes(ttenure, power)) + 
+    geom_point(aes(colour = factor(factor)), size = 4) + 
+    geom_vline(xintercept = tenure.splitup,color='red') + 
+    geom_hline(yintercept = 4.9,color='red') + 
+    ggtitle("Scatter Plot for Tweet Power VS Tweet Tenure") +
+    ylab("Tweet Power") + 
+    xlab("Tweet Tenure") + 
+    theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
+    theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
+    theme(axis.title.x = element_text(size = rel(1.8), angle = 00))
+  
   return(dotplotspower)
 }
+
+###########################################
+#Function 6: profile plot
+###########################################
 JH_tweet_power_profile_plot=function(people){
-  profile=data.frame('group'=rep(c('Old and Weak','Young and Powerful'),6))
-  profile$type=c('age','age','male','male','female','female','winner','winner','tv','tv','film','film')
+  profile=data.frame('group'=rep(c('Old and Weak','Young and Powerful'),4))
+  profile$type=c('age','age','female','female','winner','winner','tv','tv')
   profile$value=c(
-    mean(people$age[as.logical((1-people$tenuresplit)*(people$powersplit))])/100,
-    mean(people$age[as.logical((people$tenuresplit)*(1-people$powersplit))])/100,
-    mean(people$male[as.logical((1-people$tenuresplit)*(people$powersplit))]),
-    mean(people$male[as.logical((people$tenuresplit)*(1-people$powersplit))]),
+    mean(people$age[as.logical((1-people$tenuresplit)*(people$powersplit))])/80,
+    mean(people$age[as.logical((people$tenuresplit)*(1-people$powersplit))])/80,
     mean(people$female[as.logical((1-people$tenuresplit)*(people$powersplit))]),
     mean(people$female[as.logical((people$tenuresplit)*(1-people$powersplit))]),
     mean(people$winner[as.logical((1-people$tenuresplit)*(people$powersplit))]),
     mean(people$winner[as.logical((people$tenuresplit)*(1-people$powersplit))]),
     mean((1-people$TVFILM)[as.logical((1-people$tenuresplit)*(people$powersplit))]),
-    mean((1-people$TVFILM)[as.logical((people$tenuresplit)*(1-people$powersplit))]),
-    mean(people$TVFILM[as.logical((1-people$tenuresplit)*(people$powersplit))]),
-    mean(people$TVFILM[as.logical((people$tenuresplit)*(1-people$powersplit))])
+    mean((1-people$TVFILM)[as.logical((people$tenuresplit)*(1-people$powersplit))])
   )
   
-  profileplot=ggplot(profile,aes(x=as.factor(type),y=value,fill=as.factor(group)))+geom_bar(position = position_dodge(),stat = 'identity')+coord_flip()+scale_fill_manual(values=c("blue1", "red1"))
+  profileplot=ggplot(profile,aes(x=as.factor(type),y=value,fill=as.factor(group)))+
+    geom_bar(position = position_dodge(),stat = 'identity')+
+    coord_flip()+
+    scale_fill_manual(values=c("royalblue1", "red1")) + 
+    ggtitle("Profile Plot") +
+    ylab("Proportion in Each Group") + 
+    xlab("Categories of Interest") + 
+    theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
+    theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
+    theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
+    theme(axis.title.x = element_text(size = rel(1.8), angle = 00))
+  
+  
   return(profileplot)
 }
