@@ -47,10 +47,10 @@ agg.heat=JH_heatmap_df_generation(combined_timelines)
 p3=JH_heatmap_plot(agg.heat)
 p4=JH_heatmap_plot(agg.heatoc)
   grid.arrange(p3 + ggtitle("All Tweets Heatmap"),
-Â Â Â Â Â Â Â Â Â Â Â Â Â p4 + ggtitle("Official Accounts Tweets Heatmap"),
-Â Â Â Â Â Â Â Â Â Â Â Â Â nrow=2,
-Â Â Â Â Â Â Â Â Â Â Â Â Â top = textGrob("Heatmap For Tweet Density",
-Â Â Â Â Â Â Â Â Â Â Â Â Â gp = gpar(fontsize=29)) 
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?p4 + ggtitle("Official Accounts Tweets Heatmap"),
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?nrow=2,
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?top = textGrob("Heatmap For Tweet Density",
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?gp = gpar(fontsize=29)) 
 )
 ```
 
@@ -63,10 +63,10 @@ agg.heatma=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.mal
 p1=JH_heatmap_plot(agg.heatfe)
 p2=JH_heatmap_plot(agg.heatma)
 grid.arrange(p1 + ggtitle("Female Tweets Heatmap"),
-Â Â Â Â Â Â Â Â Â Â Â Â Â p2 + ggtitle("Male Tweets Heatmap"),
-Â Â Â Â Â Â Â Â Â Â Â Â Â nrow=2,
-Â Â Â Â Â Â Â Â Â Â Â Â Â top = textGrob("Heatmap For Tweet Density",
-Â Â Â Â Â Â Â Â Â Â Â Â Â gp = gpar(fontsize=29)) 
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?p2 + ggtitle("Male Tweets Heatmap"),
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?nrow=2,
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?top = textGrob("Heatmap For Tweet Density",
+Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?Â?gp = gpar(fontsize=29)) 
 )
 ```
 
@@ -83,3 +83,14 @@ JH_tweet_power_scatter_plot(people)
 JH_tweet_power_profile_plot(people)
 ```
 
+
+## Tomofumi Slide 1
+
+```{r,echo=FALSE,message=FALSE}
+pre_post_plot("M", median_flag = FALSE)
+```
+## Tomofumi Slide 2
+
+```{r,echo=FALSE,message=FALSE}
+pre_post_plot("F", median_flag = FALSE)
+```
