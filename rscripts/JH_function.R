@@ -15,7 +15,7 @@ library(gridExtra)
 #Function 1: manipulate dataframe
 ###########################################
 JH_dataframe_addcolumn=function(combined_timelines){
-  x=strptime(combined_timelines$tweet_created_at_datetime_offset,'%a %b %d %H:%M:%S %z %Y')
+  x=strptime(combined_timelines$tweet_created_at,'%a %b %d %H:%M:%S %z %Y')
   combined_timelines$weekday=format(x,'%u%a')
   combined_timelines$hour=as.integer(format(x,'%H'))
   combined_timelines$is.weekend=as.logical((combined_timelines$weekday=='7Sun')+(combined_timelines$weekday=='6Sat'))
