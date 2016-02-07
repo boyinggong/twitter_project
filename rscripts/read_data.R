@@ -46,3 +46,6 @@ nominees_metadata  <- filter(nominees_metadata, TWITTER_SCREEN_NAME != "") %>%
 combined_timelines <- left_join(timelines
                                 , nominees_metadata
                                 , by = c("tweet_user_screen_name" = "TWITTER_SCREEN_NAME"))
+# some data manipulation by Tomo
+source("./pre_post_function.R")
+combined_timelines <- pre_post_modify(combined_timelines)
