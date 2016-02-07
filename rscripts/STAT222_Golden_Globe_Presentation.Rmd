@@ -40,6 +40,23 @@ head(combined_timelines)
 ```{r,echo=FALSE,message=FALSE}
 source("./JH_function.R")
 combined_timelines=JH_dataframe_addcolumn(combined_timelines)
+agg.heatfe=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.female,])
+agg.heatma=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.male,])
+p1=JH_heatmap_plot(agg.heatfe)
+p2=JH_heatmap_plot(agg.heatma)
+grid.arrange(p1 + ggtitle("Female Tweets Heatmap"),
+             p2 + ggtitle("Male Tweets Heatmap"),
+             nrow=2,
+             top = textGrob("Heatmap For Tweet Density",
+             gp = gpar(fontsize=29)) 
+)
+```
+
+
+## Jianglong Slide 2
+
+```{r,echo=FALSE,message=FALSE}
+
 agg.heatoc=JH_heatmap_df_generation(
   combined_timelines[as.logical(1-(combined_timelines$is.female+combined_timelines$is.male)),]
   )
@@ -54,21 +71,6 @@ p4=JH_heatmap_plot(agg.heatoc)
 )
 ```
 
-## Jianglong Slide 2
-
-```{r,echo=FALSE,message=FALSE}
-
-agg.heatfe=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.female,])
-agg.heatma=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.male,])
-p1=JH_heatmap_plot(agg.heatfe)
-p2=JH_heatmap_plot(agg.heatma)
-grid.arrange(p1 + ggtitle("Female Tweets Heatmap"),
-             p2 + ggtitle("Male Tweets Heatmap"),
-             nrow=2,
-             top = textGrob("Heatmap For Tweet Density",
-             gp = gpar(fontsize=29)) 
-)
-```
 
 ## Jianglong Slide 3
 
