@@ -35,3 +35,25 @@ tail(combined_timelines)
 head(combined_timelines)
 ```
 
+## Jianglong Slide 1
+
+```{r,echo=FALSE,message=FALSE}
+source("./JH_function.R")
+combined_timelines=JH_dataframe_addcolumn(combined_timelines)
+agg.heat=JH_heatmap_df_generation(combined_timelines)
+JH_heatmap_plot(agg.heat)
+```
+
+## Jianglong Slide 2
+
+```{r,echo=FALSE,message=FALSE}
+people=JH_tweet_power_df_generation(combined_timelines,nominees_metadata)
+JH_tweet_power_scatter_plot(people)
+```
+
+## Jianglong Slide 3
+
+```{r,echo=FALSE,message=FALSE}
+JH_tweet_power_profile_plot(people)
+```
+
