@@ -60,13 +60,13 @@ p
 
 ## ---- followProfiling ----
 ## Plotting the interesting groups
-follow_interesting <- follow %>% filter(tweet_user_followers_count > 25e5 |
-                                          tweet_user_friends_count > 1000)
+follow_interesting <- follow #%>% filter(tweet_user_followers_count > 25e5 |
+                            #              tweet_user_friends_count > 1000)
 user_type <- function(row) {
   c1 <- (row[1] > 25e5)
   c2 <- (row[2] > 1000)
   c3 <- c1 & c2
-  type <- NA
+  type <- "Other"
   type[c1] <- "Popular"
   type[c2] <- "Active"
   type[c3] <- "Power"

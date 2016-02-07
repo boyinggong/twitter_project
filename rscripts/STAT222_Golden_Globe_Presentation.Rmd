@@ -40,28 +40,44 @@ head(combined_timelines)
 ```{r,echo=FALSE,message=FALSE}
 source("./JH_function.R")
 combined_timelines=JH_dataframe_addcolumn(combined_timelines)
+agg.heatoc=JH_heatmap_df_generation(
+  combined_timelines[as.logical(1-(combined_timelines$is.female+combined_timelines$is.male)),]
+  )
+agg.heat=JH_heatmap_df_generation(combined_timelines)
+p3=JH_heatmap_plot(agg.heat)
+p4=JH_heatmap_plot(agg.heatoc)
+  grid.arrange(p3 + ggtitle("All Tweets Heatmap"),
+??????????????????????????p4 + ggtitle("Official Accounts Tweets Heatmap"),
+??????????????????????????nrow=2,
+??????????????????????????top = textGrob("Heatmap For Tweet Density",
+??????????????????????????gp = gpar(fontsize=29)) 
+)
+```
+
+## Jianglong Slide 2
+
+```{r,echo=FALSE,message=FALSE}
+
 agg.heatfe=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.female,])
 agg.heatma=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.male,])
 p1=JH_heatmap_plot(agg.heatfe)
 p2=JH_heatmap_plot(agg.heatma)
 grid.arrange(p1 + ggtitle("Female Tweets Heatmap"),
-             p2 + ggtitle("Male Tweets Heatmap"),
-             nrow=2,
-             top = textGrob("Heatmap For Tweet Density",
-             gp = gpar(fontsize=29)) 
+??????????????????????????p2 + ggtitle("Male Tweets Heatmap"),
+??????????????????????????nrow=2,
+??????????????????????????top = textGrob("Heatmap For Tweet Density",
+??????????????????????????gp = gpar(fontsize=29)) 
 )
-
-
 ```
 
-## Jianglong Slide 2
+## Jianglong Slide 3
 
 ```{r,echo=FALSE,message=FALSE}
 people=JH_tweet_power_df_generation(combined_timelines,nominees_metadata)
 JH_tweet_power_scatter_plot(people)
 ```
 
-## Jianglong Slide 3
+## Jianglong Slide 4
 
 ```{r,echo=FALSE,message=FALSE}
 JH_tweet_power_profile_plot(people)
@@ -69,8 +85,9 @@ JH_tweet_power_profile_plot(people)
 
 ## Peter Slide 1
 ```{r, echo = FALSE, message = FALSE}
-knitr::read_chunk("similarity_plots.R")
-knitr::read_chunk("follow_plots.R")
+#knitr::read_chunk("similarity_plots.R")
+#knitr::read_chunk("follow_plots.R")
+
 ```
 
 ```{r setupSimilarity, echo = FALSE, cache = TRUE}
@@ -88,3 +105,15 @@ knitr::read_chunk("follow_plots.R")
 ```
 
 ## Peter Slide 4
+
+## Tomofumi Slide 1
+
+```{r,echo=FALSE,message=FALSE}
+pre_post_plot("M", median_flag = FALSE)
+```
+## Tomofumi Slide 2
+
+```{r,echo=FALSE,message=FALSE}
+pre_post_plot("F", median_flag = FALSE)
+```
+
