@@ -24,6 +24,11 @@ source("./read_data.R")
 head(combined_timelines)
 ```
 
+```{r}
+
+```
+
+
 ## Slide with Plot
 
 ```{r, echo=FALSE}
@@ -88,11 +93,14 @@ JH_tweet_power_profile_plot(people)
 
 ## Tomofumi Slide 1
 
-```{r,echo=FALSE,message=FALSE}
+```{r,echo=FALSE,message=FALSE,warning=F}
+source('./pre_post_analysis.R')
+source("./pre_post_function.R")
+combined_timelines <- pre_post_modify(combined_timelines)
 pre_post_plot("M", median_flag = FALSE)
 ```
 ## Tomofumi Slide 2
 
-```{r,echo=FALSE,message=FALSE}
+```{r,echo=FALSE,message=FALSE,warning=F}
 pre_post_plot("F", median_flag = FALSE)
 ```
