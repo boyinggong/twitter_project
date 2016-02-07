@@ -19,13 +19,19 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ## Slide with R Code and Output
 
-```{r}
-summary(cars)
+```{r, echo=FALSE, cache=TRUE}
+source("./read_data.R")
+head(combined_timelines)
 ```
 
 ## Slide with Plot
 
 ```{r, echo=FALSE}
-plot(cars)
+tail(combined_timelines)
+```
+
+
+```{r, echo=FALSE}
+head(combined_timelines)
 ```
 

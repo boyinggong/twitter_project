@@ -1,3 +1,7 @@
+rscripts/STAT222_Golden_Globe_Presentation_cache/beamer/*.RData
+rscripts/STAT222_Golden_Globe_Presentation_cache/beamer/*.rdb
+rscripts/STAT222_Golden_Globe_Presentation_cache/beamer/*.rdx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
