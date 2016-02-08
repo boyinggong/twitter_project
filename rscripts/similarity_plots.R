@@ -1,7 +1,7 @@
 ## ---- setupSimilarity ----
-library(dplyr)
-library(ggplot2)
-library(rjson)
+#library(dplyr)
+#library(ggplot2)
+#library(rjson)
 
 ##source("read_data.R")
 
