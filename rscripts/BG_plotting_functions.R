@@ -1,20 +1,26 @@
-
-source("./read_data.R")
+# source("./read_data.R")
 
 library(stringr)
-library(SocialMediaMineR)
+# library(SocialMediaMineR)
 library(ggplot2)
 
-class(combined_timelines)
-length(combined_timelines$tweet_text)
-names(combined_timelines)
+# class(combined_timelines)
+# length(combined_timelines$tweet_text)
+# names(combined_timelines)
+# 
+# head(combined_timelines$tweet_NLP_get_tags)
+# 
+# test <- combined_timelines["tweet_NLP_get_users_mentioned"][1, 1]
+# x <- head(str_replace_all(combined_timelines$tweet_NLP_processTweet, "\'|\\[|\\]|,", ""), 100)
+# x
+# str_c(c(x[1:2]), collapse = " ")
 
-test <- combined_timelines["tweet_NLP_get_users_mentioned"][1, 1]
-str_replace_all(test, "\'|\\[|\\]", "")
 
 ###############  create mentioned data frame
 
 mentioned_dataframe <- function(combined_timelines){
+  combined_timelines$date = strptime(combined_timelines$tweet_created_at, "%a %b %d %H:%M:%S %z %Y")
+  
   screen_names = unique(combined_timelines$tweet_user_screen_name)
   count_mentioned = data.frame(Screen_name = rep(0, length(screen_names)))
   row.names(count_mentioned) = screen_names
@@ -44,7 +50,7 @@ mentioned_dataframe <- function(combined_timelines){
   return(total)
 }
 
-ordered_retweet_count <- mentioned_dataframe(combined_timelines)
+# ordered_retweet_count <- mentioned_dataframe(combined_timelines)
 
 ###############  person: mentioned vs retweet
 
@@ -55,7 +61,7 @@ mentioned_retweet <- function(ordered_retweet_count, IS_PERSON = TRUE){
     scale_colour_manual(values=c("grey50", "red"))
 }
 
-mentioned_retweet(ordered_retweet_count)
+# mentioned_retweet(ordered_retweet_count)
 
 ###############  person: mentioned vs retweet by win or loss
 
@@ -66,36 +72,37 @@ mentioned_retweet_win <- function(ordered_retweet_count, IS_PERSON = TRUE){
     scale_colour_manual(values=c("grey50", "red"))
 }
 
-mentioned_retweet_win(ordered_retweet_count, IS_PERSON = TRUE)
-mentioned_retweet_win(ordered_retweet_count, IS_PERSON = FALSE)
+# mentioned_retweet_win(ordered_retweet_count, IS_PERSON = TRUE)
+# mentioned_retweet_win(ordered_retweet_count, IS_PERSON = FALSE)
 
 ###############  person: mentioned vs retweet by gender
 
 mentioned_retweet_gender <- function(ordered_retweet_count){
-  ggplot(ordered_retweet_count[ordered_retweet_count$PERSON == as.numeric(IS_PERSON), ], 
+  ggplot(ordered_retweet_count[ordered_retweet_count$PERSON == 1, ], 
          aes(x = log(RetweetCount+1), y = log(MentionCount+1))) + 
     geom_point(aes(color = Gender)) +
     scale_colour_manual(values=c("grey50", "red"))
 }
 
-mentioned_retweet_gender(ordered_retweet_count)
+# mentioned_retweet_gender(ordered_retweet_count)
   
 ###############  mentioned bar plot
 
 mention_plot <- function(ordered_retweet_count, IS_PERSON = TRUE){
-  ordered_retweet_count$MentionCount = as.numeric(ordered_retweet_count$MentionCount)
+  ordered_retweet_count$logMentionCount = log(as.numeric(ordered_retweet_count$MentionCount))
+  #ordered_retweet_count = ordered_retweet_count[ordered_retweet_count$MentionCount != 0, ]
   ordered_retweet_count$name2 <- reorder(ordered_retweet_count$Name, 
-                                         ordered_retweet_count$MentionCount)
+                                         ordered_retweet_count$logMentionCount)
   ggplot(ordered_retweet_count[ordered_retweet_count$PERSON == as.numeric(IS_PERSON), ], 
-         aes(x=Name, y=MentionCount, fill = Win)) + 
+         aes(x=Name, y=logMentionCount, fill = Win)) + 
     geom_bar(aes(x=name2), stat='identity') +
     scale_fill_manual(values=c("grey50", "red")) + 
     coord_flip()
 }
 
 # When IS_PERSON = TRUE, plot the person account, else plot the movie account
-mention_plot(ordered_retweet_count, IS_PERSON = TRUE)
-mention_plot(ordered_retweet_count, IS_PERSON = FALSE)
+# mention_plot(ordered_retweet_count, IS_PERSON = TRUE)
+# mention_plot(ordered_retweet_count, IS_PERSON = FALSE)
 
 ###############  
 
@@ -104,19 +111,25 @@ mention_plot(ordered_retweet_count, IS_PERSON = FALSE)
 
 
 
-time_test <- strptime(combined_timelines$tweet_created_at[1:10], "%a %b %d %H:%M:%S %z %Y")
-
-
-time_test[6] < time_test[5]
-
-
-aggregate(combined_timelines$Frequency, 
-          by=list(Name=combined_timelines$Name, Screen_name = x$Screen_name, 
-                  Categories = x$Categories, Win = x$Win, Gender = x$Gender, PERSON = x$Person), 
-          FUN=sum)
-
-
-names(combined_timelines)
+# time <- aggregate(x$Frequency, 
+#           by=list(Name=x$Name, Screen_name = x$Screen_name, 
+#                   Categories = x$Categories, Win = x$Win, Gender = x$Gender, PERSON = x$Person), 
+#           FUN=sum)
+# 
+# 
+# 
+# time_test <- strptime(combined_timelines$tweet_created_at, "%a %b %d %H:%M:%S %z %Y")
+# 
+# 
+# time_test[6] < time_test[5]
+# 
+# 
+# aggregate(combined_timelines$tweet_created_at, 
+#           by=list(Name=combined_timelines$Name), 
+#           FUN=sum)
+# 
+# 
+# names(combined_timelines)
 
 
 
