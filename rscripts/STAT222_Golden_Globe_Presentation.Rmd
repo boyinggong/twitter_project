@@ -1,21 +1,34 @@
 ---
 title: "73rd Annual Golden Globes Twitter Analysis"
-author: Boying Gong, Jianglong Huang, Peter Sujan, Shamindra Shrotriya, Tomofumi Ogawa
-date: February 8, 2016
+author: "Boying Gong, Jianglong Huang, Peter Sujan, Shamindra Shrotriya, Tomofumi Ogawa"
+date: "February 8, 2016"
 output: beamer_presentation
 ---
 
-## R Markdown
+## Data Sources and Limitations
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+- *Metadata* - Golden Globe Nominees
+  - 87 people nominees and 35 movie nominees
+  - Manually collected/ annotated list of all nominees
+    - Twitter Screen Names
+    - Gender Flag
+    - Film/ TV Show Flag
+    - Age of Nominee/ Release Date
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+- Timelines
+  - Based on most recent tweets since Dec 10 2015
+  - Typically searched for top 3200 tweets from API
+  - NLP processing performed e.g. removing stopwords etc
 
-## Slide with Bullets
+## Quick summary of metadata
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+
+## Key themes of our data exploration 
+
+- **Pre-Post-During Golden Globe Analysis** - *Tomo*
+- **Social Popularity of Winners and Nominees** - *Peter*
+- **Sentiment Analysis** - *Boying*
+- **Twitter Influence and Temporal Patterns** - *Jianglong*
 
 ## Slide with R Code and Output
 
@@ -23,11 +36,6 @@ When you click the **Knit** button a document will be generated that includes bo
 source("./read_data.R")
 head(combined_timelines)
 ```
-
-```{r}
-
-```
-
 
 ## Slide with Plot
 
@@ -69,7 +77,6 @@ agg.heat=JH_heatmap_df_generation(combined_timelines)
 p3=JH_heatmap_plot(agg.heat)
 p4=JH_heatmap_plot(agg.heatoc)
   grid.arrange(p3 + ggtitle("All Tweets Heatmap"),
-
                p4 + ggtitle("Official Accounts Tweets Heatmap"),
                nrow=2,
                top = textGrob("Heatmap For Tweet Density",
@@ -91,41 +98,24 @@ JH_tweet_power_scatter_plot(people)
 JH_tweet_power_profile_plot(people)
 ```
 
-## Peter Slide 1
-```{r, echo = FALSE, message = FALSE}
-#knitr::read_chunk("similarity_plots.R")
-#knitr::read_chunk("follow_plots.R")
-
-```
-
-```{r setupSimilarity, echo = FALSE, cache = TRUE}
-```
-
-```{r similarityHist, echo = FALSE, cache = TRUE}
-```
-
-## Peter Slide 2
-```{r similarityBar, echo = FALSE, cache = TRUE}
-```
-
-## Peter Slide 3
-```{r followPlot, echo = FALSE, cache = TRUE}
-```
-
-## Peter Slide 4
 
 ## Tomofumi Slide 1
 
-```{r,echo=FALSE,message=FALSE,warning=F}
-source('./pre_post_analysis.R')
-source("./pre_post_function.R")
-combined_timelines <- pre_post_modify(combined_timelines)
+```{r,echo=FALSE,message=FALSE}
 pre_post_plot("M", median_flag = FALSE)
 ```
-
 ## Tomofumi Slide 2
 
-```{r,echo=FALSE,message=FALSE,warning=F}
+```{r,echo=FALSE,message=FALSE}
 pre_post_plot("F", median_flag = FALSE)
 ```
 
+
+# Conclusion and Next Steps
+
+- Nominee Analysis shows distinct behaviour patterns
+- Next Steps:
+  - Do the analysis for Golden Globes 2015, 2014, 2013
+  - Look at nominee influence via external data e.g. box office
+  - Download large amount of historical follower analysis
+  - Analysis of twitter users the nominees follow
