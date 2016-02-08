@@ -1,6 +1,6 @@
 ## ---- followPlot ----
-library(dplyr)
-library(ggplot2)
+#library(dplyr)
+#library(ggplot2)
 
 ## Pull in the data
 ##source("read_data.R")
