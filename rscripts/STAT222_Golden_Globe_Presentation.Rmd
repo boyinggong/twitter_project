@@ -30,24 +30,6 @@ output: beamer_presentation
 - **Sentiment Analysis** - *Boying*
 - **Twitter Influence and Temporal Patterns** - *Jianglong*
 
-## Slide with R Code and Output
-
-```{r, echo=FALSE, cache=TRUE}
-source("./read_data.R")
-head(combined_timelines)
-```
-
-## Slide with Plot
-
-```{r, echo=FALSE}
-tail(combined_timelines)
-```
-
-
-```{r, echo=FALSE}
-head(combined_timelines)
-```
-
 ## Jianglong Slide 1
 
 ```{r,echo=FALSE,message=FALSE}
@@ -64,7 +46,6 @@ grid.arrange(p1 + ggtitle("Female Tweets Heatmap"),
                               gp = gpar(fontsize=29)) 
 )
 ```
-
 
 ## Jianglong Slide 2
 
@@ -84,7 +65,6 @@ p4=JH_heatmap_plot(agg.heatoc)
 )
 ```
 
-
 ## Jianglong Slide 3
 
 ```{r,echo=FALSE,message=FALSE}
@@ -98,11 +78,9 @@ JH_tweet_power_scatter_plot(people)
 JH_tweet_power_profile_plot(people)
 ```
 
-## Tomofumi Slide 1
+## Peter Slide 1
 
 ```{r,echo=FALSE,message=FALSE}
-pre_post_plot("M", median_flag = FALSE)
-## Peter Slide 1
 knitr::read_chunk("similarity_plots.R")
 knitr::read_chunk("follow_plots.R")
 ```
@@ -149,18 +127,26 @@ mention_plot(ordered_retweet_count, IS_PERSON = TRUE)
 
 ## Boying Slide 4
 
-```{r,echo=FALSE,message=FALSE, cache = TRUE}
-
+```{r kable,echo=FALSE}
+male <- read.csv("../data/output_data/male.csv")
+female <- read.csv("../data/output_data/female.csv")
+library(knitr)
+dt_gender_domain <- data.frame(Male = male$name[c(2, 4:6, 8:13)], 
+                               PercentageM = male$freq[c(2, 4:6, 8:13)]*100,
+                               Female = female$name[c(2:3, 5:12)], 
+                               PercentageF = female$freq[c(2:3, 5:12)]*100)
+kable(dt_gender_domain, digits=2)
 ```
 
 ## Tomofumi Slide 1
 
-```{r,echo=FALSE,message=FALSE,warning=F}
-# source('./pre_post_analysis.R')
-# source("./pre_post_function.R")
-# combined_timelines <- pre_post_modify(combined_timelines)
-# pre_post_plot("M", median_flag = FALSE)
+```{r,echo=FALSE,message=FALSE,warning=F,cache=T}
+source('./pre_post_analysis.R')
+source("./pre_post_function.R")
+combined_timelines <- pre_post_modify(combined_timelines)
+pre_post_plot("M", median_flag = FALSE)
 ```
+
 ## Tomofumi Slide 2
 
 ```{r,echo=FALSE,message=FALSE}
@@ -168,7 +154,7 @@ pre_post_plot("F", median_flag = FALSE)
 ```
 
 
-# Conclusion and Next Steps
+## Conclusion and Next Steps
 
 - Nominee Analysis shows distinct behaviour patterns
 - Next Steps:
