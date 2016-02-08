@@ -46,6 +46,12 @@ pre_post_modify <- function(data){
     rowwise() %>% 
     mutate(tweet_time_lag_days = floor(tweet_time_lag))
   
+  data.modified <- data.modified %>%
+    rowwise() %>% 
+    mutate(pre_post_during_flag =
+             ifelse(tweet_time_lag_days > 1,
+                    ifelse(tweet_time_lag_days > -1, "during", "pre"), "post")
+    )
   
   return(data.modified)
 }
