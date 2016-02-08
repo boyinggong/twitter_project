@@ -14,7 +14,7 @@ JH_word_of_bag_POST=function(combined_timelines){
   male=data.frame(sort(table(str_split(string = ct_agg_tweetwords[male.index, 2], pattern = " ")), decreasing = TRUE)[1:10])
   female=data.frame(sort(table(str_split(string = ct_agg_tweetwords[female.index, 2], pattern = " ")), decreasing = TRUE)[1:10])
   
-  df=data.frame('rank'=1:20)
+  df=data.frame('rank'=1:10)
   df['male top words']=row.names.data.frame(male)
   df['male count']=male
   df['female top words']=row.names.data.frame(female)
@@ -37,7 +37,7 @@ JH_word_of_bag_DURING=function(combined_timelines){
   male=data.frame(sort(table(str_split(string = ct_agg_tweetwords[male.index, 2], pattern = " ")), decreasing = TRUE)[1:10])
   female=data.frame(sort(table(str_split(string = ct_agg_tweetwords[female.index, 2], pattern = " ")), decreasing = TRUE)[1:10])
   
-  df=data.frame('rank'=1:20)
+  df=data.frame('rank'=1:10)
   df['male top words']=row.names.data.frame(male)
   df['male count']=male
   df['female top words']=row.names.data.frame(female)
@@ -60,7 +60,7 @@ JH_word_of_bag_PRE=function(combined_timelines){
   male=data.frame(sort(table(str_split(string = ct_agg_tweetwords[male.index, 2], pattern = " ")), decreasing = TRUE)[1:10])
   female=data.frame(sort(table(str_split(string = ct_agg_tweetwords[female.index, 2], pattern = " ")), decreasing = TRUE)[1:10])
   
-  df=data.frame('rank'=1:20)
+  df=data.frame('rank'=1:10)
   df['male top words']=row.names.data.frame(male)
   df['male count']=male
   df['female top words']=row.names.data.frame(female)
