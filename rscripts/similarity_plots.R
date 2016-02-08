@@ -19,8 +19,10 @@ indices <- upper.tri(dot_products) | diag(nrow = nrow(dot_products))
 dot_products_flattened <- data.frame(Similarity = dot_products[indices])
 names_vector <- fromJSON(file = "../data/output_data/following_computed_data/names.json")
 names_vector <- tolower(gsub(".json", "", names_vector))
-joined <- data.frame(tweet_user_screen_name = names_vector) %>%
-  left_join(combined[c("tweet_user_screen_name", "NOMINEE")]) %>% distinct()
+joined <- data.frame(tweet_user_screen_name = names_vector,
+                     stringsAsFactors = FALSE) %>%
+                     left_join(combined[c("tweet_user_screen_name", "NOMINEE")],
+                               by = "tweet_user_screen_name") %>% distinct()
 rownames(dot_products) <- colnames(dot_products) <- joined$NOMINEE
 
 ## ---- similarityHist ----
@@ -51,6 +53,6 @@ pairs_df <- pairs_df %>% mutate(Pair = factor(Pair, levels = Pair))
 p <- ggplot(data = pairs_df,
             aes(x = Pair, y = Similarity))
 p <- p + geom_bar(stat = "identity") + coord_flip()
-p <- p + ggtitle("Most Similar Pairs")
+p <- p + ggtitle("Following Similarity: Most Similar Pairs")
 p
 
