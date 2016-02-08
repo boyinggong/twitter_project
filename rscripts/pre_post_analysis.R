@@ -21,7 +21,7 @@ pre_post_plot <- function(VALUE, median_flag = TRUE){
   
   # filtering by person & +- 20 days
   data.person <- combined_timelines %>%
-    filter(PERSON_FLAG == "1" & abs(tweet_time_lag) < 20, GENDER_FLAG == VALUE)
+    filter(PERSON_FLAG == "1", abs(tweet_time_lag) < 20, GENDER_FLAG == VALUE)
  
   aggregate_by <- function(median_flag){
     if(median_flag){
@@ -55,22 +55,34 @@ pre_post_plot <- function(VALUE, median_flag = TRUE){
       title2 <- " (mean)"
     }
     
-
     p1 <- ggplot(data = data, aes(x = tweet_time_lag_days, y = tweet_retweet_count),
                  environment = environment())
     p2 <- p1 + geom_line(aes_string(color = "WINNER_FLAG")) +
+      geom_line(data = data,
+                mapping = aes(x = tweet_time_lag_days,
+                              y = retweet_mean,
+                              color = ifelse(WINNER_FLAG =="W", "black", "blue" ))) + 
       xlab("lag (days)") + ylab("retweet count") + ggtitle("lag vs retweet count")
     
     p1 <- ggplot(data = data, aes(x = tweet_time_lag_days, y = tweet_count_each_day))
     p3 <- p1 + geom_line(aes_string(color = "WINNER_FLAG")) +
+      geom_line(data = data,
+                mapping = aes(x = tweet_time_lag_days, y = count_mean,
+                              color = ifelse(WINNER_FLAG =="W", "black", "blue" ))) + 
       xlab("lag (days)") + ylab("tweet count") + ggtitle("lag vs tweet count")
     
     p1 <- ggplot(data = data, aes(x = tweet_time_lag_days, y = tweet_favorite_count))
     p4 <- p1 + geom_line(aes_string(color = "WINNER_FLAG")) +
+      geom_line(data = data,
+                mapping = aes(x = tweet_time_lag_days, y = favorite_mean,
+                              color = ifelse(WINNER_FLAG =="W", "black", "blue" ))) + 
       xlab("lag (days)") + ylab("favorite count") + ggtitle("lag vs favorite count")
     
     p1 <- ggplot(data = data, aes(x = tweet_time_lag_days, y = tweet_length))
     p5 <- p1 + geom_line(aes_string(color = "WINNER_FLAG")) +
+      geom_line(data = data,
+                mapping = aes(x = tweet_time_lag_days, y = length_mean,
+                              color = ifelse(WINNER_FLAG =="W", "black", "blue" ))) + 
       xlab("lag (days)") + ylab("tweet length") + ggtitle("lag vs tweet length")
     
     return(grid.arrange(p2,p3,p4,p5, nrow = 2,
@@ -80,11 +92,12 @@ pre_post_plot <- function(VALUE, median_flag = TRUE){
   
   data.grouped <- aggregate_by(median_flag)
   data.grouped <- data.grouped %>% mutate(pre_post_flag = ifelse(tweet_time_lag_days>0, 1, 0))
-  data.grouped <- data.grouped %>% mutate(pre_post_flag = ifelse(tweet_time_lag_days>0, 1, 0))
   means <- data.grouped %>% group_by(WINNER_FLAG, pre_post_flag) %>%
     summarise(mean(tweet_retweet_count),mean(tweet_favorite_count),
               mean(tweet_count_each_day), mean(tweet_length))
   means <- as.data.frame(means)
+  # browser()
+  
   data.grouped <- data.grouped %>% rowwise() %>% 
     mutate(retweet_mean = means[which(means$WINNER_FLAG == WINNER_FLAG &
                                         means$pre_post_flag == pre_post_flag),3],
