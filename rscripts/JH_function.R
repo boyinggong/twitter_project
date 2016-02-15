@@ -7,9 +7,9 @@
 #install.packages('ggplot2')
 #install.packages('grid')
 #install.packages('gridExtra')
-library(ggplot2)
-library(grid)
-library(gridExtra)
+#library(ggplot2)
+#library(grid)
+#library(gridExtra)
 
 ###########################################
 #Function 1: manipulate dataframe
@@ -42,10 +42,10 @@ JH_heatmap_df_generation=function(combined_timelines){
 ###########################################
 #Function 3: heatmap plot
 ###########################################
-JH_heatmap_plot=function(agg.heat){
+JH_heatmap_plot=function(agg.heat,lowcar = "blue",highcar = "red1"){
   #heatmap full version
   heat_map=ggplot(agg.heat, aes(Hour, DoW)) +
-    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = "blue",high = "red1") + 
+    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = lowcar,high = highcar) + 
     ylab("Day of the week") + 
     xlab("Hour of the day") + 
     theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
