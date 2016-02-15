@@ -27,7 +27,7 @@ rownames(dot_products) <- colnames(dot_products) <- joined$NOMINEE
 
 ## ---- similarityHist ----
 p <- ggplot(data = dot_products_flattened, aes(x = Similarity))
-p <- p + geom_histogram()
+p <- p + geom_histogram(bins = 30)
 p <- p + labs(y = "Frequency",
               title = "Distribution of Following Similarity")
 p <- p + annotate("rect", xmin = 0.05, xmax = 1, ymin = -100, ymax = 250,

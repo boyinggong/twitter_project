@@ -142,11 +142,9 @@ JH_tweet_power_scatter_plot=function(people){
 #Function 6: profile plot
 ###########################################
 JH_tweet_power_profile_plot=function(people){
-  profile=data.frame('group'=rep(c('Old and Weak','Young and Powerful'),4))
-  profile$type=c('age','age','female','female','winner','winner','tv','tv')
+  profile=data.frame('group'=rep(c('Old and Weak','Young and Powerful'),3))
+  profile$type=c('female','female','winner','winner','tv','tv')
   profile$value=c(
-    mean(people$age[as.logical((1-people$tenuresplit)*(people$powersplit))])/80,
-    mean(people$age[as.logical((people$tenuresplit)*(1-people$powersplit))])/80,
     mean(people$female[as.logical((1-people$tenuresplit)*(people$powersplit))]),
     mean(people$female[as.logical((people$tenuresplit)*(1-people$powersplit))]),
     mean(people$winner[as.logical((1-people$tenuresplit)*(people$powersplit))]),

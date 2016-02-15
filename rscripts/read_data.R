@@ -12,7 +12,8 @@ ipak <- function(pkg){
 }
 
 # Install and load the required packages
-packages <- c("ggplot2", "dplyr", "readr", "stringr")
+packages <- c("ggplot2", "dplyr", "readr", "stringr",
+              "chron", "grid", "gridExtra", "rjson", "knitr")
 ipak(packages)
 
 # Run the pythhon CSV script for timelines
