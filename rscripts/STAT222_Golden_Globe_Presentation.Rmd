@@ -143,6 +143,8 @@ mention_plot(ordered_retweet_count, IS_PERSON = TRUE)
 
 ## Percentage of External Links Used by Gender
 
+<<<<<<< HEAD
+
 ```{r kable,echo=FALSE,cache=TRUE}
 male <- read.csv("../data/output_data/male.csv")
 female <- read.csv("../data/output_data/female.csv")
