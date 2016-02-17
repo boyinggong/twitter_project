@@ -3,7 +3,7 @@
 #library(ggplot2)
 #library(rjson)
 
-##source("read_data.R")
+#source("read_data.R")
 
 timelines_lower <- timelines %>% mutate(tweet_user_screen_name = tolower(tweet_user_screen_name))
 nominees_metadata_lower <- nominees_metadata %>% mutate(TWITTER_SCREEN_NAME = tolower(TWITTER_SCREEN_NAME))
@@ -39,6 +39,7 @@ p <- p + annotate("text", x = 0.5, y = 100, label = "Similar pairs")
 p
 
 ## ---- similarityBar ----
+png("../poster_graphics/similarity.png")
 top_pairs <- sort(dot_products[dot_products > 0.1 & dot_products < 0.9],
                   decreasing = TRUE)[seq(length.out = 15, by = 2)]
 top_pairs <- rev(top_pairs)
@@ -55,4 +56,4 @@ p <- ggplot(data = pairs_df,
 p <- p + geom_bar(stat = "identity") + coord_flip()
 p <- p + ggtitle("Following Similarity: Most Similar Pairs")
 p
-
+dev.off()

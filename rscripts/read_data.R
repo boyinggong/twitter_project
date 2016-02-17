@@ -17,7 +17,7 @@ packages <- c("ggplot2", "dplyr", "readr", "stringr",
 ipak(packages)
 
 # Run the pythhon CSV script for timelines
-#system.time(system("cd .. && python ./create_timelines_CSV.py"))
+system.time(system("cd .. && python ./create_timelines_CSV.py"))
 
 # The date of the CSV files
 # Make sure that you run the following Python script first
@@ -51,3 +51,4 @@ combined_timelines <- left_join(timelines
 # some data manipulation by Tomo
 source("./pre_post_function.R")
 combined_timelines <- pre_post_modify(combined_timelines)
+combined_timelines <- combined_timelines %>% filter(tweet_time_lag_days >= -21)
