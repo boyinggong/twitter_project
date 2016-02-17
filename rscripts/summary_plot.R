@@ -26,7 +26,8 @@ summary_data <- tweet_counts %>% left_join(summary_data,
 #summary_data <- summary_data %>% mutate(NOMINEE = ifelse(Tweets == 0, "", NOMINEE))
 summary_data <- summary_data %>% filter(Tweets > 0 & !is.na(NOMINEE))
 
-png("../poster_graphics/summary_plot.png")
+png("../poster_graphics/summary_plot.png",
+    width = 50, height = 33, units = "cm", res = 300)
 p <- ggplot(data = summary_data,
             aes(x = reorder(NOMINEE, Tweets), y = Tweets))
 p <- p + geom_bar(stat = "identity", aes(fill = GENDER_FLAG))
