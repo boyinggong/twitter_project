@@ -12,7 +12,8 @@ ipak <- function(pkg){
 }
 
 # Install and load the required packages
-packages <- c("ggplot2", "dplyr", "readr", "stringr")
+packages <- c("ggplot2", "dplyr", "readr", "stringr",
+              "chron", "grid", "gridExtra", "rjson", "knitr")
 ipak(packages)
 
 # Run the pythhon CSV script for timelines
@@ -50,3 +51,4 @@ combined_timelines <- left_join(timelines
 # some data manipulation by Tomo
 source("./pre_post_function.R")
 combined_timelines <- pre_post_modify(combined_timelines)
+combined_timelines <- combined_timelines %>% filter(tweet_time_lag_days >= -21)

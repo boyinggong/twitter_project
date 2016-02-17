@@ -7,9 +7,9 @@
 #install.packages('ggplot2')
 #install.packages('grid')
 #install.packages('gridExtra')
-library(ggplot2)
-library(grid)
-library(gridExtra)
+#library(ggplot2)
+#library(grid)
+#library(gridExtra)
 
 ###########################################
 #Function 1: manipulate dataframe
@@ -42,10 +42,10 @@ JH_heatmap_df_generation=function(combined_timelines){
 ###########################################
 #Function 3: heatmap plot
 ###########################################
-JH_heatmap_plot=function(agg.heat){
+JH_heatmap_plot=function(agg.heat,lowcar = "blue",highcar = "red1"){
   #heatmap full version
   heat_map=ggplot(agg.heat, aes(Hour, DoW)) +
-    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = "blue",high = "red1") + 
+    geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = lowcar,high = highcar) + 
     ylab("Day of the week") + 
     xlab("Hour of the day") + 
     theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
@@ -142,11 +142,9 @@ JH_tweet_power_scatter_plot=function(people){
 #Function 6: profile plot
 ###########################################
 JH_tweet_power_profile_plot=function(people){
-  profile=data.frame('group'=rep(c('Old and Weak','Young and Powerful'),4))
-  profile$type=c('age','age','female','female','winner','winner','tv','tv')
+  profile=data.frame('group'=rep(c('Old and Weak','Young and Powerful'),3))
+  profile$type=c('female','female','winner','winner','tv','tv')
   profile$value=c(
-    mean(people$age[as.logical((1-people$tenuresplit)*(people$powersplit))])/80,
-    mean(people$age[as.logical((people$tenuresplit)*(1-people$powersplit))])/80,
     mean(people$female[as.logical((1-people$tenuresplit)*(people$powersplit))]),
     mean(people$female[as.logical((people$tenuresplit)*(1-people$powersplit))]),
     mean(people$winner[as.logical((1-people$tenuresplit)*(people$powersplit))]),

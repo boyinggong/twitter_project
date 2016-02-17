@@ -57,7 +57,7 @@ mentioned_dataframe <- function(combined_timelines){
 mentioned_retweet <- function(ordered_retweet_count, IS_PERSON = TRUE){
   ggplot(ordered_retweet_count[ordered_retweet_count$PERSON == as.numeric(IS_PERSON), ], 
          aes(x = log(RetweetCount+1), y = log(MentionCount+1))) + 
-    geom_point() +
+    geom_point() + xlab('log of retweet count') + ylab('log of mention count') + 
     scale_colour_manual(values=c("grey50", "red"))
 }
 

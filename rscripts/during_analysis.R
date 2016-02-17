@@ -6,7 +6,7 @@
 
 # library(dplyr)
 
-during_plot <- function(median_flag = TRUE, time_limit = 24){
+during_plot <- function(median_flag = TRUE, time_limit = 24, VALUE = NA){
   
   aggregate_by <- function(median_flag){
     if(median_flag){
@@ -60,10 +60,14 @@ during_plot <- function(median_flag = TRUE, time_limit = 24){
     
   }
   
+  if(is.na(VALUE)){
+    data.person <- combined_timelines %>%
+      filter(PERSON_FLAG == "1")
+  }else{
+    data.person <- combined_timelines %>%
+      filter(PERSON_FLAG == "1", GENDER_FLAG == VALUE)
+  }
   
-  # filtering by gender???
-  data.person <- combined_timelines %>%
-    filter(PERSON_FLAG == "1")
   data.person <- data.person %>% 
     rowwise() %>% 
     mutate(tweet_time_lag_hours = floor(tweet_time_lag * 24))
