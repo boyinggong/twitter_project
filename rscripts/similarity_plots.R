@@ -39,7 +39,7 @@ p <- p + annotate("text", x = 0.5, y = 100, label = "Similar pairs")
 p
 
 ## ---- similarityBar ----
-png("../poster_graphics/similarity.png")
+#png("../poster_graphics/similarity.png")
 top_pairs <- sort(dot_products[dot_products > 0.1 & dot_products < 0.9],
                   decreasing = TRUE)[seq(length.out = 15, by = 2)]
 top_pairs <- rev(top_pairs)
@@ -56,4 +56,6 @@ p <- ggplot(data = pairs_df,
 p <- p + geom_bar(stat = "identity") + coord_flip()
 p <- p + ggtitle("Following Similarity: Most Similar Pairs")
 p
-dev.off()
+#dev.off()
+ggsave(filename = "../poster_graphics/similarity.svg",
+       plot = p, width = 15, height = 30, units = "cm")

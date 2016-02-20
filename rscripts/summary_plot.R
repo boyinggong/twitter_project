@@ -26,8 +26,8 @@ summary_data <- tweet_counts %>% left_join(summary_data,
 #summary_data <- summary_data %>% mutate(NOMINEE = ifelse(Tweets == 0, "", NOMINEE))
 summary_data <- summary_data %>% filter(Tweets > 0 & !is.na(NOMINEE))
 
-png("../poster_graphics/summary_plot.png",
-    width = 50, height = 33, units = "cm", res = 300)
+#png("../poster_graphics/summary_plot.png",
+#    width = 50, height = 33, units = "cm", res = 300)
 p <- ggplot(data = summary_data,
             aes(x = reorder(NOMINEE, Tweets), y = Tweets))
 p <- p + geom_bar(stat = "identity", aes(fill = GENDER_FLAG))
@@ -38,7 +38,9 @@ p <- p + ggtitle("Data Overview") + xlab("Nominees")
 p <- p + ylim(c(0, 500))
 p <- p + scale_fill_discrete(name = "User Type")
 p
-dev.off()
+#dev.off()
+ggsave(filename = "../poster_graphics/summary_plot.svg",
+       plot = p, width = 50, height = 33, units = "cm")
 
 # p <- ggplot(data = summary_data,
 #             aes(x = NOMINEE))
