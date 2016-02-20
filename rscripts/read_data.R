@@ -13,11 +13,12 @@ ipak <- function(pkg){
 
 # Install and load the required packages
 packages <- c("ggplot2", "dplyr", "readr", "stringr",
-              "chron", "grid", "gridExtra", "rjson", "knitr")
+              "chron", "grid", "gridExtra", "rjson", "knitr",
+              "jpeg", "grid")
 ipak(packages)
 
 # Run the pythhon CSV script for timelines
-system.time(system("cd .. && python ./create_timelines_CSV.py"))
+# system.time(system("cd .. && python ./create_timelines_CSV.py"))
 
 # The date of the CSV files
 # Make sure that you run the following Python script first

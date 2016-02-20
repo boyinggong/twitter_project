@@ -79,6 +79,7 @@ p <- p + imgAnnotate("../poster_graphics/pictures/elba_henson.jpg",
                      xmin = 1, xmax = 4, ymin = 0.2, ymax = 0.3)
 p <- p + ggtitle("Following Similarity: Most Similar Pairs")
 p <- p + theme(legend.position = "none")
+p <- p + scale_fill_manual(values = c("grey", "blue"))
 p
 #dev.off()
 ggsave(filename = "../poster_graphics/similarity.svg",

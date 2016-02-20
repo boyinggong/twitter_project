@@ -3,7 +3,9 @@
 
 ## ---- dataSummaryPlot ----
 combined <- combined_timelines
-combined <- combined %>% mutate(GENDER_FLAG = as.character(ifelse(GENDER_FLAG == "", "FILM/SHOW", GENDER_FLAG)))
+combined$GENDER_FLAG[combined$GENDER_FLAG == "M"] <- "Male"
+combined$GENDER_FLAG[combined$GENDER_FLAG == "F"] <- "Female"
+combined$GENDER_FLAG[combined$GENDER_FLAG == ""] <- "Film/TV Show"
 combined <- combined %>% mutate(FILM_FLAG = as.character(ifelse(FILM_FLAG == 0, "TV", "FILM")))
 combined <- combined %>% mutate(tweet_user_screen_name = tolower(tweet_user_screen_name))
 combined <- combined %>% filter(!is.na(FILM_FLAG) & tweet_time_lag > 0)
