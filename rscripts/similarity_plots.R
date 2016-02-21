@@ -82,5 +82,5 @@ p <- p + theme(legend.position = "none")
 p <- p + scale_fill_manual(values = c("grey", "blue"))
 p
 #dev.off()
-ggsave(filename = "../poster_graphics/similarity.svg",
+ggsave(filename = "../poster_graphics/similarity.png",
        plot = p, width = 50, height = 30, units = "cm")
