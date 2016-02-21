@@ -1,5 +1,7 @@
 #Slide Graphics Generation
 
+source("./read_data.R")
+
 ###########################
 # Graphics For JH
 ###########################
@@ -14,14 +16,26 @@ agg.heatoc=JH_heatmap_df_generation(
 agg.heatfe=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.female,])
 agg.heatma=JH_heatmap_df_generation(combined_timelines[combined_timelines$is.male,])
 p1=JH_heatmap_plot(agg.heatfe,lowcar = 'blue',highcar = 'red')
-p2=JH_heatmap_plot(agg.heatma,lowcar = 'blue',highcar = 'darkorchid1')
-grid.arrange(p1 + ggtitle("Female Tweets Heatmap"),
+p2=JH_heatmap_plot(agg.heatma,lowcar = 'blue',highcar = 'violetred')
+g=arrangeGrob(p1 + ggtitle("Female Tweets Heatmap"),
              p2 + ggtitle("Male Tweets Heatmap"),
-             nrow=2,
-             top = textGrob("Heatmap For Tweet Density",
-                            gp = gpar(fontsize=29)) 
+             nrow=1,
+             name = textGrob("Heatmap For Tweet Density",
+                            gp = gpar(fontsize=29))
+             
 )
+ggsave(filename = "../poster_graphics/heatmap.svg",
+       plot = g, width = 36.3, height = 16.9, units = "cm")
+## Profile Grouping ##
+people=JH_tweet_power_df_generation(combined_timelines,nominees_metadata)
+a=JH_tweet_power_scatter_plot(people)
+ggsave(filename = "../poster_graphics/profile_group.svg",
+       plot = a, width = 30, height = 20, units = "cm")
 
+## Profile Plot ##
+c=JH_tweet_power_profile_plot(people)
+ggsave(filename = "../poster_graphics/profile.svg",
+       plot = c, width = 30, height = 20, units = "cm")
 
 
 ###########################
