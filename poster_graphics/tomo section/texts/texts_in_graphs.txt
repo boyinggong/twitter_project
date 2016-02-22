@@ -1,0 +1,21 @@
+texts in Tomo's section
+
+# Methodology
+Methodology: we first divided the data by gender and winners/losers,
+ and compared how many the nominees tweeted per day before and after the Globes.
+The x-axis in the plots below is the time difference in days from the Globes.
+For y-axis, we took median of the tweet counts when they were aggregated by gender and winners/losers.
+The horizontal lines in the plots are the means of each values in before/after the globes to better compare them over pre and post.
+
+# Some points to point to graph of male
+For losers, we can conclude that, unexpectedly, the means of tweet counts per day increases as the Globes awarded,
+
+We can clearly see that winners tweeted more right after the globes.
+
+
+# Some points to point to graph of female
+It is very clear that we can find an explicit spike right after the Globe in winners.
+
+Also the winners tended to tweet more times on average after the golobes compared to before.
+
+
