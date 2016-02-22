@@ -101,6 +101,7 @@ JH_tweet_power_df_generation=function(combined_timelines,nominees_metadata){
   for (i in 1:length(people$datetime)){
     people$ttenure[i]=floor((Sys.time()-people$datetime)[[i]])
   }
+  people$ttenure=people$ttenure/365
   people$tweetscount=combined_timelines[people$index,]$tweet_user_statuses_count
   #plot(people.ttenure,log(people.followers/people.tweetscount))
   people$power=log(people$followers/people$tweetscount)
@@ -158,7 +159,8 @@ JH_tweet_power_scatter_plot=function(people){
           panel.grid.major = element_blank(),
           panel.grid.minor = element_blank(),
           #panel.border = element_blank(),
-          panel.background = element_blank())
+          panel.background = element_blank()) + 
+    scale_color_manual('Grouping',values = c('indianred1','#599ad3','#f9a65a','pink'))
   
   return(dotplotspower)
 }
@@ -186,7 +188,7 @@ JH_tweet_power_profile_plot=function(people){
   profileplot=ggplot(profile,aes(x=as.factor(type),y=value,fill=as.factor(group)))+
     geom_bar(position = position_dodge(),stat = 'identity')+
     coord_flip()+
-    scale_fill_manual(values=c("#599ad3", "#f9a65a")) + 
+    scale_fill_manual('Grouping',values=c("#599ad3", "#f9a65a")) + 
     ggtitle("Profile Plot") +
     ylab("Proportion in Each Group") + 
     xlab("Categories of Interest") + 
