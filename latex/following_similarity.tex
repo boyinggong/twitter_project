@@ -1,15 +1,16 @@
-\documentclass{slides}
-\usepackage[landscape]{geometry}
+\documentclass{article}
+\usepackage{geometry}
+\geometry{paperheight=2.5in, paperwidth=13in, margin=0.1in}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{bbm}
 \begin{document}
-	\large
+	\Huge
 	\begin{itemize}
-		\item Following vector: $x_i = (0, 1, 1, 0, \ldots, 1)^\top$,
+		\item[] \textbf{Following vector:} $x_i = (0, 1, 1, 0, \ldots, 1)^\top$,
 		where $x_{ik} = \mathbbm{1} \{\text{nominee $i$ follows account $k$}\}$
-		\item Similarity: $S(i, j) = \dfrac{x_i^\top x_j} {||x_i|| \cdot ||x_j||} = $ cosine of angle between vectors
-		\item Conclusion: co-workers, friends, related accounts tend to have high similarity
+		\item[] \textbf{Similarity:} $S(i, j) = \dfrac{x_i^\top x_j} {||x_i|| \cdot ||x_j||} = $ cosine of angle between vectors
+		%\item Conclusion: co-workers, friends, related %accounts tend to have high similarity
 	\end{itemize}
 \end{document}

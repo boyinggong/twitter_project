@@ -80,6 +80,11 @@ p <- p + ylim(0, 0.55)
 p <- p + ggtitle("Following Similarity: Most Similar Pairs")
 p <- p + theme(legend.position = "none")
 p <- p + scale_fill_manual(values = c("#599ad3", "#f9a65a"))
+p <- p + theme(axis.text.y = element_text(size=15, color="black")) +
+  theme(axis.text.x = element_text(size=15, color="black")) +
+  theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
+  theme(axis.title.y = element_text(size = rel(1.8))) +
+  theme(axis.title.x = element_text(size = rel(1.8)))
 p
 #dev.off()
 ggsave(filename = "../poster_graphics/similarity.png",
