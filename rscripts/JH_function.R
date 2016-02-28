@@ -146,9 +146,9 @@ JH_tweet_power_scatter_plot=function(people){
     geom_point(aes(colour = factor(factor)), size = 4) + 
     geom_vline(xintercept = tenure.splitup,color='red') + 
     geom_hline(yintercept = 4.9,color='red') + 
-    ggtitle("Scatter Plot for Tweet Power VS Tweet Tenure") +
-    ylab("Tweet Power") + 
-    xlab("Tweet Tenure") + 
+    ggtitle("Scatter Plot for Tweet Influence VS Tweeter Tenure") +
+    ylab("Tweet Influence") + 
+    xlab("Tweeter Tenure") + 
     theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
     theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
     theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
