@@ -24,17 +24,17 @@ g=arrangeGrob(p1 + ggtitle("Female Tweets Heatmap"),
                             gp = gpar(fontsize=29))
              
 )
-ggsave(filename = "../poster_graphics/heatmap.svg",
-       plot = g, width = 36.3, height = 16.9, units = "cm")
+ggsave(filename = "../poster_graphics/heatmap.png",
+       plot = g, width = 23, height = 34, units = "cm")
 ## Profile Grouping ##
 people=JH_tweet_power_df_generation(combined_timelines,nominees_metadata)
 a=JH_tweet_power_scatter_plot(people)
-ggsave(filename = "../poster_graphics/profile_group.svg",
+ggsave(filename = "../poster_graphics/profile_group.png",
        plot = a, width = 30, height = 20, units = "cm")
 
 ## Profile Plot ##
 c=JH_tweet_power_profile_plot(people)
-ggsave(filename = "../poster_graphics/profile.svg",
+ggsave(filename = "../poster_graphics/profile.png",
        plot = c, width = 30, height = 20, units = "cm")
 
 
