@@ -146,20 +146,21 @@ JH_tweet_power_scatter_plot=function(people){
     geom_point(aes(colour = factor(factor)), size = 4) + 
     geom_vline(xintercept = tenure.splitup,color='red') + 
     geom_hline(yintercept = 4.9,color='red') + 
-    ggtitle("Scatter Plot for Tweet Power VS Tweet Tenure") +
-    ylab("Tweet Power") + 
-    xlab("Tweet Tenure") + 
+    ggtitle("Scatter Plot for Tweet Influence VS Tweeter Tenure") +
+    ylab("Tweet Influence") + 
+    xlab("Tweeter Tenure") + 
     theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
     theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
     theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
     theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
     theme(axis.title.x = element_text(size = rel(1.8), angle = 00)) + 
-    theme_bw()+
-    theme(#axis.line = element_blank(),
-          panel.grid.major = element_blank(),
-          panel.grid.minor = element_blank(),
+    #theme_bw()+
+    #theme(#axis.line = element_blank(),
+          #panel.grid.major = element_blank(),
+          #panel.grid.minor = element_blank()#,
           #panel.border = element_blank(),
-          panel.background = element_blank()) + 
+          #panel.background = element_blank()
+    #      ) + 
     scale_color_manual('Grouping',values = c('indianred1','#599ad3','#f9a65a','pink'))
   
   return(dotplotspower)
@@ -196,14 +197,14 @@ JH_tweet_power_profile_plot=function(people){
     theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
     theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
     theme(axis.title.y = element_text(size = rel(1.8), angle = 90)) +
-    theme(axis.title.x = element_text(size = rel(1.8), angle = 00)) + 
-    theme_bw()+
-    theme(#axis.line = element_blank(),
-          panel.grid.major = element_blank(),
-          panel.grid.minor = element_blank(),
-          #panel.border = element_blank(),
-          panel.background = element_blank())#+
-    #scale_x_discrete(limits=c("winner",'tv','female','age 0-30','age 30-60','age 60-90'))
+    theme(axis.title.x = element_text(size = rel(1.8), angle = 00)) #+ 
+#     theme_bw()+
+#     theme(#axis.line = element_blank(),
+#           panel.grid.major = element_blank(),
+#           panel.grid.minor = element_blank(),
+#           #panel.border = element_blank(),
+#           panel.background = element_blank())#+
+#     #scale_x_discrete(limits=c("winner",'tv','female','age 0-30','age 30-60','age 60-90'))
 
   return(profileplot)
 }
