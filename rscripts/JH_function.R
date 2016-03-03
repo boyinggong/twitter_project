@@ -57,8 +57,8 @@ JH_heatmap_plot=function(agg.heat,lowcar = "blue",highcar = "red1"){
   #heatmap full version
   heat_map=ggplot(agg.heat, aes(DoW, Hour)) +
     geom_tile(aes(fill = count),color='white')+ scale_fill_continuous(low = lowcar,high = highcar,na.value = 'grey') + 
-    ylab("Day of the week") + 
-    xlab("Hour of the day") + 
+    xlab("Day of the week") + 
+    ylab("Hour of the day") + 
     theme(axis.text.y = element_text(angle = 00, hjust = 1, size=15,color="black")) +
     theme(axis.text.x = element_text(angle = 00, hjust = 1, size=15,color="black")) +
     theme(plot.title = element_text(lineheight=3, face="bold",color="black", size=29)) +
